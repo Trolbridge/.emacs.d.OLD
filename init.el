@@ -241,3 +241,19 @@
 ;;  :custom
 ;;  (magit-display-buffer-function #'magit-display-buffer-same-window-execept-dff-v1))
 
+(use-package magit)
+;;  :custom
+;;  (magit-display-buffer-function #'magit-display-buffer-same-window-execept-dff-v1))
+
+(use-package magit)
+;;  :custom
+;;  (magit-display-buffer-function #'magit-display-buffer-same-window-execept-dff-v1))
+
+(use-package magit)
+;;  :custom
+;;  (magit-display-buffer-function #'magit-display-buffer-same-window-execept-dff-v1))
+
+(use-package magit)
+;;  :custom
+;;  (magit-display-buffer-function #'magit-display-buffer-same-window-execept-dff-v1))
+

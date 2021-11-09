@@ -1,5 +1,8 @@
+;; For GitHub Org-Mode:
 (add-to-list 'load-path "~/src/org-mode/lisp")
 (require 'org-loaddefs)
+
+(setq org-image-actual-width nil)
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (setq inhibit-startup-message t)
 (setq visible-bell t)

@@ -1,3 +1,5 @@
+(add-to-list 'load-path "~/src/org-mode/lisp")
+(require 'org-loaddefs)
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (setq inhibit-startup-message t)
 (setq visible-bell t)
@@ -24,7 +26,7 @@
 
 (setq package-archives '(("melpa" . "https://melpa.org/packages/")
 			 ("melpa-stable" . "https://stable.melpa.org/packages/")
-			 ("org" . "https://orgmode.org/elpa/")
+;;			 ("org" . "https://orgmode.org/elpa/")
 			 ("elpa" . "https://elpa.gnu.org/packages/")))
 
 (package-initialize)
@@ -257,3 +259,5 @@
 ;;  :custom
 ;;  (magit-display-buffer-function #'magit-display-buffer-same-window-execept-dff-v1))
 
+
+;; (use-package org)

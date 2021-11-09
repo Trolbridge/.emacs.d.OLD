@@ -1,5 +1,5 @@
 ;; For GitHub Org-Mode:
-(add-to-list 'load-path "~/src/org-mode/lisp")
+(add-to-list 'load-path "~/.emacs.d/src/org-mode/lisp")
 (require 'org-loaddefs)
 
 (setq org-image-actual-width nil)
@@ -246,21 +246,30 @@
 ;;  :custom
 ;;  (magit-display-buffer-function #'magit-display-buffer-same-window-execept-dff-v1))
 
-(use-package magit)
-;;  :custom
-;;  (magit-display-buffer-function #'magit-display-buffer-same-window-execept-dff-v1))
+(defun trolorg-mode-setup ()
+  (org-indent-mode)
+  (variable-pitch-mode 1)
+  (auto-fill-mode 0)
+  (visual-line-mode 1)
+  (setq evil-auto-indent nil))
 
-(use-package magit)
-;;  :custom
-;;  (magit-display-buffer-function #'magit-display-buffer-same-window-execept-dff-v1))
+;;  :hook (org-mode . trol/org-mode-setup) 
+(use-package org
+  :config
+  (setq org-ellipsis "▾"))
 
-(use-package magit)
-;;  :custom
-;;  (magit-display-buffer-function #'magit-display-buffer-same-window-execept-dff-v1))
+(use-package org-bullets
+  :after org
+  :hook (org-mode . org-bullets-mode)
+  :custom
+  (org-bullets-bullet-list '("◉" "○" "●" "○" "●" "○" "●")))
 
-(use-package magit)
-;;  :custom
-;;  (magit-display-buffer-function #'magit-display-buffer-same-window-execept-dff-v1))
-
-
-;; (use-package org)
+(dolist (face '((org-level-1 . 1.2)
+                    (org-level-2 . 1.1)
+                    (org-level-3 . 1.05)
+                    (org-level-4 . 1.0)
+                    (org-level-5 . 1.1)
+                    (org-level-6 . 1.1)
+                    (org-level-7 . 1.1)
+                    (org-level-8 . 1.1)))
+      (set-face-attribute (car face) nil :font "Source Code Pro" :weight 'medium :height (cdr face)))

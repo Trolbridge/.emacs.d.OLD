@@ -345,7 +345,7 @@
              (org-agenda-files org-agenda-files)))
       (todo "CANC"
             ((org-agenda-overriding-header "Cancelled Projects")
-             (org-agenda-files org-agenda-files)))))))
+             (org-agenda-files org-agenda-files))))))))
 
 ;;---------------------------------------------------------------------------------
 

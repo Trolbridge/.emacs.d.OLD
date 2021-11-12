@@ -323,7 +323,8 @@
         ((org-agenda-overriding-header "Next Tasks")))))
 
 
-    ("W" "Work Tasks" tags-todo "+work-email")
+    ("w" "Work Tasks" tags-todo "@work")
+;;    ("W" "Work Tasks" tags-todo "+work-email")
 
     ;; Low-effort next actions
     ("e" tags-todo "+TODO=\"NEXT\"+Effort<15&+Effort>0"
@@ -331,7 +332,7 @@
       (org-agenda-max-todos 20)
       (org-agenda-files org-agenda-files)))
 
-    ("w" "Workflow Status"
+    ("W" "Workflow Status"
      ((todo "WAIT"
             ((org-agenda-overriding-header "Waiting on External")
              (org-agenda-files org-agenda-files)))

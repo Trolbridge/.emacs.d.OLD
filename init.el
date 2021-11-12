@@ -1,6 +1,7 @@
 ;; For GitHub Org-Mode:
 (add-to-list 'load-path "~/.emacs.d/src/org-mode/lisp")
 (require 'org-loaddefs)
+;;(add-to-list 'load-path "https://github.com/hniksic/emacs-htmlize.git")
 
 (setq org-image-actual-width nil)
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
@@ -64,7 +65,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(visual-fill-column visual-fill-mode magit counsel-projectile projectile prjectile hydra evil-collection evil general all-the-icons-dired helpful counsel-world-clock counsel ivy-rich which-key rainbow-delimiters doom-modeline use-package-hydra ivy command-log-mode use-package)))
+   '(htmlize visual-fill-column visual-fill-mode magit counsel-projectile projectile prjectile hydra evil-collection evil general all-the-icons-dired helpful counsel-world-clock counsel ivy-rich which-key rainbow-delimiters doom-modeline use-package-hydra ivy command-log-mode use-package)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -399,3 +400,5 @@
 (use-package visual-fill-column
   :defer t
   :hook (org-mode . trol/org-mode-visual-fill))
+
+(use-package htmlize)

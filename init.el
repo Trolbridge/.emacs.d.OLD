@@ -1,8 +1,10 @@
 ;; For GitHub Org-Mode:
 (add-to-list 'load-path "~/.emacs.d/src/org-mode/lisp")
 (require 'org-loaddefs)
-;;(add-to-list 'load-path "https://github.com/hniksic/emacs-htmlize.git")
 
+;;(setq org-agenda-start-day "-1d")
+(setq org-agenda-span 16)
+(setq org-agenda-start-on-weekday nil)
 (setq org-image-actual-width nil)
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (setq inhibit-startup-message t)
@@ -16,7 +18,7 @@
 
 (menu-bar-mode -1)	; Disable the menu bar
 
-(load-theme 'tango-dark t)
+(load-theme 'misterioso t)
 
 ;;---------------------------------------------------------------------------------
 ;; Matching Parenthesis
@@ -277,9 +279,18 @@
   (setq org-log-done 'time)
   (setq org-log-into-drawer t)
   
-(setq org-todo-keywords
-  '((sequence "TODO(t)" "NEXT(n)" "|" "DONE(d!)")
-    (sequence "BACKLOG(b)" "PLAN(p)" "READY(r)" "ACTIVE(a)" "REVIEW(v)" "WAIT(w@/!)" "HOLD(h)" "|" "COMPLETED(c)" "CANC(k@)"))) 
+  (setq org-todo-keywords
+    '((sequence "TODO(t)" "NEXT(n)" "|" "DONE(d!)")
+      (sequence "BACKLOG(b)" "PLAN(p)" "READY(r)" "ACTIVE(a)" "REVIEW(v)" "WAIT(w@/!)" "HOLD(h)" "|" "COMPLETED(c)" "CANC(k@)"))) 
+
+  (setq org-refile-targets
+	'(("Archive.org" :maxlevel . 1)
+	  ("Tasks.org" :maxlevel . 1)))
+
+  ;; Save Org buffers after refiling! 
+  (advice-add 'org-refile :after 'org-save-all-org-buffers)
+
+
 
 (setq org-tag-alist
       '((:startgroup)

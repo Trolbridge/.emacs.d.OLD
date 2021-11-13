@@ -362,11 +362,14 @@
 
 ;;---------------------------------------------------------------------------------
 
-
+(require 'org-habit)
+(add-to-list 'org-modules 'org-habit)
+(setq org-habit-graph-column 60)
 
 
   (setq org-agenda-files
 	'("~/Projects/Emacs/OrgFiles/Birthdays.org"
+	"~/Projects/Emacs/OrgFiles/Habits.org"
 	  "~/Projects/Emacs/OrgFiles/Tasks.org"))
 
 (setq org-capture-templates

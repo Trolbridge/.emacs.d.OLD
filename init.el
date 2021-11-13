@@ -369,6 +369,34 @@
 	'("~/Projects/Emacs/OrgFiles/Birthdays.org"
 	  "~/Projects/Emacs/OrgFiles/Tasks.org"))
 
+(setq org-capture-templates
+  `(("t" "Tasks / Projects")
+    ("tt" "Task" entry (file+olp "~/Projects/Emacs/OrgFiles/Tasks.org" "Inbox")
+         "* TODO %?\n  %U\n  %a\n  %i" :empty-lines 1)
+    ("ts" "Clocked Entry Subtask" entry (clock)
+         "* TODO %?\n  %U\n  %a\n  %i" :empty-lines 1)
+
+    ("j" "Journal Entries")
+    ("jj" "Journal" entry
+         (file+olp+datetree "~/Projects/Emacs/OrgFiles/Journal.org")
+         "\n* %<%I:%M %p> - Journal :journal:\n\n%?\n\n"
+         ;; ,(trol/read-file-as-string "~/Notes/Templates/Daily.org")
+         :clock-in :clock-resume
+         :empty-lines 1)
+    ("jm" "Meeting" entry
+         (file+olp+datetree "~/Projects/Emacs/OrgFiles/Journal.org")
+         "* %<%I:%M %p> - %a :meetings:\n\n%?\n\n"
+         :clock-in :clock-resume
+         :empty-lines 1)
+
+    ("w" "Workflows")
+    ("we" "Checking Email" entry (file+olp+datetree "~/Projects/Emacs/OrgFiles/Journal.org")
+         "* Checking Email :email:\n\n%?" :clock-in :clock-resume :empty-lines 1)
+
+    ("m" "Metrics Capture")
+    ("mw" "Weight" table-line (file+headline "~/Projects/Emacs/OrgFiles/Metrics.org" "Weight")
+     "| %U | %^{Weight} | %^{Notes} |" :kill-buffer t)))
+
 (use-package org-bullets
   :after org
   :hook (org-mode . org-bullets-mode)

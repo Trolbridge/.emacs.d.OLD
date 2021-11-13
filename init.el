@@ -20,7 +20,7 @@
 
 (menu-bar-mode -1)	; Disable the menu bar
 
-(load-theme 'misterioso t)
+(load-theme 'tango-dark t)
 
 ;;---------------------------------------------------------------------------------
 ;; Matching Parenthesis
@@ -450,3 +450,21 @@
   :hook (org-mode . trol/org-mode-visual-fill))
 
 (use-package htmlize)
+
+(require 'ob-js)
+(org-babel-do-load-languages
+  'org-babel-load-languages
+  '((emacs-lisp . t)
+    (js . t)
+    (python . t)))
+
+;; This is needed as of Org 9.2
+(require 'org-tempo)
+(org-babel-do-load-languages 'org-babel-load-languages org-babel-load-languages)
+(add-to-list 'org-babel-tangle-lang-exts '("sh" . "src shell"))
+(add-to-list 'org-babel-tangle-lang-exts '("el" . "src emacs-lisp"))
+(add-to-list 'org-babel-tangle-lang-exts '("py" . "src python"))
+(add-to-list 'org-babel-tangle-lang-exts '("js" . "js"))
+
+(setq org-confirm-babel-evaluate nil)
+

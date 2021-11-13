@@ -1,6 +1,8 @@
+;; This is not needed for Emacs Plus
+;; https://github.com/d12frosted/homebrew-emacs-plus
 ;; For GitHub Org-Mode:
-(add-to-list 'load-path "~/.emacs.d/src/org-mode/lisp")
-(require 'org-loaddefs)
+;; (add-to-list 'load-path "~/.emacs.d/src/org-mode/lisp")
+;; (require 'org-loaddefs)
 
 ;;(setq org-agenda-start-day "-1d")
 (setq org-agenda-span 16)

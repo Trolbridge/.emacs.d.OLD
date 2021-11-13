@@ -397,6 +397,9 @@
     ("mw" "Weight" table-line (file+headline "~/Projects/Emacs/OrgFiles/Metrics.org" "Weight")
      "| %U | %^{Weight} | %^{Notes} |" :kill-buffer t)))
 
+(define-key global-map (kbd "C-c j")
+  (lambda () (interactive) (org-capture nil "jj")))
+
 (use-package org-bullets
   :after org
   :hook (org-mode . org-bullets-mode)

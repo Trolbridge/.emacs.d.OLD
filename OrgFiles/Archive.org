@@ -1,0 +1,28 @@
+* November 2021
+** DONE Done Finish Documentation CLOSED: [2021-11-11 Thu 14:46]
+:LOGBOOK:
+- State "DONE"       from              [2021-11-11 Thu 14:46]
+:END:
+
+** DONE Set up Contacts Properly CLOSED: [2021-11-11 Thu 13:04] 
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-11 Thu 13:04]
+:END:
+** DONE Finish Emacs from Scratch #6
+CLOSED: [2021-11-13 Sat 03:44] SCHEDULED: <2021-11-11 Thu>
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2021-11-13 Sat 03:44]
+:END:
+* December 2021
+* January 2022
+* Febuary 2022
+* March 2022
+* April 2022
+* May 2022
+* June 2022
+* July 2022
+* August 2022
+* September 2022
+* October 2022
+* November 2022
+* December 2022

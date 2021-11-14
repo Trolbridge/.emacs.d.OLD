@@ -1,0 +1,106 @@
+* Org-Mode Commands
+
+[[file:IMG_0039.HEIC][First]]
+   
+** Quick Info   
+   * First Heading
+   ** Sub-Heading  
+   Shift-Tab
+   *bold*
+** Moving Around   
+   CTRL+RET Make new Heading of same type
+   ALT+RET New Heading right below
+   ALT+arrow keys move Heading up/down
+   SHIFT+ALT+arrows move move one line
+
+** Links:
+   Here is the Org Mode Homepage
+   C-c C-l org insert link
+   [[https://orgmode.org][Org Mode Homepage]]
+
+** Tables
+Table #1
+| Name   | Age | Uses Emacs |
+|--------+-----+------------|
+| Dennis |  53 | yes        |
+| Edith  |  44 | no         |
+
+[ ] check box
+
+** Pictures and Images 
+   https://stackoverflow.com/questions/11670654/how-to-resize-images-in-org-mode
+   C-u C-c C-l add link to file
+   C-c C-x C-v org-toggle-inline-images
+   #+CAPTION This is the caption for the next pic
+   #+NAME:      fig:IMG_0013.PNG
+   #+ATTR_ORG: :width 300
+   #+attr_html: :width 300
+   #+attr_latex: :width 300
+   [[file:IMG_0013.PNG]]
+
+** Code
+*** HTML Boilerplate
+https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/
+
+#+begin_src html
+  <!DOCTYPE html>
+  <html lang="en">
+      <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>HTML 5 Boilerplate</title>
+	<link rel="stylesheet" href="style.css">
+      </head>
+
+      <body>
+	    <script src="index.js"></script>
+      </body>
+  </html>
+#+end_src
+[[file:index.html][Boiler Plate]]
+
+#+begin_src emacs-lisp
+  (defun my-elisp-func()
+    (message "Hello!"))
+#+end_src
+** Lists
+  ALT+RET = Add to list of items
+
+  - First item
+  - Second item
+  - Third item
+
+numbered
+check boxes
+
+* TODO Second Heading
+M-x org-todo
+Setup variable pitch/length font if wanted see 35:00
+https://www.youtube.com/watch?v=VcgjTEa0kU4&t=774s
+
+* Look into Web-mode.el
+[[https://web-mode.org][Web Mode]]
+
+* The Sims 4
+Amygdelight - must be focused
+Mixology 9 Get the drink quest
+Engergized is the best mood
+Eat a normal, nice, magnificent plant to get all three buffs
+Gardening, Painting and Writing solid money makers
+
+Gourmet Chef
+Competent Chef + Execellent quality = Epic Meal Buff for 6 hours +3 happy
+Stoves and grills master from outdoor retreat
+
+** Moods
+Creative boosted by inspired
+Social is confident
+Mental is focused
+Physical is energized
+
+Gardening, handiness are mental skills
+mischief is a social skill
+mischief boosted by angy, playful, confident
+
+

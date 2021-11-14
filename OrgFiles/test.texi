@@ -1,0 +1,54 @@
+\input texinfo    @c -*- texinfo -*-
+@c %**start of header
+@setfilename /Users/trolbridge/Projects/Emacs/OrgFiles/test.info
+@settitle 
+@documentencoding UTF-8
+@documentlanguage en
+@c %**end of header
+
+@finalout
+@titlepage
+@title 
+@author Trolbridge
+@end titlepage
+
+@contents
+
+@ifnottex
+@node Top
+@top 
+
+Week-agenda (W45):
+Monday      8 November 2021 W45
+Tuesday     9 November 2021
+Wednesday  10 November 2021
+Thursday   11 November 2021
+              8:00@dots{}@dots{}  ----------------
+              10:00@dots{}@dots{} ----------------
+              12:00@dots{}@dots{} ----------------
+  Tasks:      13:04@dots{}@dots{} Closed:     DONE Set up Contacts Properly
+              14:00@dots{}@dots{} ----------------
+  Tasks:      14:46@dots{}@dots{} Closed:     DONE Done Finish Documentation
+              15:29@dots{}@dots{} now - - - - - - - - - - - - - - - - - - - - - - - - -
+              16:00@dots{}@dots{} ----------------
+              18:00@dots{}@dots{} ----------------
+              20:00@dots{}@dots{} ----------------
+  Tasks:      Scheduled:  TODO Check Out @strong{TIDE}
+  Tasks:      Scheduled:  TODO Check out Anki vs drill mode
+  Tasks:      Scheduled:  TODO Check Org Query Language
+  Tasks:      Scheduled:  TODO Look into :custom for setting up packages
+  Tasks:      Scheduled:  TODO For OS Notifications -- wild notifier
+  Tasks:      Scheduled:  TODO GTD Getting things done David Allen
+  Tasks:      Scheduled:  TODO Buy Milk
+  Tasks:      Scheduled:  DONE Set up Contacts Properly
+  Birthdays:  Michelle
+  Tasks:      In  13 d.:  TODO Dr Sing's Office
+Friday     12 November 2021
+  Tasks:      Scheduled:  DONE Done Finish Documentation
+Saturday   13 November 2021
+Sunday     14 November 2021
+@end ifnottex
+
+
+
+@bye

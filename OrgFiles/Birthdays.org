@@ -1,0 +1,7 @@
+* Birthdays
+org-time-stamp C-c .
+repeated tasks
+** Denny
+<2001-11-19 Fri+1y>
+** Michelle
+<1970-11-11 Thu+1y>

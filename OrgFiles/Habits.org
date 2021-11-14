@@ -1,0 +1,10 @@
+* DONE Brush my teeth
+CLOSED: [2021-11-13 Sat 16:53] SCHEDULED: <2021-11-14 Sun>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2021-11-13 Sat 16:53]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-13 Sat 16:53]
+- State "DONE"       from "TODO"       [2021-11-13 Sat 16:53]
+:END:

@@ -461,10 +461,10 @@
 ;; This is needed as of Org 9.2
 (require 'org-tempo)
 (org-babel-do-load-languages 'org-babel-load-languages org-babel-load-languages)
-(add-to-list 'org-babel-tangle-lang-exts '("sh" . "src shell"))
-(add-to-list 'org-babel-tangle-lang-exts '("el" . "src emacs-lisp"))
-(add-to-list 'org-babel-tangle-lang-exts '("py" . "src python"))
-(add-to-list 'org-babel-tangle-lang-exts '("js" . "js"))
+(add-to-list 'org-structure-template-alist '("sh" . "src shell"))
+(add-to-list 'org-structure-template-alist '("el" . "src emacs-lisp :results echo"))
+(add-to-list 'org-structure-template-alist '("py" . "src python :results output"))
+(add-to-list 'org-structure-template-alist '("js" . "src js :results output"))
 
 (setq org-confirm-babel-evaluate nil)
 

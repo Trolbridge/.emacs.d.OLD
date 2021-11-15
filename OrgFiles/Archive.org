@@ -13,6 +13,24 @@ CLOSED: [2021-11-13 Sat 03:44] SCHEDULED: <2021-11-11 Thu>
 :LOGBOOK:
 - State "DONE"       from "NEXT"       [2021-11-13 Sat 03:44]
 :END:
+** DONE Set up MacAir for git
+CLOSED: [2021-11-15 Mon 13:06] SCHEDULED: <2021-11-14 Sun>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-15 Mon 13:06]
+:END:
+
+** DONE Install Emacs onto macair
+CLOSED: [2021-11-15 Mon 13:02] SCHEDULED: <2021-11-13 Sat>
+ :LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-15 Mon 13:02]
+:END:
+
+** DONE System Crafters #7
+CLOSED: [2021-11-15 Mon 13:03] SCHEDULED: <2021-11-13 Sat>
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2021-11-15 Mon 13:03]
+:END:
+
 * December 2021
 * January 2022
 * Febuary 2022

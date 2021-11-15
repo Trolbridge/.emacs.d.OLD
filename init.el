@@ -370,9 +370,9 @@
 
 
   (setq org-agenda-files
-	'("~/Projects/Emacs/OrgFiles/Birthdays.org"
-	"~/Projects/Emacs/OrgFiles/Habits.org"
-	  "~/Projects/Emacs/OrgFiles/Tasks.org"))
+	'("~/.emacs.d/OrgFiles/Birthdays.org"
+	"~/.emacs.d/OrgFiles/Habits.org"
+	  "~/.emacs.d/OrgFiles/Tasks.org"))
 
 (setq org-capture-templates
   `(("t" "Tasks / Projects")
@@ -467,4 +467,3 @@
 (add-to-list 'org-structure-template-alist '("js" . "src js :results output"))
 
 (setq org-confirm-babel-evaluate nil)
-

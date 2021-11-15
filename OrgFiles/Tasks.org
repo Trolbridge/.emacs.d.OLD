@@ -64,36 +64,18 @@ C-o Jump back in evil mode
 * Test Template
 
 * Active
-** TODO Set up MacAir for git
-SCHEDULED: <2021-11-14 Sun>
-
-
-** TODO Install Emacs onto macair
-SCHEDULED: <2021-11-13 Sat>
-
-** NEXT System Crafters #7
-SCHEDULED: <2021-11-13 Sat>
-
+** TODO Scott's Email 
+SCHEDULED: <2021-11-15 Mon>
+** TODO Diversity and Inclusion Training
+SCHEDULED: <2021-11-16 Mon 10:00-12:00>
 ** TODO System Crafters Live on Youtube
-SCHEDULED: <2021-11-19 Fri 11:00>
+SCHEDULED: <2021-11-19 Fri 11:00+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2021-11-13 Sat 18:36]
 :END:
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2021-11-13 Sat 18:36]
 :END:
-** NEXT Buy Milk 
-SCHEDULED: <2021-11-11 Thu>
-:PROPERTIES:
-:Effort:   20
-:END:
-
-** NEXT Email Jeisson                                           :work:email:
-:PROPERTIES:
-:Effort:   5
-:END:
-
-** NEXT Merge the PR                                                  :work:
 ** TODO Check Out *TIDE*
 SCHEDULED: <2021-11-11 Thu>
 https://github.com/ananthakumaran/tide
@@ -126,7 +108,13 @@ https://github.com/progfolio/doct
 
 ** Miramar Monday
 *** Set up Routing                                                  :@work:
-SCHEDULED: <2021-11-15 Mon 07:00+1w>
+SCHEDULED: <2021-11-22 Mon 07:00>
+:PROPERTIES:
+:LAST_REPEAT: [2021-11-15 Mon 11:59]
+:END:
+:LOGBOOK:
+- State "DONE"       from              [2021-11-15 Mon 11:59]
+:END:
 *** Check Emails                                                    :@work:
 SCHEDULED: <2021-11-15 Mon 07:00+1w>
 *** Check Schedule                                                  :@work:

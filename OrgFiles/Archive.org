@@ -31,6 +31,16 @@ CLOSED: [2021-11-15 Mon 13:03] SCHEDULED: <2021-11-13 Sat>
 - State "DONE"       from "NEXT"       [2021-11-15 Mon 13:03]
 :END:
 
+** DONE Scott's Email 
+CLOSED: [2021-11-15 Mon 18:04] SCHEDULED: <2021-11-15 Mon>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-15 Mon 18:04]
+:END:
+** DONE Complete Insurance for work 
+CLOSED: [2021-11-15 Mon 17:11] SCHEDULED: <2021-11-15 Mon>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-15 Mon 17:11]
+:END:
 * December 2021
 * January 2022
 * Febuary 2022

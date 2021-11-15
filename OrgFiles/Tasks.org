@@ -64,24 +64,6 @@ C-o Jump back in evil mode
 * Test Template
 
 * Active
-** TODO Scott's Email 
-SCHEDULED: <2021-11-15 Mon>
-
-** DONE Complete Insurance for work 
-CLOSED: [2021-11-15 Mon 17:11] SCHEDULED: <2021-11-15 Mon>
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2021-11-15 Mon 17:11]
-:END:
-** TODO Diversity and Inclusion Training
-SCHEDULED: <2021-11-16 Mon 10:00-12:00>
-** TODO System Crafters Live on Youtube
-SCHEDULED: <2021-11-19 Fri 11:00+1w>
-:PROPERTIES:
-:LAST_REPEAT: [2021-11-13 Sat 18:36]
-:END:
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2021-11-13 Sat 18:36]
-:END:
 ** TODO Check Out *TIDE*
 SCHEDULED: <2021-11-11 Thu>
 https://github.com/ananthakumaran/tide
@@ -138,6 +120,8 @@ SCHEDULED: <2021-11-16 Tue 07:00+1w>
 *** Do Plan Review                                                  :@work:
 SCHEDULED: <2021-11-16 Tue 07:00+1w>
 
+*** TODO Diversity and Inclusion Training
+SCHEDULED: <2021-11-16 Mon 10:00-12:00>
 ** Miramar Wednesday 
 *** Set up Routing                                                  :@work:
 SCHEDULED: <2021-11-17 Wed 07:00+1w>
@@ -157,5 +141,15 @@ SCHEDULED: <2021-11-18 Thu 07:00+1w>
 SCHEDULED: <2021-11-18 Thu 07:00+1w>
 *** Do Plan Review                                                  :@work:
 SCHEDULED: <2021-11-18 Thu 07:00+1w>
+
+** Friday
+*** TODO System Crafters Live on Youtube
+SCHEDULED: <2021-11-19 Fri 11:00+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2021-11-13 Sat 18:36]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-13 Sat 18:36]
+:END:
 
 * Backlog 

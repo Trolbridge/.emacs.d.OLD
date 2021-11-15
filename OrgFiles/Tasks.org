@@ -66,6 +66,12 @@ C-o Jump back in evil mode
 * Active
 ** TODO Scott's Email 
 SCHEDULED: <2021-11-15 Mon>
+
+** DONE Complete Insurance for work 
+CLOSED: [2021-11-15 Mon 17:11] SCHEDULED: <2021-11-15 Mon>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-15 Mon 17:11]
+:END:
 ** TODO Diversity and Inclusion Training
 SCHEDULED: <2021-11-16 Mon 10:00-12:00>
 ** TODO System Crafters Live on Youtube

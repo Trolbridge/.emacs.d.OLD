@@ -529,6 +529,43 @@ org-babel-tangle C-c C-v t
 #+end_src
 
 * Development
+** Languages
+*** Language Servers
+
+#+begin_src emacs-lisp :results echo
+
+(use-package lsp-mode
+  :commands (lsp lsp-deferred)
+  :init
+  (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
+  :config
+  (lsp-enable-which-key-integration t))
+
+
+#+end_src
+*** TypeScript
+
+#+begin_src emacs-lisp :results echo
+
+(use-package typescript-mode
+  :mode "\\.ts\\'"
+  :hook (typescript-mode . lsp-deferred)
+  :config
+  (setq typescript-indent-level 2))
+
+
+#+end_src
+*** Header Breadcrumb
+#+begin_src emacs-lisp
+
+  (defun trol/lsp-mode-setup ()
+    (setq lsp-headerline-breadcrumb-segments '(path-up-to-project file symbols))
+    (lsp-headerline-breadcrumb-mode))
+
+    :hook (lsp-mode . trol/lsp-mode-setup)
+
+#+end_src
+
 ** HTMLIZE
 #+begin_src emacs-lisp
 

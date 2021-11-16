@@ -458,6 +458,25 @@
 
 (add-hook 'org-mode-hook (lambda () (add-hook 'after-save-hook #'trol/org-babel-tangle-config)))
 
+(use-package lsp-mode
+  :commands (lsp lsp-deferred)
+  :init
+  (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
+  :config
+  (lsp-enable-which-key-integration t))
+
+(use-package typescript-mode
+  :mode "\\.ts\\'"
+  :hook (typescript-mode . lsp-deferred)
+  :config
+  (setq typescript-indent-level 2))
+
+(defun trol/lsp-mode-setup ()
+  (setq lsp-headerline-breadcrumb-segments '(path-up-to-project file symbols))
+  (lsp-headerline-breadcrumb-mode))
+
+  :hook (lsp-mode . trol/lsp-mode-setup)
+
 (use-package htmlize)
 
 (use-package projectile

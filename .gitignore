@@ -14,3 +14,10 @@
 /nohup.out
 /org-persist/
 /src/
+/eshell/
+/init-new.el
+/init-new.el~
+/init.el.old01
+/init.el.old02
+/test
+/.org-id-locations

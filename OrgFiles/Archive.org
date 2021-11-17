@@ -41,6 +41,12 @@ CLOSED: [2021-11-15 Mon 17:11] SCHEDULED: <2021-11-15 Mon>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2021-11-15 Mon 17:11]
 :END:
+** DONE Diversity and Inclusion Training
+
+CLOSED: [2021-11-16 Tue 16:22] SCHEDULED: <2021-11-16 Mon 10:00-12:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-16 Tue 16:22]
+:END:
 * December 2021
 * January 2022
 * Febuary 2022

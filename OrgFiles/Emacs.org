@@ -534,12 +534,14 @@ org-babel-tangle C-c C-v t
 
 #+begin_src emacs-lisp :results echo
 
-(use-package lsp-mode
-  :commands (lsp lsp-deferred)
-  :init
-  (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
-  :config
-  (lsp-enable-which-key-integration t))
+  (use-package lsp-mode
+
+
+  ;;  :commands (lsp lsp-deferred)
+    :init
+    (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
+    :config
+    (lsp-enable-which-key-integration t))
 
 
 #+end_src
@@ -558,11 +560,13 @@ org-babel-tangle C-c C-v t
 *** Header Breadcrumb
 #+begin_src emacs-lisp
 
-  (defun trol/lsp-mode-setup ()
-    (setq lsp-headerline-breadcrumb-segments '(path-up-to-project file symbols))
-    (lsp-headerline-breadcrumb-mode))
 
-    :hook (lsp-mode . trol/lsp-mode-setup)
+(defun efs/lsp-mode-setup ()
+  (setq lsp-headerline-breadcrumb-segments '(path-up-to-project file symbols))
+  (lsp-headerline-breadcrumb-mode))
+
+  :hook (lsp-mode . efs/lsp-mode-setup)
+
 
 #+end_src
 
@@ -605,12 +609,13 @@ org-babel-tangle C-c C-v t
 ** Some App
 
 
-#+begin_src conf-unix :tangle ~/.config/some-app/config 
 
-  value=42
+;;  #+begin_src conf-unix :tangle ~/.config/some-app/config 
+
+;;    value=42
 
 
-#+end_src
+;;  #+end_src
 
 * Pass Values in org files 
 
@@ -622,14 +627,13 @@ org-babel-tangle C-c C-v t
 
 #+end_src
 
-#+begin_src conf-unix :tangle ~/.config/some-app/config :noweb yes
+;; #+begin_src conf-unix :tangle ~/.config/some-app/config :noweb yes
 
-  value=<<the-value()>>
+;;   value=<<the-value()>>
 
-#+end_src
+;; #+end_src
 
 ** Add :noweb yes=!
 
 
 
-#+end_src

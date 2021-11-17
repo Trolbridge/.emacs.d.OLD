@@ -1,0 +1,39 @@
+Info 0    [00:55:21.630] Starting TS Server
+Info 1    [00:55:21.631] Version: 4.4.4
+Info 2    [00:55:21.631] Arguments: /usr/local/bin/node /usr/local/bin/tsserver --logFile /Users/trolbridge/.emacs.d/ts1/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/jt/0v91_3j57ks2gsvslt8wqstc0000gn/T/0b3c70996560d539c8d33b0540c68cea/tscancellation*
+Info 3    [00:55:21.631] Platform: darwin NodeVersion: 16 CaseSensitive: false
+Info 4    [00:55:21.631] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [00:55:21.640] Format host information updated
+Info 6    [00:55:21.641] Search path: /Users/trolbridge/.emacs.d/ts1
+Info 7    [00:55:21.641] For info: /Users/trolbridge/.emacs.d/ts1/app.js :: No config files found.
+Info 8    [00:55:21.644] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [00:55:21.942] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 297.4517500400543ms
+Info 10   [00:55:21.942] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [00:55:21.942] 	Files (19)
+
+Info 12   [00:55:21.942] -----------------------------------------------
+Info 13   [00:55:35.118] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 14   [00:55:35.130] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 11.918415904045105ms
+Info 15   [00:55:35.130] Different program with same set of files
+Info 16   [00:55:35.468] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 17   [00:55:35.474] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 5.947291016578674ms
+Info 18   [00:55:35.474] Different program with same set of files
+Info 19   [00:55:35.476] getCompletionData: Get current token: 0.0034999847412109375
+Info 20   [00:55:35.476] getCompletionData: Is inside comment: 0.01900005340576172
+Info 21   [00:55:35.476] getCompletionData: Get previous token: 0.11258304119110107
+Info 22   [00:55:35.476] getCompletionsAtPosition: isCompletionListBlocker: 0.25529205799102783
+Info 23   [00:55:35.481] getExportInfoMap: cache miss or empty; calculating new results
+Info 24   [00:55:35.481] getExportInfoMap: done in 0.45283305644989014 ms
+Info 25   [00:55:35.481] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 26   [00:55:35.481] collectAutoImports: response is complete
+Info 27   [00:55:35.481] collectAutoImports: 0.0652080774307251
+Info 28   [00:55:35.481] getCompletionData: Semantic work: 4.9439170360565186
+Info 29   [00:55:35.492] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.509667038917542
+Info 30   [00:55:36.097] getCompletionData: Get current token: 0.018000006675720215
+Info 31   [00:55:36.097] getCompletionData: Is inside comment: 0.044834017753601074
+Info 32   [00:55:36.097] getCompletionData: Get previous token: 0.05162501335144043
+Info 33   [00:55:36.097] getCompletionsAtPosition: isCompletionListBlocker: 0.032000064849853516
+Info 34   [00:55:36.100] getCompletionData: Semantic work: 2.901208996772766
+Info 35   [00:55:54.659] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 36   [00:55:54.668] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 9.25804090499878ms
+Info 37   [00:55:54.668] Different program with same set of files

@@ -162,4 +162,34 @@ C-o Jump back in evil mode
  
 * Test Template
 
+* Applications
+
+** Some App
+
+
+
+;;  #+begin_src conf-unix :tangle ~/.config/some-app/config 
+
+;;    value=42
+
+
+;;  #+end_src
+
+* Pass Values in org files 
+
+** First Block
+#+NAME: the-value
+#+begin_src emacs-lisp :results echo
+
+;;  (+ 55 100)
+
+#+end_src
+
+;; #+begin_src conf-unix :tangle ~/.config/some-app/config :noweb yes
+
+;;   value=<<the-value()>>
+
+;; #+end_src
+
+** Add :noweb yes=!
 * Backlog 

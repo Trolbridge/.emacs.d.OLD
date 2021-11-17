@@ -1,0 +1,19 @@
+[00:46:09.335] Global cache location '/Users/trolbridge/Library/Caches/typescript/4.4', safe file path '/usr/local/lib/node_modules/typescript/lib/typingsafelist.json', types map path /usr/local/lib/node_modules/typescript/lib/typesmap.json
+[00:46:09.336] Processing cache location '/Users/trolbridge/Library/Caches/typescript/4.4'
+[00:46:09.337] Trying to find '/Users/trolbridge/Library/Caches/typescript/4.4/package.json'...
+[00:46:09.337] Loaded content of '/Users/trolbridge/Library/Caches/typescript/4.4/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.567"}}
+[00:46:09.337] Loaded content of '/Users/trolbridge/Library/Caches/typescript/4.4/package-lock.json'
+[00:46:09.338] Finished processing cache location '/Users/trolbridge/Library/Caches/typescript/4.4'
+[00:46:09.338] Process id: 73664
+[00:46:09.338] NPM location: /usr/local/bin/npm (explicit '--npmLocation' not  provided)
+[00:46:09.338] validateDefaultNpmLocation: false
+[00:46:09.338] Npm config file: /Users/trolbridge/Library/Caches/typescript/4.4/package.json
+[00:46:09.338] Updating types-registry npm package...
+[00:46:09.338] Exec: /usr/local/bin/npm install --ignore-scripts types-registry@latest
+[00:46:10.248]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 755ms
+
+found 0 vulnerabilities
+
+[00:46:10.248] Updated types-registry npm package

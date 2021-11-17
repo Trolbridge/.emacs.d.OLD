@@ -32,7 +32,16 @@
 
 (menu-bar-mode -1)	; Disable the menu bar
 
-(load-theme 'tango-dark t)
+(require 'doom-themes)
+
+;; Global settings (defaults)
+(setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
+      doom-themes-enable-italic t) ; if nil, italics is universally disabled
+
+;; Load the theme (doom-one, doom-molokai, etc); keep in mind that each
+;; theme may have their own settings.
+
+(load-theme 'doom-palenight t)
 
 ;;---------------------------------------------------------------------------------
 ;; Matching Parenthesis
@@ -458,14 +467,23 @@
 
 (add-hook 'org-mode-hook (lambda () (add-hook 'after-save-hook #'trol/org-babel-tangle-config)))
 
+(defun trol/lsp-mode-setup ()
+  (setq lsp-headerline-breadcrumb-segments '(path-up-to-project file symbols))
+  (lsp-headerline-breadcrumb-mode))
+
 (use-package lsp-mode
-
-
-;;  :commands (lsp lsp-deferred)
+  :commands (lsp lsp-deferred)
+  :hook (lsp-mode . trol/lsp-mode-setup)
   :init
   (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
   :config
   (lsp-enable-which-key-integration t))
+
+(use-package typescript-mode
+  :mode "\\.js\\'"
+  :hook (typescript-mode . lsp-deferred)
+  :config
+  (setq typescript-indent-level 2))
 
 (use-package typescript-mode
   :mode "\\.ts\\'"
@@ -473,11 +491,19 @@
   :config
   (setq typescript-indent-level 2))
 
-(defun efs/lsp-mode-setup ()
-  (setq lsp-headerline-breadcrumb-segments '(path-up-to-project file symbols))
-  (lsp-headerline-breadcrumb-mode))
+(use-package company
+  :after lsp-mode
+  :hook (lsp-mode . company-mode)
+  :bind (:map company-active-map
+         ("<tab>" . company-complete-selection))
+        (:map lsp-mode-map
+         ("<tab>" . company-indent-or-complete-common))
+  :custom
+  (company-minimum-prefix-length 1)
+  (company-idle-delay 0.0))
 
-  :hook (lsp-mode . efs/lsp-mode-setup)
+(use-package company-box
+  :hook (company-mode . company-box-mode))
 
 (use-package htmlize)
 
@@ -499,5 +525,3 @@
 (use-package magit)
 ;;  :custom
 ;;  (magit-display-buffer-function #'magit-display-buffer-same-window-execept-dff-v1))
-
-;;  (+ 55 100)

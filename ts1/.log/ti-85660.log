@@ -1,0 +1,35 @@
+[20:10:08.844] Global cache location '/Users/trolbridge/Library/Caches/typescript/4.4', safe file path '/usr/local/lib/node_modules/typescript/lib/typingsafelist.json', types map path /usr/local/lib/node_modules/typescript/lib/typesmap.json
+[20:10:08.846] Processing cache location '/Users/trolbridge/Library/Caches/typescript/4.4'
+[20:10:08.846] Trying to find '/Users/trolbridge/Library/Caches/typescript/4.4/package.json'...
+[20:10:08.847] Loaded content of '/Users/trolbridge/Library/Caches/typescript/4.4/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.567"}}
+[20:10:08.847] Loaded content of '/Users/trolbridge/Library/Caches/typescript/4.4/package-lock.json'
+[20:10:08.847] Finished processing cache location '/Users/trolbridge/Library/Caches/typescript/4.4'
+[20:10:08.847] Process id: 85661
+[20:10:08.847] NPM location: /usr/local/bin/npm (explicit '--npmLocation' not  provided)
+[20:10:08.847] validateDefaultNpmLocation: false
+[20:10:08.847] Npm config file: /Users/trolbridge/Library/Caches/typescript/4.4/package.json
+[20:10:08.848] Updating types-registry npm package...
+[20:10:08.848] Exec: /usr/local/bin/npm install --ignore-scripts types-registry@latest
+[20:10:09.497]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 499ms
+
+found 0 vulnerabilities
+
+[20:10:09.497] Updated types-registry npm package
+[21:28:39.943] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/Users/trolbridge/.emacs.d/ts1/app.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/trolbridge/.emacs.d/ts1","kind":"discover"}
+[21:28:39.957] Loaded safelist from types map file '/usr/local/lib/node_modules/typescript/lib/typesmap.json'
+[21:28:39.957] Explicitly included types: []
+[21:28:39.958] Inferred typings from unresolved imports: []
+[21:28:39.958] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/trolbridge/.emacs.d/ts1/bower_components","/Users/trolbridge/.emacs.d/ts1/node_modules"]}
+[21:28:39.958] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/trolbridge/.emacs.d/ts1/bower_components","/Users/trolbridge/.emacs.d/ts1/node_modules"]}
+[21:28:39.958] DirectoryWatcher:: Added:: WatchInfo: /Users/trolbridge/.emacs.d/ts1/bower_components
+[21:28:39.958] DirectoryWatcher:: Added:: WatchInfo: /Users/trolbridge/.emacs.d/ts1/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[21:28:39.959] Elapsed:: 0.4658750295639038ms DirectoryWatcher:: Added:: WatchInfo: /Users/trolbridge/.emacs.d/ts1/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[21:28:39.959] DirectoryWatcher:: Added:: WatchInfo: /Users/trolbridge/.emacs.d/ts1/node_modules
+[21:28:39.959] DirectoryWatcher:: Added:: WatchInfo: /Users/trolbridge/.emacs.d/ts1/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[21:28:39.959] Elapsed:: 0.0532909631729126ms DirectoryWatcher:: Added:: WatchInfo: /Users/trolbridge/.emacs.d/ts1/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[21:28:39.959] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[21:28:39.959] Response has been sent.
+[21:28:39.960] No new typings were requested as a result of typings discovery

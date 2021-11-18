@@ -204,7 +204,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(company-box company htmlize visual-fill-column visual-fill-mode magit counsel-projectile projectile prjectile hydra evil-collection evil general all-the-icons-dired helpful counsel-world-clock counsel ivy-rich which-key rainbow-delimiters doom-modeline use-package-hydra ivy command-log-mode use-package)))
+   '(htmlize visual-fill-column visual-fill-mode magit counsel-projectile projectile prjectile hydra evil-collection evil general all-the-icons-dired helpful counsel-world-clock counsel ivy-rich which-key rainbow-delimiters doom-modeline use-package-hydra ivy command-log-mode use-package)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -479,6 +479,49 @@
   :config
   (lsp-enable-which-key-integration t))
 
+(use-package htmlize)
+
+(use-package web-mode
+                :ensure t
+                :mode "\\.html\\'"
+                :hook (web-mode . lsp-deferred)
+                :config
+                (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+                (setq web-mode-engines-alist
+                      '(("django" . "\\.html\\'")))
+                (setq web-mode-ac-sources-alist
+                      '(("css" . (ac-source-csss-property))
+                        ("html" . (ac-source-words-in-buffer ac-source-abbrev))))
+                (setq web-mode-enable-auto-quoting t)
+                (setq web-mode-enable-auto-closing t))
+
+              (use-package emmet-mode)
+
+              (add-to-list 'load-path "~/emacs.d/emmet-mode")
+            (require 'emmet-mode)
+
+            (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
+          (add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
+
+    (use-package simple-httpd)
+      (require 'simple-httpd)
+    ;;(setq httpd-root "/var/www")
+  (setq httpd-root "~/.emacs.d/sss")
+    (httpd-start)
+
+  
+    (use-package js2-mode)
+
+
+        (use-package skewer-mode)
+  ;;       (add-hook 'js2-mode-hook 'skewer-mode)
+  ;;      (add-hook 'css-mode-hook 'skewer-css-mode)
+  (add-hook 'html-mode-hook 'skewer-html-mode)
+
+
+(add-to-list 'load-path "~/.emacs.d/impatient-mode")
+(require 'impatient-mode)
+
 (use-package typescript-mode
   :mode "\\.js\\'"
   :hook (typescript-mode . lsp-deferred)
@@ -504,8 +547,6 @@
 
 (use-package company-box
   :hook (company-mode . company-box-mode))
-
-(use-package htmlize)
 
 (use-package projectile
   :diminish projectile-mode

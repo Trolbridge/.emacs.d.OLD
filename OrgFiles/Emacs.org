@@ -558,6 +558,63 @@ org-babel-tangle C-c C-v t
 #+end_src
 
 ** Languages
+*** HTMLIZE
+#+begin_src emacs-lisp
+
+  (use-package htmlize)
+
+#+end_src
+
+*** HTML
+
+#+begin_src emacs-lisp 
+
+              (use-package web-mode
+                :ensure t
+                :mode "\\.html\\'"
+                :hook (web-mode . lsp-deferred)
+                :config
+                (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+                (setq web-mode-engines-alist
+                      '(("django" . "\\.html\\'")))
+                (setq web-mode-ac-sources-alist
+                      '(("css" . (ac-source-csss-property))
+                        ("html" . (ac-source-words-in-buffer ac-source-abbrev))))
+                (setq web-mode-enable-auto-quoting t)
+                (setq web-mode-enable-auto-closing t))
+
+              (use-package emmet-mode)
+
+              (add-to-list 'load-path "~/emacs.d/emmet-mode")
+            (require 'emmet-mode)
+
+            (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
+          (add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
+
+    (use-package simple-httpd)
+      (require 'simple-httpd)
+    ;;(setq httpd-root "/var/www")
+  (setq httpd-root "~/.emacs.d/sss")
+    (httpd-start)
+
+  
+    (use-package js2-mode)
+
+
+        (use-package skewer-mode)
+  ;;       (add-hook 'js2-mode-hook 'skewer-mode)
+  ;;      (add-hook 'css-mode-hook 'skewer-css-mode)
+  (add-hook 'html-mode-hook 'skewer-html-mode)
+
+
+(add-to-list 'load-path "~/.emacs.d/impatient-mode")
+(require 'impatient-mode)
+
+
+
+#+end_src
+
+
 *** JavaScript
 
 #+begin_src emacs-lisp :results echo
@@ -570,6 +627,7 @@ org-babel-tangle C-c C-v t
 
 
 #+end_src
+
 
 *** TypeScript
 
@@ -605,13 +663,6 @@ org-babel-tangle C-c C-v t
 #+end_src
 
 * Other Stuff 
-
-** HTMLIZE
-#+begin_src emacs-lisp
-
-  (use-package htmlize)
-
-#+end_src
 
 ** Projectile
 

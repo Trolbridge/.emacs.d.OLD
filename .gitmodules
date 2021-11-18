@@ -1,0 +1,3 @@
+[submodule "impatient-mode"]
+	path = impatient-mode
+	url = https://github.com/skeeto/impatient-mode.git

@@ -22,3 +22,6 @@
 /test
 /.org-id-locations
 /ts1/.log/*.log
+/OrgFiles/.log/
+/OrgFiles/app.js~
+/OrgFiles/app.ts~

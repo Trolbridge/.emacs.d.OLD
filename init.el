@@ -22,41 +22,48 @@
 (setq use-package-always-ensure t)
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
-(setq inhibit-startup-message t)
-(setq visible-bell t)
+  (setq inhibit-startup-message t)
+  (setq visible-bell t)
 
-(scroll-bar-mode -1)	; Disable visible scrollbar
-(tool-bar-mode -1)	; Disable the toolbar
-(tooltip-mode -1)	; Disable tooltips
-(set-fringe-mode 10)	; Give some breathing room
+  (scroll-bar-mode -1)	; Disable visible scrollbar
+  (tool-bar-mode -1)	; Disable the toolbar
+  (tooltip-mode -1)	; Disable tooltips
+  (set-fringe-mode 10)	; Give some breathing room
 
-(menu-bar-mode -1)	; Disable the menu bar
+  (menu-bar-mode -1)	; Disable the menu bar
 
-(require 'doom-themes)
+(use-package doom-themes
+  :ensure t
+  :config
+  ;; Global settings (defaults)
+  (setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
+        doom-themes-enable-italic t) ; if nil, italics is universally disabled
+  (load-theme 'doom-palenight t)
 
-;; Global settings (defaults)
-(setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
-      doom-themes-enable-italic t) ; if nil, italics is universally disabled
+  ;; Enable flashing mode-line on errors
+  (doom-themes-visual-bell-config)
+  ;; Enable custom neotree theme (all-the-icons must be installed!)
+  (doom-themes-neotree-config)
+  ;; or for treemacs users
+  (setq doom-themes-treemacs-theme "doom-atom") ; use "doom-colors" for less minimal icon theme
+  (doom-themes-treemacs-config)
+  ;; Corrects (and improves) org-mode's native fontification.
+  (doom-themes-org-config))
 
-;; Load the theme (doom-one, doom-molokai, etc); keep in mind that each
-;; theme may have their own settings.
+  ;;---------------------------------------------------------------------------------
+  ;; Matching Parenthesis
+  ;; By an unknown contributor
 
-(load-theme 'doom-palenight t)
+  (global-set-key "%" 'match-paren)
 
-;;---------------------------------------------------------------------------------
-;; Matching Parenthesis
-;; By an unknown contributor
+  (defun match-paren (arg)
+    "Go to the matching paren if on a paren; otherwise insert %."
+    (interactive "p")
+    (cond ((looking-at "\\s(") (forward-list 1) (backward-char 1))
+          ((looking-at "\\s)") (forward-char 1) (backward-list 1))
+          (t (self-insert-command (or arg 1)))))
 
-(global-set-key "%" 'match-paren)
-
-(defun match-paren (arg)
-  "Go to the matching paren if on a paren; otherwise insert %."
-  (interactive "p")
-  (cond ((looking-at "\\s(") (forward-list 1) (backward-char 1))
-        ((looking-at "\\s)") (forward-char 1) (backward-list 1))
-        (t (self-insert-command (or arg 1)))))
-
-;;---------------------------------------------------------------------------------
+  ;;---------------------------------------------------------------------------------
 
 (set-face-attribute 'default nil :font "Source Code Pro" :height 140)
 
@@ -482,42 +489,44 @@
 (use-package htmlize)
 
 (use-package web-mode
-                :ensure t
-                :mode "\\.html\\'"
-                :hook (web-mode . lsp-deferred)
-                :config
-                (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
-                (setq web-mode-engines-alist
-                      '(("django" . "\\.html\\'")))
-                (setq web-mode-ac-sources-alist
-                      '(("css" . (ac-source-csss-property))
-                        ("html" . (ac-source-words-in-buffer ac-source-abbrev))))
-                (setq web-mode-enable-auto-quoting t)
-                (setq web-mode-enable-auto-closing t))
+  :ensure t
+  :mode "\\.html\\'"
+  :hook (web-mode . lsp-deferred)
+  :config
+  (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+  (setq web-mode-engines-alist
+        '(("django" . "\\.html\\'")))
+  (setq web-mode-ac-sources-alist
+        '(("css" . (ac-source-csss-property))
+          ("html" . (ac-source-words-in-buffer ac-source-abbrev))))
+  (setq web-mode-enable-auto-quoting t)
+  (setq web-mode-enable-auto-closing t))
 
-              (use-package emmet-mode)
+(use-package emmet-mode)
 
-              (add-to-list 'load-path "~/emacs.d/emmet-mode")
-            (require 'emmet-mode)
+(add-to-list 'load-path "~/emacs.d/emmet-mode")
+(require 'emmet-mode)
 
-            (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
-          (add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
+(add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
+(add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
 
-    (use-package simple-httpd)
-      (require 'simple-httpd)
-    ;;(setq httpd-root "/var/www")
-  (setq httpd-root "~/.emacs.d/sss")
-    (httpd-start)
-
-  
-    (use-package js2-mode)
+(use-package simple-httpd)
+(require 'simple-httpd)
+;;(setq httpd-root "/var/www")
+(setq httpd-root "~/.emacs.d/sss")
+(httpd-start)
 
 
-        (use-package skewer-mode)
-  ;;       (add-hook 'js2-mode-hook 'skewer-mode)
-  ;;      (add-hook 'css-mode-hook 'skewer-css-mode)
-  (add-hook 'html-mode-hook 'skewer-html-mode)
+(use-package js2-mode)
 
+
+(use-package skewer-mode)
+;;       (add-hook 'js2-mode-hook 'skewer-mode)
+;;      (add-hook 'css-mode-hook 'skewer-css-mode)
+(add-hook 'html-mode-hook 'skewer-html-mode)
+
+
+(use-package impatient-mode)
 
 (add-to-list 'load-path "~/.emacs.d/impatient-mode")
 (require 'impatient-mode)

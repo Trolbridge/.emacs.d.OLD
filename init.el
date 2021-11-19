@@ -461,6 +461,7 @@
 (add-to-list 'org-structure-template-alist '("el" . "src emacs-lisp :results echo"))
 (add-to-list 'org-structure-template-alist '("py" . "src python :results output"))
 (add-to-list 'org-structure-template-alist '("js" . "src js :results output"))
+(add-to-list 'org-structure-template-alist '("ht" . "src html :results output"))
 
 (setq org-confirm-babel-evaluate nil)
 
@@ -473,6 +474,9 @@
       (org-babel-tangle))))
 
 (add-hook 'org-mode-hook (lambda () (add-hook 'after-save-hook #'trol/org-babel-tangle-config)))
+
+(use-package evil-nerd-commenter
+  :bind ("M-/" . evilnc-comment-or-uncomment-lines))
 
 (defun trol/lsp-mode-setup ()
   (setq lsp-headerline-breadcrumb-segments '(path-up-to-project file symbols))

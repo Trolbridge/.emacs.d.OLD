@@ -1,4 +1,6 @@
 * Active
+** STARTED ModernJS
+SCHEDULED: <2021-11-18 Thu 22:46>
 ** TODO Check Out *TIDE*
 SCHEDULED: <2021-11-11 Thu>
 https://github.com/ananthakumaran/tide
@@ -96,6 +98,7 @@ SCHEDULED: <2021-11-19 Fri 11:00+1w>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2021-11-13 Sat 18:36]
 :END:
+
 
 * Inbox
 

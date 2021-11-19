@@ -10,6 +10,7 @@
 ;;			 ("org" . "https://orgmode.org/elpa/")
                          ("elpa" . "https://elpa.gnu.org/packages/")))
 
+
 (package-initialize)
 (unless package-archive-contents
   (package-refresh-contents))
@@ -484,6 +485,7 @@
 
 (use-package lsp-mode
   :commands (lsp lsp-deferred)
+  ;; :commands (lsp lsp-deferred)
   :hook (lsp-mode . trol/lsp-mode-setup)
   :init
   (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
@@ -540,6 +542,8 @@
   :hook (typescript-mode . lsp-deferred)
   :config
   (setq typescript-indent-level 2))
+
+
 
 (use-package typescript-mode
   :mode "\\.ts\\'"

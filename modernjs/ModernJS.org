@@ -1,5 +1,7 @@
 * Section 1 Intro & Getting Started
+
 ** Why Take This Course
+
 *** Learn modern JS from start to finish
 *** Learn to build without framworks
 *** Get better at building *with* frameworks by understanding vanilla JS
@@ -7,6 +9,7 @@
 *** Learn sructure apps and design patterns
 
 ** Some Topics Covered
+
 *** Basics & Fundamentals
 *** DOM Manipulation & UI Events (NO jQuery!!!)
 *** OOP - ES5 Prototypes + ES6 Classes
@@ -17,6 +20,7 @@
 *** Around 10 Projects
 
 ** Included Projects
+
 *** Task List (DOM & LocalStorage)
 *** Loan calculator
 *** Number Guessing game
@@ -28,11 +32,13 @@
 *** CRUD App Wtih ES6 Modules (Webpack)
 
 ** Mini Projects
+
 *** Chuck Norris Joke Generator
 *** Profile Scroller (iterators)
 *** State Pattern Interface
 
 ** Other Skills You May Pick Up
+
 *** HTML / CSS
 *** Bootstrap 4
 *** Materialize CSS
@@ -41,25 +47,31 @@
 *** Webpack / Babel
 
 ** Project Files
+
 *** Every lecture contains the project files for that video
 *** Modular learning sections will just be an index.html & app.js file
 *** Projects have incremental files
 
 ** If you get stuck
+
 *** Search
 *** post Q&A
 *** include the code
 *** email code
 
 ** Updates
+
 *** ESNext features
 
 ** Code Style
+
 *** Best way to learn
 *** Practices get better
 *** Everyone programs differently
 
+
 * Section 2: JavaScript Language Fundamentals
+
 ** Section Intro & File Setup
 *** js_sandbox folder
 **** index.html
@@ -128,9 +140,41 @@ h1.style.color = 'blue';
       }
 
 #+end_src
-** Variables - var, let & const 
-*** var has always been around
-*** let & const introduced in 2015 - ES6
+
+
+** Variables - var, let & const
+- var has always been around
+- let & const introduced in 2015 - ES6
+
+*** Variable name Rules:
+- Can use: letters, numbers, _, $
+- Can not start with a number
+**** Variable name examples:
+
+#+begin_src js :results output
+
+  // No !!!
+  var 1name = 'john';
+
+#+end_src
+
+#+begin_src js :results output
+
+  // JQuery...
+  var $name = 'den';
+  console.log($name);
+
+  // private variables...
+  var _name = 'denny';
+  console.log(_name);
+
+#+end_src
+
+#+RESULTS:
+: den
+: denny
+
+*** Var Example
 
 #+begin_src js :results output
 
@@ -150,7 +194,107 @@ h1.style.color = 'blue';
 : Dennis Mitchell
 : undefined
 
-*** Naming Rules:
-**** Letters, numbers, _, $
-**** Can not start with a number
+*** const
 
+Use const type whenever possble, to make code more secure and readable
+
+#+begin_src js :results output
+
+  // Object
+  const Person = {
+      name: "Dennis",
+      age: 53
+      }
+
+  console.log(Person);
+  console.log(Person.name);
+  console.log(typeof(Person));
+
+  // Arrays
+  const numbers = [1,2,3,4,5];
+  numbers.push(6);
+  
+  console.log(numbers);
+  console.log(numbers[4]);
+
+
+
+#+end_src
+
+#+RESULTS:
+: { name: 'Dennis', age: 53 }
+: Dennis
+: object
+: [ 1, 2, 3, 4, 5, 6 ]
+: 5
+
+
+** Data Types in JavaScript 
+
+*** Primitive Data Types:
+
+- Stored directly in the location the variable accesses
+- Stored on the stack
+
+- String
+- Number - (int and float)
+- Boolean
+- Null
+- Undefined
+- Symbols (ES6)
+
+*** Reference Data Types:
+
+- Accessed by refenrence
+- Objects that are stored on the heap
+- A pointer to a location in memory
+
+- Arrays
+- Object Literals
+- Functions
+- Dates
+- Anything Else...
+
+*** Dynamically Typed Language
+
+- Types are associated with values not variables
+- Same variable can hold multple types
+- Do not need to specify types
+- Most other languages are statically typed (java, c#, c++)
+- There are supersets of JS and addons to allow static typing (TypeScript, Flow)
+
+**** Reference Examples:
+
+#+begin_src js :results output
+
+  // Array
+  const hobbies = ['movies', 'music'];
+
+  // Objects literal
+  const address = {
+      city: 'Miami',
+      state: 'Florida'
+      }
+  const today = new Date();
+
+  console.log(today);
+  console.log(typeof today);
+
+#+end_src
+
+#+RESULTS:
+: 2021-11-19T21:40:46.883Z
+: object
+
+**** Type Conversion
+
+
+**** Nice exit snippet for console:
+
+#+begin_src js :results output
+// console.log('Press any key to exit');
+// process.stdin.setRawMode(true);
+// process.stdin.resume();
+// process.stdin.on('data', process.exit.bind(process, 0));
+
+#+end_src

@@ -319,17 +319,28 @@ Use const type whenever possble, to make code more secure and readable
 ** Numbers & The Math Object 
 
 #+begin_src js :results output
+  
 
   val = Math.floor(Math.random() * 20 + 1);
   console.log(val);
   val = Math.
 
 
+
 #+end_src
 
 #+RESULTS:
-: 20
 
 ** String Methods & Concatenation
 
 ** Template Literals 
+
+- Should be compatible with all modern borrowers.
+
+#+begin_src js :results output
+
+
+  k
+
+
+#+end_src

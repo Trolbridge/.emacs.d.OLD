@@ -553,21 +553,31 @@
 
 (use-package company
 
-  :after lsp-mode
-  :hook (lsp-mode . company-mode)
-  :bind (:map company-active-map
-              ("<tab>" . company-complete-selection))
-            (:map lsp-mode-map
-             ("<tab>" . company-indent-or-complete-common))
+   :after lsp-mode
+   :hook (lsp-mode . company-mode)
+   :bind (:map company-active-map
+               ("<tab>" . company-complete-selection))
+             (:map lsp-mode-map
+              ("<tab>" . company-indent-or-complete-common))
   :custom
   (company-minimum-prefix-length 1)
-  (company-idle-delay 0.0))
+(company-idle-delay 0.0))
+
+   (setq company-idle-delay 0.0
+         company-minimum-prefix-length 1)
+   (setq company-show-numbers t)
+ ;; (after! company
+ ;; (setq company-idle-delay 0.0
+ ;;       company-minimum-prefix-length 1)
+ ;; (setq company-show-numbers t)
+ ;; (add-hook 'evil-normal-state-entry-hook #'-abort)) ;; make aborting less annoying.
 
 
-(add-hook 'after-init-hook 'global-company-mode)
 
-    (use-package company-box
-      :hook (company-mode . company-box-mode))
+ (add-hook 'after-init-hook 'global-company-mode)
+
+     (use-package company-box
+       :hook (company-mode . company-box-mode))
 
 (use-package projectile
   :diminish projectile-mode
@@ -583,6 +593,36 @@
 ;; Set M-o Options:
 (use-package counsel-projectile
   :config (counsel-projectile-mode))
+
+;; (cl-defmacro lsp-org-babel-enable (lang)
+;;   "Support LANG in org source code block."
+;;   (setq centaur-lsp 'lsp-mode)
+;;   (cl-check-type lang stringp)
+;;   (let* ((edit-pre (intern (format "org-babel-edit-prep:%s" lang)))
+;;          (intern-pre (intern (format "lsp--%s" (symbol-name edit-pre)))))
+;;     `(progn
+;;        (defun ,intern-pre (info)
+;;          (let ((file-name (->> info caddr (alist-get :file))))
+;;            (unless file-name
+;;              (setq file-name (make-temp-file "babel-lsp-")))
+;;            (setq buffer-file-name file-name)
+;;            (lsp-deferred)))
+;;        (put ',intern-pre 'function-documentation
+;;             (format "Enable lsp-mode in the buffer of org source block (%s)."
+;;                     (upcase ,lang)))
+;;        (if (fboundp ',edit-pre)
+;;            (advice-add ',edit-pre :after ',intern-pre)
+;;          (progn
+;;            (defun ,edit-pre (info)
+;;              (,intern-pre info))
+;;            (put ',edit-pre 'function-documentation
+;;                 (format "Prepare local buffer environment for org source block (%s)."
+;;                         (upcase ,lang))))))
+
+;;     (defvar org-babel-lang-list
+;;   '("go" "python" "ipython" "bash" "sh" "typescript" "javascript"))
+;;     (dolist (lang org-babel-lang-list)
+;;       (eval `(lsp-org-babel-enable ,lang)))
 
 (use-package magit)
 ;;  :custom

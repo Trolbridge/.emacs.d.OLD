@@ -13,3 +13,14 @@ This is meant to be a practical series!
 - Publishing to MELPA
   
 We will work on at least one new package as an example!
+
+** Who is this series for? 
+
+#+begin_src js :results output
+
+  console.log("hi");
+  
+#+end_src
+
+#+RESULTS:
+: hi

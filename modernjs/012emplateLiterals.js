@@ -5,18 +5,4 @@ const city = 'Miami';
 let html;
 
 // Without Template literals (ES5)
-html = 'hi';
-
-document.body.innerHTML = 'hi';
-
-
-
-
-
-
-
-
-
-
-
-
+html = '<u><li>Name: ' + name + '</li><li>Age: ' + age + '</li><li>Job: ' + job + '</li><li>City: ' + city + '</li></u>';

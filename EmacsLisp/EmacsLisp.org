@@ -1,0 +1,15 @@
+* Introduction to Emacs Lisp
+
+** What will we cover?
+
+This is meant to be a practical series!
+
+- Emacs Lisp fundamentals
+- Everything about functions and variables
+- Manipulating Emacs
+- Working with the system
+- Creating and using extensibility points
+- Writing macros
+- Publishing to MELPA
+  
+We will work on at least one new package as an example!

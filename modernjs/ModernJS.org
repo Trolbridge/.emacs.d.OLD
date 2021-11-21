@@ -141,7 +141,6 @@ h1.style.color = 'blue';
 
 #+end_src
 
-
 ** Variables - var, let & const
 - var has always been around
 - let & const introduced in 2015 - ES6
@@ -228,7 +227,6 @@ Use const type whenever possble, to make code more secure and readable
 : [ 1, 2, 3, 4, 5, 6 ]
 : 5
 
-
 ** Data Types in JavaScript 
 
 *** Primitive Data Types:
@@ -295,8 +293,9 @@ Use const type whenever possble, to make code more secure and readable
 : 2021-11-20T17:17:38.759Z
 : object
 
-**** Type Conversion
+** Type Conversion
 
+*** toString, to number:
 #+begin_src js :results output
 
   // toString()
@@ -317,35 +316,20 @@ Use const type whenever possble, to make code more secure and readable
 : string
 : 100.00
 
-
-**** Nice exit snippet for console:
-
-#+begin_src js :results output
-// console.log('Press any key to exit');
-// process.stdin.setRawMode(true);
-// process.stdin.resume();
-// process.stdin.on('data', process.exit.bind(process, 0));
-
-#+end_src
-**** Type Coercion
+** Numbers & The Math Object 
 
 #+begin_src js :results output
 
-  const val1 = String(5);
-  const val2 = 6;
+  val = Math.floor(Math.random() * 20 + 1);
+  console.log(val);
+  val = Math.
 
-  const sum = val1 + val2;
-  console.log(sum);
-  console.log(typeof sum);
 
-  const sum1 = Number(val1 + val2);
-  console.log(sum1);
-  console.log(typeof sum1);
 #+end_src
 
 #+RESULTS:
-: 56
-: string
-: 56
-: number
+: 20
 
+** String Methods & Concatenation
+
+** Template Literals 

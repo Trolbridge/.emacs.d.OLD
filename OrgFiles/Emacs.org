@@ -667,7 +667,7 @@ org-babel-tangle C-c C-v t
 
 #+end_src
 
-* Better Completions with compay-mode
+* Better Completions with company-mode
 
 #+begin_src emacs-lisp
 
@@ -685,7 +685,7 @@ org-babel-tangle C-c C-v t
 
       (setq company-idle-delay 0.0
             company-minimum-prefix-length 1)
-      (setq company-show-numbers t)
+;;      (setq company-show-numbers t)
     ;; (after! company
     ;; (setq company-idle-delay 0.0
     ;;       company-minimum-prefix-length 1)

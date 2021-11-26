@@ -1,3 +1,4 @@
+*.log
 *.*~
 /elpa/
 /auto-save-list/

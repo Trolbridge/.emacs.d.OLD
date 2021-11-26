@@ -273,17 +273,6 @@ Two ways to access the properties
 #+ATTR_ORG: :width 700
    [[file:1236px-IEEE_754_Double_Floating_Point_Format.svg.png]]
 
-* Display Images 
-   C-u C-c C-l add link to file
-   C-c C-x C-v org-toggle-inline-images
-   #+CAPTION This is the caption for the next pic
-   #+NAME:      fig:IMG_0013.PNG
-   #+ATTR_ORG: :width 300
-   #+attr_html: :width 300
-   #+attr_latex: :width 300
-
-
-   
 * isNaN:
 
 #+begin_src js :results output
@@ -295,3 +284,17 @@ Two ways to access the properties
 
 #+RESULTS:
 : true
+
+* Coercion
+#+ATTR_ORG: :width 700
+[[file:Screen Shot 2021-11-26 at 3.33.34 PM.png]]
+
+* Display Images 
+   C-u C-c C-l add link to file
+   C-c C-x C-v org-toggle-inline-images
+   #+CAPTION This is the caption for the next pic
+   #+NAME:      fig:IMG_0013.PNG
+   #+ATTR_ORG: :width 300
+   #+attr_html: :width 300
+   #+attr_latex: :width 300
+

@@ -1,0 +1,96 @@
+* 25 Tips
+- Cmd-p Command Palette
+- > Any for command 
+- View: Toggle Minimap
+
+** Execute Javascript with in the file itself with
+- Quokka.js extension
+
+** Find Symbol in document
+- Cmd+Shift+.
+- In Command Palette use @ 
+
+** Global Symbol Search
+- # in Command Palette
+- Can type just the first letter of the camel-case word
+
+** Goto a line number
+- Command Palette, use the : then number ie :23
+
+** Highlight a word
+- Command+d
+
+** Set Multiple Cursors
+- M+click
+
+** Extension: Auto Rename Tag 
+
+** Cut/Paste Lines
+- Command+x
+- Command+v
+
+** Move a line
+- M-arrow
+
+** Copy/paste many lines
+- M+Shift+arrow
+  
+** Extension: Add jsdoc comments
+
+** Extension: Better Comments
+
+** New Terminal
+- C-`
+- M+arrow move between words
+- C-k Clear Terminal
+- arrows to move in history
+
+** Tasks: Configure Default Build Task
+- open Command Palette
+- 
+
+** Extension: GitLens
+
+** Extension: Github Repositories
+
+** Extension: Remote Containers
+
+** Extension: Remote SSH
+
+** Configure user Snippets 
+- Preferences: Configure User Snippets
+
+** Extension: Paste JSON as Code 
+
+** Find All References
+- Shift+M+F12
+
+** Rename Symbol
+- F12
+
+* Top 25 VS Code Shortcuts 
+** Toggle Side Bar
+- CMD + B
+** Toggle Terminal
+- C + `
+** User Settings
+- C + .
+** Quick Open a File
+- CMD + P
+** Tab Through Open Files
+- C-tab
+** Move File to split window
+- CMD + \
+** Close File
+- CMD + W
+** Find Search Replace in File
+- CMD + F
+** Global Search Replace
+- CMD + S + F
+** Select All the same words
+- Shift + CMD + L
+** Goto Definition 
+- F12
+- C-o
+** Zen Mod 
+- CMD + K Z

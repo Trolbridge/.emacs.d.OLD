@@ -1,0 +1,12 @@
+{
+  "name": "jscomplete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "browser-sync start --server 'public' --files 'public'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dennis Mitchell",
+  "license": "ISC"
+}

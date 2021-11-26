@@ -1,26 +1,28 @@
 ;; Initialize package sources
 
-(require 'package)
-(add-to-list 'package-archives
-             '("melpa" . "https://melpa.org/packages/") t)
+   ;; (require 'package)
+   ;; (add-to-list 'package-archives
+   ;;              '("melpa" . "https://melpa.org/packages/") t)
+ (require 'package)
+ (add-to-list 'package-archives
+              '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 
 
-(setq package-archives '(("melpa" . "https://melpa.org/packages/")
-                         ("melpa-stable" . "https://stable.melpa.org/packages/")
-;;			 ("org" . "https://orgmode.org/elpa/")
-                         ("elpa" . "https://elpa.gnu.org/packages/")))
+   ;; (setq package-archives '(("melpa" . "https://melpa.org/packages/")
+   ;;                          ("melpa-stable" . "https://stable.melpa.org/packages/")
+   ;;                          ("elpa" . "https://elpa.gnu.org/packages/")))
 
 
 (package-initialize)
-(unless package-archive-contents
-  (package-refresh-contents))
+   (unless package-archive-contents
+     (package-refresh-contents))
 
-;; Initialize use-package on non-linux platforms
-(unless (package-installed-p 'use-package)
-  (package-install 'use-package))
+   ;; Initialize use-package on non-linux platforms
+   (unless (package-installed-p 'use-package)
+     (package-install 'use-package))
 
-(require 'use-package)
-(setq use-package-always-ensure t)
+   (require 'use-package)
+   (setq use-package-always-ensure t)
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
   (setq inhibit-startup-message t)
@@ -645,3 +647,8 @@
 ;; (ad-activate 'linum-update)
 
 ;; (global-linum-mode t)
+
+;; (use-package org-roam
+;;    :ensure t)
+
+(setq org-roam-v2-ack t)

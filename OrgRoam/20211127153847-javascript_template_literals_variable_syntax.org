@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       08E635B9-F85C-42EC-A8FC-2EA3E8896F8E
+:END:
+#+title: JavaScript Template Literals ${variable} syntax
+
+
+* Template Literals ${} syntax
+
+#+begin_src js :results output
+
+  var number = 33;
+  var color = 'green';
+
+  console.log(`${number} ${color} apples`);
+
+#+end_src
+
+#+RESULTS:
+: 33 green apples

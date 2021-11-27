@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       006A309F-D37C-4892-B86B-A9859C60AFCD
+:END:
+#+title: JavaScript Coercion
+
+
+
+* Coercion
+#+ATTR_ORG: :width 700
+[[file:Screen Shot 2021-11-26 at 3.33.34 PM.png]]

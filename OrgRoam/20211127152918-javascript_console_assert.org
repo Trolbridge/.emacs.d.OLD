@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       336985D7-E3A7-4EAC-86A8-C9BB3D829518
+:END:
+#+title: JavaScript Console Assert
+
+
+
+* Console Assert:
+
+#+begin_src js :results output
+
+  // console.assert( boolean, text);
+
+  let age = 35;
+  console.assert(age < 50, 'Access denied. You are too young to enter.');
+
+#+end_src
+

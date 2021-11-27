@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       50C10FA1-3570-4587-87CC-AF5DC3BAF727
+:END:
+#+title: JavaScript Substitions with %s syntax
+
+
+* Substitutions %s syntax
+ Just like c language
+       %s string
+       %d integer
+       %c css
+       %o object
+** 
+
+#+begin_src js :results output
+
+    console.log('hi %s', 'there');
+
+    var number = 33;
+    var color = 'green';
+
+    console.log('%d %s apples', number, color);
+
+
+#+end_src
+
+#+RESULTS:
+: hi there
+: 33 green apples
+: I am button
+
+** Color Console 
+
+#+begin_src js :results output
+
+  // Color the console
+  console.log('I am %cbutton', 'color: blue; background-color: pink; padding: 2px 3px; border-radius: 2px');
+
+#+end_src

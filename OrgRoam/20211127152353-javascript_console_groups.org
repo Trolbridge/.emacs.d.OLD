@@ -1,0 +1,69 @@
+:PROPERTIES:
+:ID:       05B4D112-16AC-4267-B773-BC24001AF562
+:END:
+#+title: JavaScript Console Groups
+
+
+** Console Groups:
+
+#+begin_src js :results output
+
+    const dogName = {
+    name: 'Paw',
+    surname: 'Patrol'
+  }
+  console.log();
+  console.log(dogName);
+  console.log();
+  console.table(dogName);
+
+    // console.group()
+  console.group('Dogs');
+  console.log('German Shepard');
+  console.log('Irish Wolfhound');
+  console.groupEnd();
+
+  // console.groupCollapsed()
+  console.groupCollapsed('Dogs');
+  console.log('German Shepard');
+  console.log('Irish Wolfhound');
+  console.groupEnd();
+
+  // console.groupCollapsed()
+  console.groupCollapsed('Animals');
+  console.group('Dogs');
+  console.log('German Shepard');
+  console.log('Irish Wolfhound');
+  console.groupEnd();
+  console.group('Cats');
+  console.log('Siamese');
+  console.log('Rag');
+  console.groupEnd();
+
+#+end_src
+
+#+RESULTS:
+#+begin_example
+
+{ name: 'Paw', surname: 'Patrol' }
+
+┌─────────┬──────────┐
+│ (index) │  Values  │
+├─────────┼──────────┤
+│  name   │  'Paw'   │
+│ surname │ 'Patrol' │
+└─────────┴──────────┘
+Dogs
+  German Shepard
+  Irish Wolfhound
+Dogs
+  German Shepard
+  Irish Wolfhound
+Animals
+  Dogs
+    German Shepard
+    Irish Wolfhound
+  Cats
+    Siamese
+    Rag
+#+end_example

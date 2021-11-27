@@ -1,13 +1,14 @@
 :PROPERTIES:
 :ID:       AED5E33B-B81A-404E-ADCA-25DF4AF0DB56
 :END:
-#+title: Org Roam Keys
+#+title: Org-Roam Keys
 
 
 * Check the variable
 org-roam--sqlite-available-p
 
 * Hot-keys
+"C-c C-o" org-open-at-point
 "C-c n l" org-roam-buffer-toggle
 "C-c n f" org-roam-node-find
 "C-c n i" org-roam-node-insert

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       FF0089D4-4704-44CA-A08F-1E89F9EA6544
+:END:
+#+title: JavaScript Double-precision 64-bit binary format
+
+
+* Double-precision 64-bit binary format 
+   C-u C-c C-l add link to file
+   C-c C-x C-v org-toggle-inline-images
+   #+CAPTION This is the caption for the next pic
+#+ATTR_ORG: :width 700
+   [[file:1236px-IEEE_754_Double_Floating_Point_Format.svg.png]]

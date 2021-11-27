@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       25E4E4F7-C3DF-44AF-AA6C-A1F56F64CA1D
+:END:
+#+title: JavaScript Properties
+
+
+* Javascript Properties
+
+Two ways to access the properties
+
+1. with the dot .                               value.x
+2. square brackets []                       value[x]
+   

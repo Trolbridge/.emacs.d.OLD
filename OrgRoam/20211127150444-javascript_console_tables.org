@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       55D7C3C6-E470-48C2-ACC3-E380D654909B
+:END:
+#+title: JavaScript Console Tables
+
+
+
+** Console Tables:
+
+#+begin_src js :results output
+
+    // console tables
+    console.table([1,2,3,4]);
+  
+#+end_src
+
+#+RESULTS:
+: ┌─────────┬────────┐
+: │ (index) │ Values │
+: ├─────────┼────────┤
+: │    0    │   1    │
+: │    1    │   2    │
+: │    2    │   3    │
+: │    3    │   4    │
+: └─────────┴────────┘

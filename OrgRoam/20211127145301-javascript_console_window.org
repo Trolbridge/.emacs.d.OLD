@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       9A8F96E6-8EC3-4FF3-A158-1634C13E1F9B
+:END:
+#+title: JavaScript Console Window
+
+
+
+** Check window size:
+
+#+begin_src js :results output
+  // Don't run this is 
+
+      window.
+
+      innerWidth
+      outerWidth
+      innerheight
+      outerwidth
+      screen
+      open // Open new window tab
+
+      var myWindow = window.open("", "", "width=200, height=200");
+      myWindow.moveTo(400,300);
+      myWindow.close()
+      window.history()
+      window.location.href
+
+  console.log(document);   // HTML representation
+  console.dir(document);   // JS representation
+
+#+end_src
+

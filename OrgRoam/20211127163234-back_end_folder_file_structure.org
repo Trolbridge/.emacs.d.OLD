@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       714AD826-D5CF-46E9-B874-E05DC828E2E4
+:END:
+#+title: Back-End Folder & File Structure
+
+
+* Back-End Folder & File Structure
+
+- config folder
+- models folder
+- routes folder
+- views folder
+- public folder
+** index.html
+** package.json
+** css folder
+** js folder

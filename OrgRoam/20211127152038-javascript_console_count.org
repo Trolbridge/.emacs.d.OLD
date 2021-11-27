@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       550212F5-5A0B-431E-9944-B5371BE2F990
+:END:
+#+title: JavaScript Console Count
+
+
+
+
+** Console Count:
+
+#+begin_src js :results output
+
+  console.count();
+  console.count();
+  console.count();
+  console.count();
+
+  for(let i=0; i < 5; i++) {
+    console.count('I have been called') }
+
+
+#+end_src

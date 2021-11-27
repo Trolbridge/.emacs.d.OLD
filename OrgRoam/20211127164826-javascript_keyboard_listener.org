@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       3AF2B38A-F43F-4A41-9665-10A9AE9FB607
+:END:
+#+title: JavaScript Keyboard Listener
+
+
+* Keyboard Listener
+** MDN:
+#+begin_src js :results output
+
+  const log = document.getElementById('button');
+
+  document.addEventListener('keydown', logkey);
+
+  function logkey(e) {
+    console.log(` ${e.code}`);
+    log.textContent += ` ${e.code}`;
+  }
+
+
+#+end_src
+
+** Reload with any key hit:
+
+#+begin_src js :results output
+
+  document.addEventListener('keydown', logkey);
+
+  function logkey() {
+    location.reload();
+  }
+
+#+end_src

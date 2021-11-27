@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       766B3503-0CBF-4BCE-BCE3-CCC02F17C903
+:END:
+#+title: JavaScript isNaN
+
+
+* isNaN:
+
+#+begin_src js :results output
+
+  let value = 'Dennis';
+  console.log(isNaN(value));
+
+#+end_src
+
+#+RESULTS:
+: true

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       C2A4B6E7-C75F-4939-927F-69723C095827
+:END:
+#+title: JavaScript Console Time
+
+
+* Console Time:
+
+#+begin_src js :results output
+
+  console.time('math timer');
+  console.log(2345234523452345*224351234512);
+  console.timeEnd('math timer');
+
+#+end_src

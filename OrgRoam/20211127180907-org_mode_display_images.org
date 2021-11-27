@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2A44D823-5EA7-44CE-87E3-E645AC75A06C
+:END:
+#+title: Org-Mode Display Images
+
+
+* Display Images 
+   C-u C-c C-l add link to file
+   C-c C-x C-v org-toggle-inline-images
+   #+CAPTION This is the caption for the next pic
+   #+NAME:      fig:IMG_0013.PNG
+   #+ATTR_ORG: :width 300
+   #+attr_html: :width 300
+   #+attr_latex: :width 300

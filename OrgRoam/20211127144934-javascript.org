@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       B178F57B-461C-4AF3-A52E-941A3D72571F
+:END:
+#+title: JavaScript
+
+
+* JS Complete
+- [[id:9A8F96E6-8EC3-4FF3-A158-1634C13E1F9B][JavaScript Console Window]]
+- [[id:55D7C3C6-E470-48C2-ACC3-E380D654909B][JavaScript Console Tables]]
+- [[id:550212F5-5A0B-431E-9944-B5371BE2F990][JavaScript Console Count]]
+- [[id:05B4D112-16AC-4267-B773-BC24001AF562][JavaScript Console Groups]]
+- [[id:C2A4B6E7-C75F-4939-927F-69723C095827][JavaScript Console Time]]
+- [[id:336985D7-E3A7-4EAC-86A8-C9BB3D829518][JavaScript Console Assert]]
+- [[id:50C10FA1-3570-4587-87CC-AF5DC3BAF727][JavaScript Substitions with %s syntax]]
+- [[id:08E635B9-F85C-42EC-A8FC-2EA3E8896F8E][JavaScript Template Literals ${variable} syntax]]
+- [[id:7150E733-40EA-4964-943C-5278A74BB9ED][JavaScript Button Click]]
+- [[id:3AF2B38A-F43F-4A41-9665-10A9AE9FB607][JavaScript Keyboard Listener]]
+- [[id:25E4E4F7-C3DF-44AF-AA6C-A1F56F64CA1D][JavaScript Properties]]
+- [[id:FF0089D4-4704-44CA-A08F-1E89F9EA6544][JavaScript Double-precision 64-bit binary format]]
+- [[id:766B3503-0CBF-4BCE-BCE3-CCC02F17C903][JavaScript isNaN]]
+- [[id:006A309F-D37C-4892-B86B-A9859C60AFCD][JavaScript Coercion]]

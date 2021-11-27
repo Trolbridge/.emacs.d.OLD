@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       7150E733-40EA-4964-943C-5278A74BB9ED
+:END:
+#+title: JavaScript Button Click
+
+
+* Button Click 
+
+** First Example:
+#+begin_src js :results output
+
+  <button id="button" style="background: yellow">Push Me</button>
+
+
+     /* Identify: */         let button = document.getElementById("button");
+     /* When: */             button.onclick=()=> {
+     /* Define Action: */    button.innerHTML = "I've been clicked"
+     };
+
+#+end_src
+
+** Second Example:
+#+begin_src js :results output
+
+    <button onclick="alertMe()">click me</button>
+
+  function alertMe() {
+    // alert('Hi');
+    document.write('<br>');
+    document.write('Hi BB !!! ');
+  }
+
+
+#+end_src

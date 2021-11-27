@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       0AFA3021-8AF1-4A24-9362-61A235930F57
+:END:
+#+title: Back-End
+
+
+- Scripting languages like PHP, Python, Ruby, Perl, Node.js, or Compiled languages like C#, Java or Go
+- Automated testing frameworks for the language being used
+- Application Data Access
+- Application Business Logic
+- Database administration
+- Scalability
+- High availability
+- Security concerns, authentication and authorization
+- Software Architecture
+- Data transformation
+- Backup methods and software
+
+Note that both positions, despite possibly working on one product, have a very distinct set of skills.
+
+- [[id:714AD826-D5CF-46E9-B874-E05DC828E2E4][Back-End Folder & File Structure]]

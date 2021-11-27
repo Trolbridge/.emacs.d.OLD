@@ -811,10 +811,10 @@ C-o Evil Go Back
 
 #+begin_src emacs-lisp :results echo
 
-  ;; (use-package org-roam
-  ;;    :ensure t)
-  
-  (setq org-roam-v2-ack t)
+  (use-package org-roam
+       :ensure t)
+
+  ;; (setq org-roam-v2-ack t)
 
 
 #+end_src

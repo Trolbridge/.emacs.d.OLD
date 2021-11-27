@@ -648,7 +648,7 @@
 
 ;; (global-linum-mode t)
 
-;; (use-package org-roam
-;;    :ensure t)
+(use-package org-roam
+     :ensure t)
 
-(setq org-roam-v2-ack t)
+;; (setq org-roam-v2-ack t)

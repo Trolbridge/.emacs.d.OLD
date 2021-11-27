@@ -812,9 +812,20 @@ C-o Evil Go Back
 #+begin_src emacs-lisp :results echo
 
   (use-package org-roam
-       :ensure t)
+       :ensure t
+       :init
+       (setq org-roam-v2-ack t)
+       :custom
+       (org-roam-directory "~/.emacs.d/OrgRoam")
+       (org-roam-completion-everywhere t)
+       :bind (("C-c n l" . org-roam-buffer-toggle)
+              ("C-c n f" . org-roam-node-find)
+              ("C-c n i" . org-roam-node-insert)
+       :map org-mode-map
+       ("C-M-i" . completion-at-point))
+       :config
+       (org-roam-setup))
 
-  ;; (setq org-roam-v2-ack t)
 
 
 #+end_src

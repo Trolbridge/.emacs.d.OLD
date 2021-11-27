@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       D460A13C-C85D-459F-99AA-B756FD53102D
+:END:
+#+title: Programming Languages
+
+Here are some great programming languages:
+
+- [[id:12C7FC7C-9112-4970-90F7-103A8C8C9CE4][Emacs Lisp]]
+- [[id:8BABCC74-2CD0-4E7E-9715-2FE5F10F65E5][Scheme]] 
+
+  I like the languages [[Emacs Lisp]] and [[Scheme]].

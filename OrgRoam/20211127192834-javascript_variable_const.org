@@ -5,10 +5,19 @@
 
 
 * const
+The most strict way to *declare* a variable.
+Introduced in ES2015
+More strict
+Limited to the scope it's declared in
+*Value cannot change*
+Much more organized
 
 Use const type whenever possble, to make code more secure and readable
 
 #+begin_src js :results output
+
+  const name = "Wally";
+  console.log(name);
 
   // Object
   const Person = {
@@ -23,7 +32,7 @@ Use const type whenever possble, to make code more secure and readable
   // Arrays
   const numbers = [1,2,3,4,5];
   numbers.push(6);
-  
+
   console.log(numbers);
   console.log(numbers[4]);
 
@@ -32,6 +41,7 @@ Use const type whenever possble, to make code more secure and readable
 #+end_src
 
 #+RESULTS:
+: Wally
 : { name: 'Dennis', age: 53 }
 : Dennis
 : object

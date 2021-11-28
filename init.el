@@ -497,47 +497,47 @@
 (use-package htmlize)
 
 (use-package web-mode
-  :ensure t
-  :mode "\\.html\\'"
-  :hook (web-mode . lsp-deferred)
-  :config
-  (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
-  (setq web-mode-engines-alist
-        '(("django" . "\\.html\\'")))
-  (setq web-mode-ac-sources-alist
-        '(("css" . (ac-source-csss-property))
-          ("html" . (ac-source-words-in-buffer ac-source-abbrev))))
-  (setq web-mode-enable-auto-quoting t)
-  (setq web-mode-enable-auto-closing t))
+    :ensure t
+    :mode "\\.html\\'"
+    :hook (web-mode . lsp-deferred)
+    :config
+    (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+    (setq web-mode-engines-alist
+          '(("django" . "\\.html\\'")))
+    (setq web-mode-ac-sources-alist
+          '(("css" . (ac-source-csss-property))
+            ("html" . (ac-source-words-in-buffer ac-source-abbrev))))
+    (setq web-mode-enable-auto-quoting t)
+    (setq web-mode-enable-auto-closing t))
 
-(use-package emmet-mode)
+  (use-package emmet-mode)
 
-(add-to-list 'load-path "~/emacs.d/emmet-mode")
-(require 'emmet-mode)
+  (add-to-list 'load-path "~/emacs.d/emmet-mode")
+  (require 'emmet-mode)
 
-(add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
-(add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
+  (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
+  (add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
 
-(use-package simple-httpd)
-(require 'simple-httpd)
-;;(setq httpd-root "/var/www")
-(setq httpd-root "~/.emacs.d/sss")
-(httpd-start)
-
-
-(use-package js2-mode)
+  (use-package simple-httpd)
+  (require 'simple-httpd)
+  ;;(setq httpd-root "/var/www")
+  (setq httpd-root "~/.emacs.d/sss")
+;;  (httpd-start)
 
 
-(use-package skewer-mode)
-;;       (add-hook 'js2-mode-hook 'skewer-mode)
-;;      (add-hook 'css-mode-hook 'skewer-css-mode)
-(add-hook 'html-mode-hook 'skewer-html-mode)
+  (use-package js2-mode)
 
 
-(use-package impatient-mode)
+  (use-package skewer-mode)
+  ;;       (add-hook 'js2-mode-hook 'skewer-mode)
+  ;;      (add-hook 'css-mode-hook 'skewer-css-mode)
+  (add-hook 'html-mode-hook 'skewer-html-mode)
 
-(add-to-list 'load-path "~/.emacs.d/impatient-mode")
-(require 'impatient-mode)
+
+  (use-package impatient-mode)
+
+  (add-to-list 'load-path "~/.emacs.d/impatient-mode")
+  (require 'impatient-mode)
 
 (use-package typescript-mode
   :mode "\\.js\\'"

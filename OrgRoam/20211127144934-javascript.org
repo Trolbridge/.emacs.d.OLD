@@ -25,6 +25,7 @@
 - [[id:FF0089D4-4704-44CA-A08F-1E89F9EA6544][JavaScript Double-precision 64-bit binary format]]
 - [[id:766B3503-0CBF-4BCE-BCE3-CCC02F17C903][JavaScript isNaN]]
 - [[id:3AF2B38A-F43F-4A41-9665-10A9AE9FB607][JavaScript Keyboard Listener]]
+- [[id:F01DBDBA-7B51-4710-9C55-66242DE96636][JavaScript Math Random]]
 - [[id:25E4E4F7-C3DF-44AF-AA6C-A1F56F64CA1D][JavaScript Properties]]
 - [[id:50C10FA1-3570-4587-87CC-AF5DC3BAF727][JavaScript Substitions with %s syntax]]
 - [[id:08E635B9-F85C-42EC-A8FC-2EA3E8896F8E][JavaScript Template Literals ${variable} syntax]]
@@ -33,15 +34,18 @@
 - [[id:8574FAEF-1D66-43C5-820C-CE62A54143BF][JavaScript Variable const]]
 - [[id:CA8A4797-5D3E-43F4-A5FE-F16A5F70F56B][JavaScript Variable let]]
 - [[id:523094CB-E4F8-453E-848D-3C3CE3B71775][JavaScript Variable var]]
+- [[id:4761E53A-ADF9-400F-BBC9-363954541230][JavaScript Variable Arrays]]
 
 * ModernJS
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- [[id:D0F222E7-27A3-4D18-80DC-CCF24BD434F6][JavaScript If Statements & Comparison Operators]]
+- [[id:8E44CD40-8796-4B53-B001-EC5AEE95DEDC][JavaScript Switch Statement]]
+- [[id:438ADA19-6042-4B2C-913F-5D33B3C917A7][JavaScript Function Declarations & Expressions]] 
+- [[id:71376124-C3EE-4C71-8E22-2D85A1DF8E53][JavaScript General Loops]]
+- [[id:A68128A2-46D9-4280-826B-0737FDEF7E47][JavaScript Window Object]]
+- [[id:7AB82E3A-0137-43A8-AB1D-430FE9FDA269][JavaScript block scope with let & const]]
+- [[id:02E91F52-39EF-4906-B7D9-0A0EDB871BB2][JavaScript DOM]]
+- [[id:2552A4C9-3955-4DF3-AACC-D1FF9F20E0C3][JavaScript DOM Selectors for single elements]]
+- [[id:CB7728E7-F148-4FB7-B84B-9D84C598844E][JavaScript DOM Selectors for multiple elements]]
 - 
 - 
 - 

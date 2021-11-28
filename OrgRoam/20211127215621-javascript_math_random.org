@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       F01DBDBA-7B51-4710-9C55-66242DE96636
+:END:
+#+title: JavaScript Math Random
+
+
+** Numbers & The Math Object 
+
+#+begin_src js :results output
+
+  val = Math.floor(Math.random() * 20 + 1);
+  console.log(val);
+
+#+end_src

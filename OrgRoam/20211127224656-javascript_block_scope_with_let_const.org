@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       7AB82E3A-0137-43A8-AB1D-430FE9FDA269
+:END:
+#+title: JavaScript block scope with let & const
+
+
+* Block Scope with let & const
+
+#+begin_src js :results output
+
+    // Global Scope
+  var a = 1;
+  let b = 2;
+  const c = 3;
+
+  // function test() {
+  //   var a = 4;
+  //   let b = 5;
+  //   const c = 6;
+  //   console.log('Function Scope: ', a, b, c);
+  // }
+
+  // test();
+
+  // if(true) {
+  //   // Block Scope
+  //   var a = 4;
+  //   let b = 5;
+  //   const c = 6;
+  //   console.log('If Scope: ', a, b, c);
+  // }
+
+  // for(var a = 0; a < 10; a++) {
+  //   console.log(`Loop: ${a}`);
+  // }
+
+  console.log('Global Scope: ', a, b, c);
+  
+#+end_src

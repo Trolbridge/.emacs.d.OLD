@@ -61,3 +61,37 @@ for(let i = 0; i < people.length; i++){
   console.log(people[i].name);
 }
 #+end_src
+
+* Template Literals 
+
+- Should be compatible with all modern borrowers.
+
+#+begin_src js :results output
+
+  const name = 'John';
+  const age = 30;
+  const job = 'Web Developer';
+  const city = 'Miami';
+
+  let html;
+        
+  function hello() {
+      return 'Hello!!!!';
+  }
+
+  html = `
+      <ul>
+          <li>Name: ${name}</li>
+          <li>Age: ${age}</li>
+          <li>Job: ${job}</li>
+          <li>City: ${city}</li>
+          <li>${2 + 2}</li>
+          <li>${hello()}</li>
+          <li>${hello}</li>
+          <li>${age > 29 ? 'Over 30' : 'Under 30'}</li>
+      </ul> 
+      `;
+
+  document.body.innerHTML = html;
+
+#+end_src

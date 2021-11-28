@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2F098AED-6D9F-4AF1-9A10-2C726BE95134
+:END:
+#+title: JavaScript Variables
+
+
+** Variables - var, let & const
+- var is global
+- var has always been around
+- let & const introduced in 2015 - ES6

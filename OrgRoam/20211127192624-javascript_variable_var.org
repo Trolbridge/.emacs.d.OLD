@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       523094CB-E4F8-453E-848D-3C3CE3B71775
+:END:
+#+title: JavaScript Variable var
+
+
+* Var Example
+- Global
+
+#+begin_src js :results output
+
+  // var is basically a global variable
+  var nam = 689;
+
+  var name ='John Doe';
+  console.log(name);
+  name = 'Dennis Mitchell';     //  Reassignment (Dynamic)
+  console.log(name);
+
+  // Initializing a variable
+  var greeting;
+  console.log(greeting);
+
+  function printNam() {
+      console.log(nam);
+      return null;
+      }
+  printNam()
+
+#+end_src
+
+#+RESULTS:
+: John Doe
+: Dennis Mitchell
+: undefined
+: 689

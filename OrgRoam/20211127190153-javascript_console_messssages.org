@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       ECDFC702-AA9E-46F6-B2BE-45A825A3AC16
+:END:
+#+title: JavaScript Console messages
+
+
+- console.error('This is an error');  // Errors
+- console.warn('This is an warning');  // Warnings
+- console.info('This is an info message'); // Info

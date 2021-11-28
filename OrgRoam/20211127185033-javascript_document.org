@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       E5CE9CAD-49B8-42E1-B768-45CAD8DA95E5
+:END:
+#+title: JavaScript Document
+
+
+
+- document.querySelector('h1').style.color = 'blue';

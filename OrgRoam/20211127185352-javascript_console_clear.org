@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       276C8CA3-D7D9-440F-A423-13F3B348347B
+:END:
+#+title: JavaScript Console clear()
+
+
+
+- console.clear();      // Clear console

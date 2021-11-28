@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       CA8A4797-5D3E-43F4-A5FE-F16A5F70F56B
+:END:
+#+title: JavaScript Variable let
+
+
+- Introduced in ES2015
+- let hs scope comstraints
+- let variables cannot be re-declared
+- 

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       48674DFC-9E4B-44D5-A66D-517475FD2E8D
+:END:
+#+title: JavaScript Dynamically Typed
+
+
+* Dynamically Typed Language
+
+- Types are associated with values not variables
+- Same variable can hold multple types
+- Do not need to specify types
+- Most other languages are statically typed (java, c#, c++)
+- There are supersets of JS and addons to allow static typing (TypeScript, Flow)

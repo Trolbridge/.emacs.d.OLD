@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       CA685EC6-15BE-4D1B-947F-81834CF97CE8
+:END:
+#+title: JavaScript Data Types Primitive
+
+
+* Primitive Data Types:
+
+- Stored directly in the location the variable accesses
+- Stored on the stack
+
+- String
+- Number - (int and float)
+- Boolean
+- Null
+- Undefined
+- Symbols (ES6)

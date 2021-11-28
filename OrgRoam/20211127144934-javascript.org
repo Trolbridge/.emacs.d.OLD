@@ -5,17 +5,44 @@
 
 
 * JS Complete
-- [[id:9A8F96E6-8EC3-4FF3-A158-1634C13E1F9B][JavaScript Console Window]]
-- [[id:55D7C3C6-E470-48C2-ACC3-E380D654909B][JavaScript Console Tables]]
+- [[id:7150E733-40EA-4964-943C-5278A74BB9ED][JavaScript Button Click]]
+- [[id:006A309F-D37C-4892-B86B-A9859C60AFCD][JavaScript Coercion]]
+- [[id:336985D7-E3A7-4EAC-86A8-C9BB3D829518][JavaScript Console Assert]]
+- [[id:276C8CA3-D7D9-440F-A423-13F3B348347B][JavaScript Console clear()]]
 - [[id:550212F5-5A0B-431E-9944-B5371BE2F990][JavaScript Console Count]]
 - [[id:05B4D112-16AC-4267-B773-BC24001AF562][JavaScript Console Groups]]
+- [[id:E94C6F6F-4272-47BA-AE40-4B6BECCF1EC2][JavaScript Console log]]
+- [[id:ECDFC702-AA9E-46F6-B2BE-45A825A3AC16][JavaScript Console messages]]
+- [[id:55D7C3C6-E470-48C2-ACC3-E380D654909B][JavaScript Console Tables]]
 - [[id:C2A4B6E7-C75F-4939-927F-69723C095827][JavaScript Console Time]]
-- [[id:336985D7-E3A7-4EAC-86A8-C9BB3D829518][JavaScript Console Assert]]
-- [[id:50C10FA1-3570-4587-87CC-AF5DC3BAF727][JavaScript Substitions with %s syntax]]
-- [[id:08E635B9-F85C-42EC-A8FC-2EA3E8896F8E][JavaScript Template Literals ${variable} syntax]]
-- [[id:7150E733-40EA-4964-943C-5278A74BB9ED][JavaScript Button Click]]
-- [[id:3AF2B38A-F43F-4A41-9665-10A9AE9FB607][JavaScript Keyboard Listener]]
-- [[id:25E4E4F7-C3DF-44AF-AA6C-A1F56F64CA1D][JavaScript Properties]]
+- [[id:9A8F96E6-8EC3-4FF3-A158-1634C13E1F9B][JavaScript Console Window]]
+- [[id:2DE15714-B73D-4090-A3B2-A54593E5257A][JavaScript Data Types]]
+- [[id:A125B35B-EC53-4233-A0B0-90D15DFF6B40][JavaScript Date & Time]]
+- [[id:48674DFC-9E4B-44D5-A66D-517475FD2E8D][JavaScript Dynamically Typed]]
+- [[id:CA685EC6-15BE-4D1B-947F-81834CF97CE8][JavaScript Data Types Primitive]]
+- [[id:8983D7B8-9604-4D4B-B127-977CD62262D6][JavaScript Data Types Reference]]
+- [[id:E5CE9CAD-49B8-42E1-B768-45CAD8DA95E5][JavaScript Document]]
 - [[id:FF0089D4-4704-44CA-A08F-1E89F9EA6544][JavaScript Double-precision 64-bit binary format]]
 - [[id:766B3503-0CBF-4BCE-BCE3-CCC02F17C903][JavaScript isNaN]]
-- [[id:006A309F-D37C-4892-B86B-A9859C60AFCD][JavaScript Coercion]]
+- [[id:3AF2B38A-F43F-4A41-9665-10A9AE9FB607][JavaScript Keyboard Listener]]
+- [[id:25E4E4F7-C3DF-44AF-AA6C-A1F56F64CA1D][JavaScript Properties]]
+- [[id:50C10FA1-3570-4587-87CC-AF5DC3BAF727][JavaScript Substitions with %s syntax]]
+- [[id:08E635B9-F85C-42EC-A8FC-2EA3E8896F8E][JavaScript Template Literals ${variable} syntax]]
+- [[id:2F098AED-6D9F-4AF1-9A10-2C726BE95134][JavaScript Variables]]
+- [[id:A4C76575-9672-4EC0-AAB0-DBC941720B37][JavaScript Variable Identifiers - Naming Rules]]
+- [[id:8574FAEF-1D66-43C5-820C-CE62A54143BF][JavaScript Variable const]]
+- [[id:CA8A4797-5D3E-43F4-A5FE-F16A5F70F56B][JavaScript Variable let]]
+- [[id:523094CB-E4F8-453E-848D-3C3CE3B71775][JavaScript Variable var]]
+
+* ModernJS
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 

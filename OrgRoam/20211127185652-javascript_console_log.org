@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       E94C6F6F-4272-47BA-AE40-4B6BECCF1EC2
+:END:
+#+title: JavaScript Console log
+
+
+- console.log(document);
+- console.log('hello');
+- console.log(123);
+- console.log('hello');
+- console.log(greeting);
+- console.log([1,2,3,4]);   // Arrays
+- console.log({a:1,b:2});   // Object Literal

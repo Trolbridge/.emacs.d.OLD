@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       A4C76575-9672-4EC0-AAB0-DBC941720B37
+:END:
+#+title: JavaScript Variable Naming Rules
+
+
+*** Variable name Rules:
+- Can use: letters, numbers, _, $
+- Can not start with a number
+- Use camel case
+- case sensitive
+  
+**** Variable name examples:
+
+#+begin_src js :results output
+
+  // No !!!
+  var 1name = 'john';
+
+#+end_src
+
+#+begin_src js :results output
+
+  // JQuery...
+  var $name = 'den';
+  console.log($name);
+
+  // private variables...
+  var _name = 'denny';
+  console.log(_name);
+
+#+end_src
+
+#+RESULTS:
+: den
+: denny

@@ -1,0 +1,54 @@
+:PROPERTIES:
+:ID:       8983D7B8-9604-4D4B-B127-977CD62262D6
+:END:
+#+title: JavaScript JS Data Types Reference
+
+
+* Reference Data Types:
+
+- Accessed by refenrence
+- Objects that are stored on the heap
+- A pointer to a location in memory
+
+- Arrays
+- Object Literals
+- Functions
+- Dates
+- Anything Else...
+
+* Reference Examples:
+
+#+begin_src js :results output
+
+  // Array
+  const hobbies = ['movies', 'music'];
+  console.log(typeof hobbies);
+
+  // Is Array type tip
+  if (hobbies.constructor.name == 'Array') {
+      console.log('hobbies is an Array');
+  }
+
+  // Check if Array
+
+  val = Array.isArray(hobbies);
+
+
+  // Objects literal
+  const address = {
+      city: 'Miami',
+      state: 'Florida'
+  }
+
+  const today = new Date();
+
+  console.log(today);
+  console.log(typeof today);
+
+#+end_src
+
+#+RESULTS:
+: object
+: hobbies is an Array
+: 2021-11-28T02:02:33.300Z
+: object

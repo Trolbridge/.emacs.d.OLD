@@ -4,15 +4,21 @@
 #+title: JavaScript Variable const
 
 
+* [[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]] 
 * const
-The most strict way to *declare* a variable.
-Introduced in ES2015
-More strict
-Limited to the scope it's declared in
-*Value cannot change*
-Much more organized
 
-Use const type whenever possble, to make code more secure and readable
+- Introduced in ES2015
+- The most strict way to *declare* a variable.
+- More strict
+- Much more organized 
+- *Value cannot change*
+- Limited to the scope it's declared in
+- Must initialize and assign at declaration
+- Use const type whenever possble, to make code more secure and readable
+- 
+- 
+
+
 
 #+begin_src js :results output
 
@@ -47,3 +53,4 @@ Use const type whenever possble, to make code more secure and readable
 : object
 : [ 1, 2, 3, 4, 5, 6 ]
 : 5
+

@@ -32,6 +32,7 @@
 - [[id:2F098AED-6D9F-4AF1-9A10-2C726BE95134][JavaScript Variables]]
 - [[id:A4C76575-9672-4EC0-AAB0-DBC941720B37][JavaScript Variable Identifiers - Naming Rules]]
 - [[id:8574FAEF-1D66-43C5-820C-CE62A54143BF][JavaScript Variable const]]
+- [[id:97DA1DA9-C617-4021-88A7-E5E60C2F1145][JavaScript Variable const - try and catch]]
 - [[id:CA8A4797-5D3E-43F4-A5FE-F16A5F70F56B][JavaScript Variable let]]
 - [[id:523094CB-E4F8-453E-848D-3C3CE3B71775][JavaScript Variable var]]
 - [[id:4761E53A-ADF9-400F-BBC9-363954541230][JavaScript Variable Arrays]]

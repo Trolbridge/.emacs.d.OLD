@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       97DA1DA9-C617-4021-88A7-E5E60C2F1145
+:END:
+#+title: JavaScript Variable const - try and catch
+
+* [[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]]
+
+* Const - try and catch
+
+#+begin_src js :results output
+
+  const FART = 'Smells bad';
+
+  try {
+      FART = 5;
+      } catch(error) {
+          console.log(error);
+          }
+  
+#+end_src
+
+#+RESULTS:
+: TypeError: Assignment to constant variable.
+:     at Object.<anonymous> (/private/var/folders/jt/0v91_3j57ks2gsvslt8wqstc0000gn/T/babel-bGMnBv/js-script-hA0mXJ:5:10)
+:     at Module._compile (node:internal/modules/cjs/loader:1101:14)
+:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+:     at Module.load (node:internal/modules/cjs/loader:981:32)
+:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+:     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+:     at node:internal/main/run_main_module:17:47

@@ -646,16 +646,6 @@ org-babel-tangle C-c C-v t
 
 #+end_src
 
-#+begin_src emacs-lisp :results echo
-
-
-
-#+end_src
-
-#+begin_src js :results output
-
-#+end_src
-
 *** TypeScript
 
 #+begin_src emacs-lisp :results echo

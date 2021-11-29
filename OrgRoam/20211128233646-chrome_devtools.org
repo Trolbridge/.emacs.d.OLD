@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       57E0147C-BA35-4D46-98BD-7D3599A13E57
+:END:
+#+title: Chrome DevTools
+
+
+Chrome DevTools is built into the browser, and will greatly improve your workflow.
+It helps you develop, test and debug your code right within your browser.
+
+* Using DevTools to determine [[id:E6C49BFC-5725-4F78-B553-2CC846A7E511][JavaScript Scope]].
+
+#+begin_src html :results output
+
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+    </head>
+    <body>
+      <h1>Hi</h1>
+      <script>
+
+        let age = 3; //global variable with type number
+        debugger
+        function scope() { 
+        let age = 'young'; // local variable with type String
+        debugger
+        if(true) {
+        let age = 'old'; //local block scope with type String
+        debugger
+        console.log(age);
+        }
+        console.log(age);
+        }
+        console.log(age);
+        scope();
+
+      </script>
+    </body>
+  </html> 
+
+#+end_src

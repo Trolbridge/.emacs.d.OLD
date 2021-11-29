@@ -1,0 +1,98 @@
+:PROPERTIES:
+:ID:       E6C49BFC-5725-4F78-B553-2CC846A7E511
+:END:
+#+title: JavaScript Scope
+
+
+* [[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]]
+* Try-catch example:  
+  #+begin_src js :results output
+
+    {
+        var animal = "dog";
+        let cat = 'tiger';
+        const WOLF = 'woof'
+    }
+
+    try {
+        console.log(animal)
+    } catch(error) {
+        console.log(error)
+    }
+    // try {
+    //     console.log(cat)
+    // } catch(error) {
+    //     console.log(error)
+    // }
+    // try {
+    //     console.log(WOLF)
+    // } catch(error) {
+    //     console.log(error)
+    // }
+    try {
+        console.log(WOLF)
+    } catch(e) {
+        console.log(e);
+        } 
+
+  #+end_src
+
+  #+RESULTS:
+  : dog
+  : ReferenceError: WOLF is not defined
+  :     at Object.<anonymous> (/private/var/folders/jt/0v91_3j57ks2gsvslt8wqstc0000gn/T/babel-bGMnBv/js-script-1RVVII:24:17)
+  :     at Module._compile (node:internal/modules/cjs/loader:1101:14)
+  :     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+  :     at Module.load (node:internal/modules/cjs/loader:981:32)
+  :     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+  :     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+  :     at node:internal/main/run_main_module:17:47
+
+* Global Object Example
+
+#+begin_src js :results output
+
+  // let a = 'pizza';
+  let a = {}; // Global Object
+  a.favoriteFoodType = 'corn';
+  a.Edit = {1:2, 3:4};
+  a.number = [1,2,3,4];
+
+  console.log(a);
+  console.log(a.favoriteFoodType);
+
+
+#+end_src
+
+#+RESULTS:
+: {
+:   favoriteFoodType: 'corn',
+:   Edit: { '1': 2, '3': 4 },
+:   number: [ 1, 2, 3, 4 ]
+: }
+: corn
+
+* Nested Block Scope
+
+#+begin_src js :results output
+
+    function variableScope() {
+        let x= 10; //number
+        if (true) {
+            let x = 'wally'; // string
+            console.log(x);
+            }
+        console.log(x);
+    }
+  variableScope();
+  // console.log(x);
+
+
+
+
+
+#+end_src
+
+#+RESULTS:
+: wally
+: 10

@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       39F6A105-A9A6-43D0-BB92-08B916849343
+:END:
+#+title: JavaScript Custom Alert 2
+
+* [[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]]
+
+#+begin_src html :results output
+
+    <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Alert Example 2</title>
+  </head>
+  <body>
+      <input type="button" onclick="alertMe()" value="Click Me Mother Fucka!">
+
+      <script>
+          function alertMe() {
+              alert('WHY DID YOU CLICK DAT BUTTON ?!?!!?, Mother Fucka!!!')
+              document.write('This text was placed here with JavaScript')
+          }
+      </script>
+    
+  </body>
+  </html>
+  
+#+end_src
+
+* [[id:BBDE1BC3-EDC6-4918-B3DE-34692118ABE3][JavaScript Custom Alert]]

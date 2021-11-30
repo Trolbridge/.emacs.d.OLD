@@ -3,7 +3,7 @@
 :END:
 #+title: JavaScript Custom Alert
 
-* Start
+* [[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]] 
 
 #+begin_src html :results output
 
@@ -28,3 +28,5 @@
   </html>
   
 #+end_src
+
+* [[id:39F6A105-A9A6-43D0-BB92-08B916849343][JavaScript Custom Alert 2]]

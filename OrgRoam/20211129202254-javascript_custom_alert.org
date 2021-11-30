@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       BBDE1BC3-EDC6-4918-B3DE-34692118ABE3
+:END:
+#+title: JavaScript Custom Alert
+
+* Start
+
+#+begin_src html :results output
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Alert Example</title>
+  </head>
+  <body>
+      <input type="button" onclick="show_alert()" value="Click Me Mother Fucka!">
+
+      <script>
+          function show_alert() {
+              alert('WHY DID YOU DAT BUTTON ?!?!!?, Mother Fucka!!!')
+          }
+      </script>
+
+  </body>
+  </html>
+  
+#+end_src

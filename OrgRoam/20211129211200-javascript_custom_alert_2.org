@@ -31,3 +31,4 @@
 #+end_src
 
 * [[id:BBDE1BC3-EDC6-4918-B3DE-34692118ABE3][JavaScript Custom Alert]]
+* [[id:B38E5C03-9C25-4D1D-9957-3655CA71E45C][JavaScript Custom Alert 3]]

@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       6E8D2938-697C-4498-9BA4-4212CB0CCF9A
+:END:
+#+title: JavaScript Date
+
+
+* [[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]]
+
+* Date
+- Date is an object
+- Represents a moment in TIME 
+- new Date() 
+- 
+- 
+
+  #+begin_src js :results output
+
+
+
+    // create variable with new date()
+
+    let now = new Date();
+    now;
+
+    // Get the current timstamp
+
+    console.log(now.getTime());
+
+
+  #+end_src
+
+  #+RESULTS:
+  : 1638326784779

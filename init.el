@@ -660,3 +660,20 @@
      ("C-M-i" . completion-at-point))
      :config
      (org-roam-setup))
+
+;; via http://www.emacswiki.org/emacs/ThesauriAndSynonyms
+;; The file names are absolute, not relative, locations
+;;     - e.g. /foobar/mthesaur.txt.cache, not mthesaur.txt.cache
+
+;; (use-package synonyms)
+;;   :ensure t ;; install package if not found
+;;   :init ;; executed before loading package
+;;   (setq synonyms-file        "~/.emacs.d/data/mthes10/mthesaur.txt")
+;;   (setq synonyms-cache-file  "~/.emacs.d/data/mycachefile")
+;;   :config
+;;   (defun my-synonym-current-word ()
+;;     "Lookup synonyms for current word."
+;;     (interactive)
+;;     (synonyms-lookup (thing-at-point 'word) nil nil))
+;;   :bind (:map my-map ("s" . my-synonym-current-word))
+;; )

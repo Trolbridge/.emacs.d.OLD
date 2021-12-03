@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1133F20C-4FDC-4C35-B316-10327033ECFC
+:END:
+#+title: Emacs
+
+* Commands
+C-M-j Ivy-immediate-done

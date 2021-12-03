@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       4489D49F-D6BB-425C-91D1-B9A75374979A
+:END:
+#+title: Fireship
+
+
+* [[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]]
+
+- Rarely implement his own classes 
+- Never use inheritance
+- use modules that export functions and plan objects. that makes the code reshapable so dead code can be elimitated
+- dont have to worry about constructors, getters / setters, this. which adds uneccary complexity
+- but there are some classes that a class is a really nice way to encapsuate something
+- It's fine if you don't know. But you're fired if you can't even google it.
+- [[id:EEFBD614-45EA-4931-A5EF-A0DF023AEFC2][Google]] is a skill
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 

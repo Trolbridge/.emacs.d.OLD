@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       EEFBD614-45EA-4931-A5EF-A0DF023AEFC2
+:END:
+#+title: Google
+
+
+* Search Tips
+
+- "EXACT"
+- SITE:URL
+- -EXCLUDE
+- AFTER:2020
+- BEFORE:1999
+- 2015..2019
+- #..#
+- $10..$20
+- A | B
+- (A | B) C
+- *WILDCARD
+- site:fireship.io -www
+- FILETYPE:PDF
+- RELATED:URL
+- CACHE:URL
+
+  
+* Crazy Searches use:
+- DuckDuckGo
+- odysee

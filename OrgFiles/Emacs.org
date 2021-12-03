@@ -819,3 +819,29 @@ C-o Evil Go Back
 
 
 #+end_src
+
+* Dictionary from reddit
+
+[[https://www.reddit.com/r/emacs/comments/3yjzmu/dictionary_and_thesaurus_in_emacs/]]
+
+
+#+begin_src emacs-lisp :results echo
+
+    ;; via http://www.emacswiki.org/emacs/ThesauriAndSynonyms
+  ;; The file names are absolute, not relative, locations
+  ;;     - e.g. /foobar/mthesaur.txt.cache, not mthesaur.txt.cache
+
+  ;; (use-package synonyms)
+  ;;   :ensure t ;; install package if not found
+  ;;   :init ;; executed before loading package
+  ;;   (setq synonyms-file        "~/.emacs.d/data/mthes10/mthesaur.txt")
+  ;;   (setq synonyms-cache-file  "~/.emacs.d/data/mycachefile")
+  ;;   :config
+  ;;   (defun my-synonym-current-word ()
+  ;;     "Lookup synonyms for current word."
+  ;;     (interactive)
+  ;;     (synonyms-lookup (thing-at-point 'word) nil nil))
+  ;;   :bind (:map my-map ("s" . my-synonym-current-word))
+  ;; )
+
+#+end_src

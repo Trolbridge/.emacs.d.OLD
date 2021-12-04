@@ -1,9 +1,5 @@
-let person = {
-    membershipStatus: false,
-    name: 'Wally',
-    talk: function() {
-        console.log(`The membership ${this.membershipStatus} is ${this.name}`)
-    }
-}
+let dog = Object.create(null);
+console.log(dog);
 
-person.talk();
+dog.name = "Fluffy";
+console.log(dog);

@@ -4,35 +4,42 @@
 #+title: JavaScript Object Creation
 
 
-* [[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]]
-* Create Empty Objects 
+[[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]]
 
-  #+begin_src js :results output
 
-     // Objects Literal - single object (Singleton)
-     let emptyObject = {...};
+** Create Empty Objects
 
-     // Object Constructor Function - multiple instances
-     function Person() {...};
-     let person2 = new Person('Wally', 35);
+#+begin_src js :results output
 
-     // Arrays
-     let emptyArray = [...];
+  // THIS IS JUST A TEMPLATE
 
-     // functions
-     let emptyFunction = function() {};
+  // Objects Literal - single object (Singleton)
+  let emptyObject = {...};
 
-  #+end_s
-  
+  // Object Constructor Function - multiple instances
+  function Person() {...};
+  let person2 = new Person('Wally', 35);
 
-* Object literal
+  // Arrays
+  let emptyArray = [...];
+
+  // functions
+  let emptyFunction = function() {};
+
+#+end_src
+
+#+RESULTS:
+
+* 4 ways to create objects:
+
+** #1 Literals
+*** Object literal
 - Also known as an object initializer to stay consistent with terminology used in C++
 - Easiest - define property values inside curly braces {}
 - Use a , to seperate
 
   
-
-** Object with properties and methods 
+*** Object with properties and methods 
 
 #+begin_src js :results output
 
@@ -56,23 +63,24 @@
 : Clyde is 35 years old
 : undefined
 
+** #2 Constructors
+[[id:3052FD81-F554-43D8-8F1A-4D940244C4ED][JavaScript Object Constructor Function]] 
 
-* [[id:3052FD81-F554-43D8-8F1A-4D940244C4ED][JavaScript Object Constructor Function]] 
+** #3 Object.create() method
+*** JavaScript Object.create()
+Creates a new object, using another object as its prototype
+Can do this without having to define a constructor function - no new keyword
 
-* JavaScript Object.create()
+Object.create( prototype, properties )
+                       mandatory  optional
 
 
 #+begin_src js :results output
 
-  let person = new Object();
-  console.log(typeof(person))
-  person.name ='Wally';
-  person.age = 35;
-  console.log(person);
 
 #+end_src
 
 #+RESULTS:
 
-
-* ES2015 Class
+** #4
+*** ES2015 Class

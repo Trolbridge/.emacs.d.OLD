@@ -3,9 +3,26 @@
 :END:
 #+title: JavaScript Object Constructor Function
 
-
+[[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]]
 
 * JavaScript Object Constructor Function
+
+#+begin_src js :results output
+
+  let person = new Object();
+  console.log(typeof(person))
+  person.name ='Wally';
+  person.age = 35;
+  console.log(person);
+  
+#+end_src
+
+#+RESULTS:
+: object
+: { name: 'Wally', age: 35 }
+
+
+*  JavaScript Object Constructor Function 2
 
 #+begin_src js :results output
 
@@ -27,7 +44,7 @@
 #+RESULTS:
 : Motorbike { name: 'Yamaha', color: 'Black' }
 
-* Constructor Function 2
+* JavaScript Object Constructor Function 3
 
 #+begin_src js :results output
 

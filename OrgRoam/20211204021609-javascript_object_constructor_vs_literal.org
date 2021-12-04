@@ -4,7 +4,43 @@
 #+title: JavaScript Object Constructor vs Literal
 
 
-* [[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]]
+[[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]]
+
+* Construction vs literal - Passing Parameters
+
+#+begin_src js :results output
+
+    // with a constructor function, we can construct our object with parameters we pass into it
+    function websiteUrl(url) {
+      this.url = url;
+      this.showUrl = function() {
+          console.log(this.url); 
+          };
+      };
+  let myWebsite = new websiteUrl('thisismywebsite.com');
+  myWebsite.showUrl();
+
+  // with a object literal, you are unalbe to have constrictor, which means you are unable to initalise you object unless you add your own init function
+
+  let website = {
+      init: function(url) {
+          this.url = url;
+      },
+      showUrl: function() {
+          console.log(this.url);
+      }
+  };
+  
+  website.init('test');
+  website.showUrl();
+
+#+end_src
+
+#+RESULTS:
+: thisismywebsite.com
+: test
+
+
 
 * Constructor Function
 
@@ -27,6 +63,7 @@
   person2.talk();
 
 #+end_src
+
 
 * Object Literal - Singleton
 

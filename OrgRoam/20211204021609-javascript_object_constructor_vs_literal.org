@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       7FEE3B38-014A-41C6-9B22-85A088A29D70
+:END:
+#+title: JavaScript Object Constructor vs Literal
+
+
+* [[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]]
+
+* Constructor Function
+
+#+begin_src js :results output
+
+  function Person() {
+      this.membershipStatus = false;
+      this.name = 'Wally';
+      this.talk = function() {
+          console.log(`The membership status of ${this.name} is ${this.membershipStatus}`)
+      };
+  };
+
+  let person1 = new Person;
+  person1.talk();
+
+  let person2 = new Person;
+  person2.name = 'John';
+  person2.membershipStatus = true;
+  person2.talk();
+
+#+end_src
+
+* Object Literal - Singleton
+
+#+begin_src js :results output
+
+  let person = {
+      membershipStatus: false,
+      name: 'Wally',
+      talk: function() {
+          console.log(`The membership ${this.membershipStatus} is ${this.name}`)
+      }
+  }
+
+  person.talk();
+
+#+end_src

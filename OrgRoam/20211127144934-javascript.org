@@ -27,6 +27,7 @@
 - [[id:766B3503-0CBF-4BCE-BCE3-CCC02F17C903][JavaScript isNaN]]
 - [[id:3AF2B38A-F43F-4A41-9665-10A9AE9FB607][JavaScript Keyboard Listener]]
 - [[id:F01DBDBA-7B51-4710-9C55-66242DE96636][JavaScript Math Random]]
+- [[id:7FEE3B38-014A-41C6-9B22-85A088A29D70][JavaScript Object Constructor vs Literal]]
 - [[id:25E4E4F7-C3DF-44AF-AA6C-A1F56F64CA1D][JavaScript Properties]]
 - [[id:E6C49BFC-5725-4F78-B553-2CC846A7E511][JavaScript Scope]]
 - [[id:50C10FA1-3570-4587-87CC-AF5DC3BAF727][JavaScript Substitions with %s syntax]]

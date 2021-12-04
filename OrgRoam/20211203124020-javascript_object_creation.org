@@ -4,22 +4,27 @@
 #+title: JavaScript Object Creation
 
 
+* [[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]]
 * Create Empty Objects 
 
   #+begin_src js :results output
 
-     // Objects
-     let emptyObject = {};
+     // Objects Literal - single object (Singleton)
+     let emptyObject = {...};
+
+     // Object Constructor Function - multiple instances
+     function Person() {...};
+     let person2 = new Person('Wally', 35);
 
      // Arrays
-     let emptyArray = [];
+     let emptyArray = [...];
 
      // functions
      let emptyFunction = function() {};
 
-
-
   #+end_s
+  
+
 * Object literal
 - Also known as an object initializer to stay consistent with terminology used in C++
 - Easiest - define property values inside curly braces {}
@@ -52,30 +57,22 @@
 : undefined
 
 
-* Object Constructor Function
+* [[id:3052FD81-F554-43D8-8F1A-4D940244C4ED][JavaScript Object Constructor Function]] 
+
+* JavaScript Object.create()
+
 
 #+begin_src js :results output
 
-  // Constructor Functions
-
-  // Step 1: Define the object
-  function Motorbike(name, color) {
-      this.name = name;
-      this.color = color;
-      }
-
-  // Step 2: Call the function with the new keyword
-
-  let myBike = new Motorbike('Yamaha', 'Black');
-  console.log(myBike);
+  let person = new Object();
+  console.log(typeof(person))
+  person.name ='Wally';
+  person.age = 35;
+  console.log(person);
 
 #+end_src
 
 #+RESULTS:
-: Motorbike { name: 'Yamaha', color: 'Black' }
 
-
-
-* Object.create()
 
 * ES2015 Class

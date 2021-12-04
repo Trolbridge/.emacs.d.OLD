@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       3052FD81-F554-43D8-8F1A-4D940244C4ED
+:END:
+#+title: JavaScript Object Constructor Function
+
+
+
+* JavaScript Object Constructor Function
+
+#+begin_src js :results output
+
+  // Constructor Functions
+
+  // Step 1: Define the object
+  function Motorbike(name, color) {
+      this.name = name;
+      this.color = color;
+      }
+
+  // Step 2: Call the function with the new keyword
+
+  let myBike = new Motorbike('Yamaha', 'Black');
+  console.log(myBike);
+
+#+end_src
+
+#+RESULTS:
+: Motorbike { name: 'Yamaha', color: 'Black' }
+
+* Constructor Function 2
+
+#+begin_src js :results output
+
+  function Person(name = 'Dennis', age = 53) {
+        this.name = name;
+        this.age = age;
+        }
+
+  // same as above buyt with a constructor function
+  let person2 = new Person('Wally', 35);
+  console.log(person2);
+  let person3 = new Person();
+  console.log(person3);
+
+#+end_src
+
+#+RESULTS:
+: Person { name: 'Wally', age: 35 }
+: Person { name: 'Dennis', age: 53 }

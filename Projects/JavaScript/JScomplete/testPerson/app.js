@@ -1,6 +1,9 @@
-let Person = {
-name: 'Wally'
-};
+let person = {
+    membershipStatus: false,
+    name: 'Wally',
+    talk: function() {
+        console.log(`The membership ${this.membershipStatus} is ${this.name}`)
+    }
+}
 
-// let wally = new Person();
-console.log(Person.name);
+person.talk();

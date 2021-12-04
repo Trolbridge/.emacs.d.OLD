@@ -5,6 +5,8 @@
 
 
 * Objects
+
+- In [[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]] an object is a stand alone entity - no need for classes
 - A whole bunch of name value pairs
 -       name : value pairs
 - address: "100 St., Unit 301, 3rd Floor"
@@ -18,11 +20,44 @@
                         }
                  }
                  
- 
-* sdfs
+* JS Complete #119
 
 #+begin_src js :results output
 
-  let wally = new Person();
-  
+  let bike = {
+      make: "Yamaha",
+      color: 'Blue',
+      wheels: 2
+      };
+
+  console.log(bike);
+
 #+end_src
+
+#+RESULTS:
+: { make: 'Yamaha', color: 'Blue', wheels: 2 }
+
+* JS Complete #120
+
+- Can only contain properties or methods
+
+  #+begin_src js :results output
+
+    let bike = {
+        make: 'Yamaha',
+        color: 'Blue',
+        wheels: 2,
+        sound: function() {
+            console.log('Vrrrrmmmmm');
+            }
+        }
+    console.log(bike);
+    console.log(bike.sound());
+
+
+  #+end_src
+
+  #+RESULTS:
+  : { make: 'Yamaha', color: 'Blue', wheels: 2, sound: [Function: sound] }
+  : Vrrrrmmmmm
+  : undefined

@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       D593D986-0EE9-4EE4-888D-F033CF1D6325
+:END:
+#+title: JS Properties
+
+
+* All [[id:B178F57B-461C-4AF3-A52E-941A3D72571F][JavaScript]] items can have properties:
+
+* Can be accesed with dot .propertyName or brackets [ propertyName ] 
+
+* Access Methods with ()
+
+#+begin_src js :results output
+
+  // Objects
+  let emptyObject = {};
+  emptyObject.a = 'hi';
+  console.log(`Show Object Property a: ${emptyObject.a}`);
+  console.log();
+
+  // Arrays
+  let emptyArray = [];
+  // emptyArray = 'hi';
+  emptyArray.a = 'hello';
+  console.log(`emptyArray ${emptyArray}`);
+  console.log(`emptyArray ${emptyArray.a}`);
+  console.log();
+
+  // functions
+  let emptyFunction = function() {
+      };
+  console.log(emptyFunction);
+  emptyFunction.a = 'hi';
+  console.log(emptyFunction);
+  console.log(emptyFunction.a);
+
+
+#+end_src
+
+#+RESULTS:
+: Show Object Property a: hi
+: 
+: emptyArray 
+: emptyArray hello
+: 
+: [Function: emptyFunction]
+: [Function: emptyFunction] { a: 'hi' }
+: hi

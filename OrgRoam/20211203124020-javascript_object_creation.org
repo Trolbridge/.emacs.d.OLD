@@ -1,0 +1,81 @@
+:PROPERTIES:
+:ID:       BB097FFA-2269-42DC-8411-E6BAE5CFCF5B
+:END:
+#+title: JavaScript Object Creation
+
+
+* Create Empty Objects 
+
+  #+begin_src js :results output
+
+     // Objects
+     let emptyObject = {};
+
+     // Arrays
+     let emptyArray = [];
+
+     // functions
+     let emptyFunction = function() {};
+
+
+
+  #+end_s
+* Object literal
+- Also known as an object initializer to stay consistent with terminology used in C++
+- Easiest - define property values inside curly braces {}
+- Use a , to seperate
+
+  
+
+** Object with properties and methods 
+
+#+begin_src js :results output
+
+    // object with properties and methods
+  let Person = {
+      firstName: "Clyde",
+      age: 35,
+      message: function() {
+          console.log(`${this.firstName} is ${this.age} years old`);
+          }
+      };
+   
+  console.log(Person);
+  console.log(Person.message());
+
+
+#+end_src
+
+#+RESULTS:
+: { firstName: 'Clyde', age: 35, message: [Function: message] }
+: Clyde is 35 years old
+: undefined
+
+
+* Object Constructor Function
+
+#+begin_src js :results output
+
+  // Constructor Functions
+
+  // Step 1: Define the object
+  function Motorbike(name, color) {
+      this.name = name;
+      this.color = color;
+      }
+
+  // Step 2: Call the function with the new keyword
+
+  let myBike = new Motorbike('Yamaha', 'Black');
+  console.log(myBike);
+
+#+end_src
+
+#+RESULTS:
+: Motorbike { name: 'Yamaha', color: 'Black' }
+
+
+
+* Object.create()
+
+* ES2015 Class

@@ -1,0 +1,198 @@
+* Active
+** STARTED ModernJS
+SCHEDULED: <2021-11-18 Thu 22:46>
+** TODO Check Out *TIDE*
+SCHEDULED: <2021-11-11 Thu>
+https://github.com/ananthakumaran/tide
+
+** TODO Check out Anki vs drill mode
+SCHEDULED: <2021-11-11 Thu>
+https://www.reddit.com/r/emacs/comments/mg5fe7/orgdrill_orgfc_ankiel_pamparam_ankieditor_to_anki/
+
+** TODO Check Org Query Language
+SCHEDULED: <2021-11-11 Thu>
+https://github.com/alphapapa/org-ql
+
+** TODO Look into :custom for setting up packages 
+SCHEDULED: <2021-11-11 Thu>
+
+** TODO For OS Notifications -- wild notifier
+SCHEDULED: <2021-11-11 Thu>
+https://github.com/akhramov/org-wild-notifier.el
+
+** TODO GTD Getting things done David Allen
+SCHEDULED: <2021-11-11 Thu>
+https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0143126563/ref=pd_sbs_1/146-2147503-0381053?pd_rd_w=Z7k80&pf_rd_p=690958f6-2825-419e-9c16-73ffd4055b65&pf_rd_r=4SN0J8ZA00WRG6XYVXDH&pd_rd_r=913fe8cd-6287-4f5e-b92e-074344de9556&pd_rd_wg=ILpnj&pd_rd_i=0143126563&psc=1
+
+** TODO Progfolio for Capture Templates
+SCHEDULED: <2021-11-11 Thu>
+https://github.com/progfolio/doct
+
+** TODO Dr Sing's Office
+ DEADLINE: <2021-11-24 Wed 17:30>
+
+** Miramar Monday
+*** Set up Routing                                                  :@work:
+SCHEDULED: <2021-11-22 Mon 07:00>
+:PROPERTIES:
+:LAST_REPEAT: [2021-11-15 Mon 11:59]
+:END:
+:LOGBOOK:
+- State "DONE"       from              [2021-11-15 Mon 11:59]
+:END:
+*** Check Emails                                                    :@work:
+SCHEDULED: <2021-11-15 Mon 07:00+1w>
+*** Check Schedule                                                  :@work:
+SCHEDULED: <2021-11-15 Mon 07:00+1w>
+*** Do Plan Review                                                  :@work:
+SCHEDULED: <2021-11-15 Mon 07:00+1w>
+
+** Miramar Tuesday 
+*** Set up Routing                                                  :@work:
+SCHEDULED: <2021-11-23 Tue 07:00>
+:PROPERTIES:
+:LAST_REPEAT: [2021-11-16 Tue 19:41]
+:END:
+:LOGBOOK:
+- State "DONE"       from              [2021-11-16 Tue 19:41]
+:END:
+*** Check Emails                                                    :@work:
+SCHEDULED: <2021-11-23 Tue 07:00>
+:PROPERTIES:
+:LAST_REPEAT: [2021-11-16 Tue 19:41]
+:END:
+:LOGBOOK:
+- State "DONE"       from              [2021-11-16 Tue 19:41]
+:END:
+*** Check Schedule                                                  :@work:
+SCHEDULED: <2021-11-16 Tue 07:00+1w>
+*** Do Plan Review                                                  :@work:
+SCHEDULED: <2021-11-16 Tue 07:00+1w>
+
+** Miramar Wednesday 
+*** Set up Routing                                                  :@work:
+SCHEDULED: <2021-11-17 Wed 07:00+1w>
+*** Check Emails                                                    :@work:
+SCHEDULED: <2021-11-17 Wed 07:00+1w>
+*** Check Schedule                                                  :@work:
+SCHEDULED: <2021-11-17 Wed 07:00+1w>
+*** Do Plan Review                                                  :@work:
+SCHEDULED: <2021-11-17 Wed 07:00+1w>
+
+** Miramar Thursday
+*** Set up Routing                                                  :@work:
+SCHEDULED: <2021-11-18 Thu 07:00+1w>
+*** Check Emails                                                    :@work:
+SCHEDULED: <2021-11-18 Thu 07:00+1w>
+*** Check Schedule                                                  :@work:
+SCHEDULED: <2021-11-18 Thu 07:00+1w>
+*** Do Plan Review                                                  :@work:
+SCHEDULED: <2021-11-18 Thu 07:00+1w>
+
+** Friday
+*** TODO System Crafters Live on Youtube
+SCHEDULED: <2021-11-19 Fri 11:00+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2021-11-13 Sat 18:36]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-13 Sat 18:36]
+:END:
+
+
+* Inbox
+
+** TODO Remember to commit configuration updates 
+  [2021-11-13 Sat 02:53]
+  [[file:~/Projects/Emacs/OrgFiles/Tasks.org::*Inbox][Inbox]]
+
+** TODO Update something here: 
+  [2021-11-13 Sat 03:00]
+  [[file:~/.emacs.d/init.el::file+olp+datetree "~/Projects/Emacs/OrgFiles/Journal.org"]]
+
+* Notes
+Org-Mode has this thing called the Agenda - aggregate everything together
+M-x org-agenda, agenda...
+M-x org-sche, schedule C-c C-s
+M-x org-deadline C-c C-d
+On task change to done C-c C-t
+M-x counsel org tag
+C-c C-q Org Mode Tagging
+C-c C-x  p Org set property:
+C-c C-x e Org set effort
+C-c C-e Export Command
+C-x C-w org agenda write
+Open drawers with tab
+C-c C-w M-x org-file
+C-c C-c to Run code block
+C-o Jump back in evil mode
+
+* Test Inline Code of Org babel python
+#+begin_src python :results output
+
+  def greeting():
+      msg = "Thank you Jesus!!!"
+      return msg
+
+  print greeting()
+
+
+#+end_src
+
+#+RESULTS:
+: Thank you Jesus!!!
+
+* Test Javascript now:
+#+begin_src js :results output
+    console.log("Hello");
+
+    var util = require("util");
+  console.log("this is a Node.js test program!");
+  
+#+end_src
+
+#+RESULTS:
+: Hello
+: this is a Node.js test program!
+
+* * Test emacs-lisp now:
+#+begin_src emacs-lisp :results echo
+  (message '"Hello!")
+#+end_src
+
+#+RESULTS:
+: Hello!
+ 
+* Test Template
+
+* Applications
+
+** Some App
+
+
+
+;;  #+begin_src conf-unix :tangle ~/.config/some-app/config 
+
+;;    value=42
+
+
+;;  #+end_src
+
+* Pass Values in org files 
+
+** First Block
+#+NAME: the-value
+#+begin_src emacs-lisp :results echo
+
+;;  (+ 55 100)
+
+#+end_src
+
+;; #+begin_src conf-unix :tangle ~/.config/some-app/config :noweb yes
+
+;;   value=<<the-value()>>
+
+;; #+end_src
+
+** Add :noweb yes=!
+* Backlog 

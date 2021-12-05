@@ -76,6 +76,7 @@ Object.create( prototype, properties )
 
 
 #+begin_src js :results output
+
   let dog = Object.create(null);
   console.log(dog);
 
@@ -115,6 +116,13 @@ Object.create( prototype, properties )
 #+end_src
 
 #+RESULTS:
+
+#+begin_src js :results output
+
+  // object.create()
+
+  
+#+end_src
 
 ** #4
 *** ES2015 Class

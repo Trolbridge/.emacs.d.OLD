@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       A7D95E05-4266-4408-A05B-A9652E800EE9
+:END:
+#+title: Edabit JavaScript
+
+
+* First
+
+#+begin_src js :results output
+
+  function circuitPower(voltage, current) {
+      return voltage * current;
+  }
+
+  const circuitPower=(voltage, current)=>voltage*current
+  console.log(circuitPower(120,10));
+
+#+end_src
+
+#+RESULTS:
+: 1200
+
+* Second
+
+#+begin_src js :results output
+
+  const circuitPower = (voltage=240, current=7) => voltage * current
+  
+    console.log(circuitPower());
+
+#+end_src
+
+#+RESULTS:
+: 1680

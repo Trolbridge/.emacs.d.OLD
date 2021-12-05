@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       39F50599-2200-4315-93E6-6564786D69F9
+:END:
+#+title: Edabit
+
+
+* Start
+[[id:A7D95E05-4266-4408-A05B-A9652E800EE9][Edabit JavaScript]]

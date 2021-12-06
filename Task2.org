@@ -2,6 +2,7 @@
 ** TODO - Talk to Sarah about Munis
    SCHEDULED: <2021-12-06 Mon 09:30>
 
+* Code Enforcement
 * Renew IAEI membership
   DEADLINE: <2021-12-06 Mon 16:16>
 * TODO Woof                                                         :TestTag:

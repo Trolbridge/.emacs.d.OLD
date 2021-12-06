@@ -2,6 +2,7 @@
 ** TODO Finish Documentation
    SCHEDULED: <2021-12-06 Mon 08:30>
    :LOGBOOK:
+   CLOCK: [2021-12-05 Sun 22:17]
    CLOCK: [2021-12-05 Sun 22:17]--[2021-12-05 Sun 22:17] =>  0:00
    :END:
 ** TODO Merge the PR 

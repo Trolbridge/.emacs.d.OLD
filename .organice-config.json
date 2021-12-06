@@ -12,6 +12,6 @@
   "closeSubheadersRecursively": true,
   "colorScheme": "Light",
   "theme": "Solarized",
-  "captureTemplates": "[]",
+  "captureTemplates": "[{\"headerPaths\":[\"\"],\"iconName\":\"\",\"letter\":\"\",\"isAvailableInAllOrgFiles\":true,\"orgFilesWhereAvailable\":[\"\"],\"template\":\"\",\"id\":444,\"shouldPrepend\":false,\"file\":\"\",\"description\":\"\"}]",
   "agendaTimeframe": "Day"
 }

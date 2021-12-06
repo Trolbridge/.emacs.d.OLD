@@ -3,6 +3,6 @@
    SCHEDULED: <2021-12-06 Mon 09:30>
 
 * TODO Woof                                                         :TestTag:
-  DEADLINE: <2021-12-06 Mon 7:00-8:00> SCHEDULED: <2021-12-05 Sun>
+  DEADLINE: <2021-12-06 Mon 7:00-8:00> SCHEDULED: <2021-12-06 Mon>
 Testing 
 * Backlog

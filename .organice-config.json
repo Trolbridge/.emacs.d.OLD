@@ -8,6 +8,7 @@
   "shouldLiveSync": true,
   "shouldSyncOnBecomingVisibile": true,
   "shouldShowTitleInOrgFile": true,
+  "closeSubheadersRecursively": true,
   "colorScheme": "Light",
   "theme": "Solarized",
   "captureTemplates": "[]",

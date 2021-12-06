@@ -2,46 +2,46 @@
 Hi!!!!
 * Active
 ** STARTED ModernJS
-SCHEDULED: <2021-11-18 Thu 22:46>
+   SCHEDULED: <2021-11-18 Thu 22:46>
 ** TODO Check Out *TIDE*
-SCHEDULED: <2021-11-11 Thu>
+   SCHEDULED: <2021-11-11 Thu>
 https://github.com/ananthakumaran/tide
 
 ** TODO Check out Anki vs drill mode
-SCHEDULED: <2021-11-11 Thu>
+   SCHEDULED: <2021-11-11 Thu>
 https://www.reddit.com/r/emacs/comments/mg5fe7/orgdrill_orgfc_ankiel_pamparam_ankieditor_to_anki/
 
 ** TODO Check Org Query Language
-SCHEDULED: <2021-11-11 Thu>
+   SCHEDULED: <2021-11-11 Thu>
 https://github.com/alphapapa/org-ql
 
 ** TODO Look into :custom for setting up packages 
-SCHEDULED: <2021-11-11 Thu>
+   SCHEDULED: <2021-11-11 Thu>
 
 ** TODO For OS Notifications -- wild notifier
-SCHEDULED: <2021-11-11 Thu>
+   SCHEDULED: <2021-11-11 Thu>
 https://github.com/akhramov/org-wild-notifier.el
 
 ** TODO GTD Getting things done David Allen
-SCHEDULED: <2021-11-11 Thu>
+   SCHEDULED: <2021-11-11 Thu>
 https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0143126563/ref=pd_sbs_1/146-2147503-0381053?pd_rd_w=Z7k80&pf_rd_p=690958f6-2825-419e-9c16-73ffd4055b65&pf_rd_r=4SN0J8ZA00WRG6XYVXDH&pd_rd_r=913fe8cd-6287-4f5e-b92e-074344de9556&pd_rd_wg=ILpnj&pd_rd_i=0143126563&psc=1
 
 ** TODO Progfolio for Capture Templates
-SCHEDULED: <2021-11-11 Thu>
+   SCHEDULED: <2021-11-11 Thu>
 https://github.com/progfolio/doct
 
 ** TODO Dr Sing's Office
- DEADLINE: <2021-11-24 Wed 17:30>
+   DEADLINE: <2021-11-24 Wed 17:30>
 
 ** Miramar Monday
-*** Set up Routing                                                  :@work:
-SCHEDULED: <2021-11-22 Mon 07:00>
-:PROPERTIES:
-:LAST_REPEAT: [2021-11-15 Mon 11:59]
-:END:
-:LOGBOOK:
-- State "DONE"       from              [2021-11-15 Mon 11:59]
-:END:
+*** DONE Set up Routing                                                  :@work:
+    SCHEDULED: <2021-11-22 Mon 07:00>
+    :PROPERTIES:
+    :LAST_REPEAT: [2021-11-15 Mon 11:59]
+    :END:
+    :LOGBOOK:
+    - State "DONE"       from              [2021-11-15 Mon 11:59]
+    :END:
 *** Check Emails                                                    :@work:
 SCHEDULED: <2021-11-15 Mon 07:00+1w>
 *** Check Schedule                                                  :@work:
@@ -51,21 +51,21 @@ SCHEDULED: <2021-11-15 Mon 07:00+1w>
 
 ** Miramar Tuesday 
 *** Set up Routing                                                  :@work:
-SCHEDULED: <2021-11-23 Tue 07:00>
-:PROPERTIES:
-:LAST_REPEAT: [2021-11-16 Tue 19:41]
-:END:
-:LOGBOOK:
-- State "DONE"       from              [2021-11-16 Tue 19:41]
-:END:
+    SCHEDULED: <2021-11-23 Tue 07:00>
+    :PROPERTIES:
+    :LAST_REPEAT: [2021-11-16 Tue 19:41]
+    :END:
+    :LOGBOOK:
+    - State "DONE"       from              [2021-11-16 Tue 19:41]
+    :END:
 *** Check Emails                                                    :@work:
-SCHEDULED: <2021-11-23 Tue 07:00>
-:PROPERTIES:
-:LAST_REPEAT: [2021-11-16 Tue 19:41]
-:END:
-:LOGBOOK:
-- State "DONE"       from              [2021-11-16 Tue 19:41]
-:END:
+    SCHEDULED: <2021-11-23 Tue 07:00>
+    :PROPERTIES:
+    :LAST_REPEAT: [2021-11-16 Tue 19:41]
+    :END:
+    :LOGBOOK:
+    - State "DONE"       from              [2021-11-16 Tue 19:41]
+    :END:
 *** Check Schedule                                                  :@work:
 SCHEDULED: <2021-11-16 Tue 07:00+1w>
 *** Do Plan Review                                                  :@work:
@@ -93,13 +93,13 @@ SCHEDULED: <2021-11-18 Thu 07:00+1w>
 
 ** Friday
 *** TODO System Crafters Live on Youtube
-SCHEDULED: <2021-11-19 Fri 11:00+1w>
-:PROPERTIES:
-:LAST_REPEAT: [2021-11-13 Sat 18:36]
-:END:
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2021-11-13 Sat 18:36]
-:END:
+    SCHEDULED: <2021-11-19 Fri 11:00+1w>
+    :PROPERTIES:
+    :LAST_REPEAT: [2021-11-13 Sat 18:36]
+    :END:
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-11-13 Sat 18:36]
+    :END:
 
 
 * Inbox

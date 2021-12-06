@@ -7,7 +7,7 @@
   "customKeybindings": "{}",
   "shouldLiveSync": true,
   "shouldSyncOnBecomingVisibile": true,
-  "colorScheme": "OS",
+  "colorScheme": "Light",
   "theme": "Solarized",
   "captureTemplates": "[]",
   "agendaTimeframe": "Week"

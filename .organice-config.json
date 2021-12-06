@@ -7,6 +7,7 @@
   "customKeybindings": "{}",
   "shouldLiveSync": true,
   "shouldSyncOnBecomingVisibile": true,
+  "shouldShowTitleInOrgFile": true,
   "colorScheme": "Light",
   "theme": "Solarized",
   "captureTemplates": "[]",

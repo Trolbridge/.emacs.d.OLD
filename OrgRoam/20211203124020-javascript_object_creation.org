@@ -67,15 +67,17 @@
 [[id:3052FD81-F554-43D8-8F1A-4D940244C4ED][JavaScript Object Constructor Function]] 
 
 ** #3 Object.create() method
-*** JavaScript Object.create()
+
 Creates a new object, using another object as its prototype
 Can do this without having to define a constructor function - no new keyword
 
 Object.create( prototype, properties )
                        mandatory  optional
 
+*** Info
 
 #+begin_src js :results output
+
 
   let dog = Object.create(null);
   console.log(dog);
@@ -83,6 +85,16 @@ Object.create( prototype, properties )
   dog.name = "Fluffy";
   console.log(dog);
 
+
+#+end_src
+
+#+RESULTS:
+: [Object: null prototype] {}
+: [Object: null prototype] { name: 'Fluffy' }
+
+*** Object.create() method Example #1
+
+#+begin_src js :results output
 
   // Dog Object Prototype
 
@@ -100,6 +112,33 @@ Object.create( prototype, properties )
   console.log(doggy.woof());
   doggy.woof();
 
+
+  // console.log(dog2.woof());
+
+#+end_src
+
+#+RESULTS:
+: [Object: null prototype] {}
+: [Object: null prototype] { name: 'Fluffy' }
+: {}
+: undefined
+: undefined
+: Ruff
+: undefined
+: Ruff
+
+*** Object.create() method Example #2
+
+#+begin_src js :results output
+
+  // Dog Object Prototype
+
+  dogProt = {
+      woof: function() {
+          console.log(this.sound)
+      }
+  };
+
   // with Optional parameters
 
   let dog2 = Object.create(dogProt, {
@@ -110,19 +149,67 @@ Object.create( prototype, properties )
   });
 
   dog2.woof();
-
-  // console.log(dog2.woof());
-
+  
 #+end_src
 
-#+RESULTS:
+*** Object.create() method Example #3
+
+#+begin_src js :results output
+
+  // Dog Object Prototype
+
+  dogProt = {
+      woof: function() {
+          console.log(this.sound)
+      }
+  };
+
+  // with Optional parameters
+
+  let dog2 = Object.create(dogProt, {
+      'sound': {
+          value: 'bow wow'
+      }
+
+  });
+
+  dog2.woof();
+  
+#+end_src
+
+*** Object.create() method Example #4
 
 #+begin_src js :results output
 
   // object.create()
+  //   let person = Object.create();
+  // Example 2 Practical employee example
 
+  // create company 1 called Dog Factory
+  let dogProto = {
+      company: "The Dog Factory"
+  };
+
+  // create company 2 called Cat Factory
+  let catProto = {
+      company: "The Cat Factory"
+  };
+
+  // create employees
+  let employee1 = Object.create(dogProto);
+  employee1.name = 'Dennis';
+
+  let employee2 = Object.create(catProto);
+  employee2.name = 'Edith';
+
+  console.log(`${employee1.name} works for ${employee1.company}`)
+  console.log(`${employee2.name} works for ${employee2.company}`)
   
 #+end_src
 
-** #4
-*** ES2015 Class
+#+RESULTS:
+: Dennis works for The Dog Factory
+: Edith works for The Cat Factory
+
+
+** #4 ES2015 Classes

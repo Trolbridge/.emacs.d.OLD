@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       D9F3F8E0-1361-40AA-A001-40C3BB2FECD6
+:END:
+#+title: Emacs from Scratch
+
+* Start
+
+[[id:D5FA8172-12C1-4859-A910-86D12400CE77][Org-Mode]]

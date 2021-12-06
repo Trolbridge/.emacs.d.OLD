@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       037B8367-A05C-4603-AF16-8FD6981CBE90
+:END:
+#+title: Git
+
+
+* Git Subtree
+git subtree add --prefix=TODO --squash git@github.com:Trolbridge/TODO.git master
+git subtree push --prefix=TODO TODO master
+git subtree push --prefix=TODO git@github.com:Trolbridge/TODO.git master
+
+* Git Reset
+git reset --hard 

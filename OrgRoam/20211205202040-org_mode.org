@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       D5FA8172-12C1-4859-A910-86D12400CE77
+:END:
+#+title: Org-Mode
+
+* Org-Mode Info
+https://orgmode.org/
+
+[[ https://orgmode.org/manual/][Org Manual]]
+org-version
+
+* Hotkeys
+alt-arrow move headings around
+shift-alt-arrows move anything
+C-c C-l org insert link
+C-c C-o org open at point
+org bullets mode
+
+alt-enter add to list
+- [ ] 
+- [ ] 
+  shift-alt-enter to add more checkboxes
+- [ ] First
+- 
+  C-c C-x C-b org toggle checkbox
+- Second
+- Third
+- 
+- 
+- 
+- [ ] 
+- [ ] 
+- 
+* Video #6
+make-directory
+org-agenda
+change the files in init.el under org agenda files...
+C-c C-s org schedule

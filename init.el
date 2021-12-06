@@ -366,9 +366,10 @@
 
 
   (setq org-agenda-files
-        '("~/.emacs.d/OrgFiles/Birthdays.org"
-        "~/.emacs.d/OrgFiles/Habits.org"
-          "~/.emacs.d/OrgFiles/Tasks.org"))
+        '("~/TODO/Task2.org"))
+        ;; '("~/.emacs.d/OrgFiles/Birthdays.org"
+        ;; "~/.emacs.d/OrgFiles/Habits.org"
+          ;; "~/.emacs.d/OrgFiles/Tasks.org"))
 
 (setq org-capture-templates
   `(("t" "Tasks / Projects")

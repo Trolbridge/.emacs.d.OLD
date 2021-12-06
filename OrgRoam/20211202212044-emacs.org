@@ -3,5 +3,9 @@
 :END:
 #+title: Emacs
 
+* Emacs Plus
+https://github.com/d12frosted/homebrew-emacs-plus
 * Commands
 C-M-j Ivy-immediate-done
+C-c C-l add link to file
+C-c C-x C-v org-toggle-inline-images

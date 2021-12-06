@@ -4,6 +4,9 @@
 #+title: Edabit JavaScript
 
 
+
+[[id:39F50599-2200-4315-93E6-6564786D69F9][Edabit]]
+
 * First
 
 #+begin_src js :results output
@@ -26,9 +29,9 @@
 
   const circuitPower = (voltage=240, current=7) => voltage * current
   
-    console.log(circuitPower());
+    console.log(circuitPower('hi',6));
 
 #+end_src
 
 #+RESULTS:
-: 1680
+: NaN

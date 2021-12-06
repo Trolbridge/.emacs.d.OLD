@@ -2,7 +2,7 @@
   "fileSettings": "[]",
   "bookmarks": "{\"search\":[],\"task-list\":[],\"refile\":[]}",
   "bulletStyle": "Fancy",
-  "agendaStartOnWeekday": 1,
+  "agendaStartOnWeekday": -1,
   "shouldStoreSettingsInSyncBackend": true,
   "customKeybindings": "{}",
   "shouldLiveSync": true,

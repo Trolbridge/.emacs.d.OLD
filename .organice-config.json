@@ -1,0 +1,14 @@
+{
+  "fileSettings": "[]",
+  "bookmarks": "{\"search\":[],\"task-list\":[],\"refile\":[]}",
+  "bulletStyle": "Fancy",
+  "agendaStartOnWeekday": "1",
+  "shouldStoreSettingsInSyncBackend": true,
+  "customKeybindings": "{}",
+  "shouldLiveSync": true,
+  "shouldSyncOnBecomingVisibile": true,
+  "colorScheme": "Light",
+  "theme": "Solarized",
+  "captureTemplates": "[]",
+  "agendaTimeframe": "Week"
+}

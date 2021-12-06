@@ -3,8 +3,5 @@
    SCHEDULED: <2021-12-06 Mon 09:30>
 
 * TODO Woof                                                         :TestTag:
-  :PROPERTIES:
-  :: 
-  :END:
 Testing 
 * Backlog

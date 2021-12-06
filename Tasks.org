@@ -30,7 +30,7 @@ https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/014312656
    SCHEDULED: <2021-11-11 Thu>
 https://github.com/progfolio/doct
 
-** TODO Dr Sing's Office
+** DONE Dr Sing's Office
    DEADLINE: <2021-11-24 Wed 17:30>
 
 ** Miramar Monday

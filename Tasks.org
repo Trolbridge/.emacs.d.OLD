@@ -1,4 +1,4 @@
-* Added Here
+* DONE Added Here
 Hi!!!!
 * Active
 ** STARTED ModernJS
@@ -93,10 +93,10 @@ SCHEDULED: <2021-11-18 Thu 07:00+1w>
 
 ** Friday
 *** TODO System Crafters Live on Youtube
-    SCHEDULED: <2021-11-19 Fri 11:00+1w>
-    :PROPERTIES:
-    :LAST_REPEAT: [2021-11-13 Sat 18:36]
-    :END:
+        SCHEDULED: <2021-11-19 Fri 11:00+1w>
+        :PROPERTIES:
+        :LAST_REPEAT: [2021-11-13 Sat 18:36]
+        :END:
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2021-11-13 Sat 18:36]
     :END:

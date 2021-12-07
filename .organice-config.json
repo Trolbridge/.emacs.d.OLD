@@ -12,6 +12,6 @@
   "closeSubheadersRecursively": true,
   "colorScheme": "Light",
   "theme": "Solarized",
-  "captureTemplates": "[{\"headerPaths\":[\"\"],\"iconName\":\"\",\"letter\":\"\",\"isAvailableInAllOrgFiles\":true,\"orgFilesWhereAvailable\":[\"\"],\"template\":\"\",\"id\":571,\"shouldPrepend\":false,\"file\":\"\",\"description\":\"Test\"}]",
+  "captureTemplates": "[{\"headerPaths\":[\"\"],\"iconName\":\"\",\"letter\":\"\",\"isAvailableInAllOrgFiles\":true,\"orgFilesWhereAvailable\":[\"\"],\"template\":\"\",\"id\":572,\"shouldPrepend\":false,\"file\":\"\",\"description\":\"Test\"}]",
   "agendaTimeframe": "Day"
 }

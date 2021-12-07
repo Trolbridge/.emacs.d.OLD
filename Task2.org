@@ -16,5 +16,5 @@
   SCHEDULED: <2021-12-06 Mon 20:38>
 <2021-12-06 Mon>
 * Backlog
-* Added from Phone
+* DONE Added from Phone
 Test Body

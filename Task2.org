@@ -2,7 +2,7 @@
 ** TODO - Talk to Sarah about Munis
    SCHEDULED: <2021-12-07 Tue 09:30>
 
-* TODO 
+* TODO Code Enforcement
 * Done
 * TODO Isaiah lunch
   SCHEDULED: <2021-12-08 Wed 11:30-12:30>

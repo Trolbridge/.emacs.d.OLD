@@ -3,6 +3,9 @@
    SCHEDULED: <2021-12-07 Tue 09:30>
 
 * TODO Code Enforcement
+  :LOGBOOK:
+  CLOCK: [2021-12-07 Tue 16:08]
+  :END:
 13410 SW 24th St
 * TODO Code Enforcement
   :LOGBOOK:

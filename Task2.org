@@ -2,17 +2,17 @@
 ** TODO - Talk to Sarah about Munis
    SCHEDULED: <2021-12-07 Tue 09:30>
 
-* TODO Code Enforcement
+* DONE Code Enforcement
   :LOGBOOK:
   CLOCK: [2021-12-07 Tue 16:33]--[2021-12-07 Tue 16:33] =>  0:00
   :END:
 3813 Southwest 165th Terrace
-* TODO Code Enforcement
+* DONE Code Enforcement
   :LOGBOOK:
   CLOCK: [2021-12-07 Tue 16:08]
   :END:
 13410 SW 24th St
-* TODO Code Enforcement
+* DONE Code Enforcement
   :LOGBOOK:
   CLOCK: [2021-12-07 Tue 15:40]
   :END:
@@ -20,7 +20,7 @@
 * Done
 * TODO Isaiah lunch
   SCHEDULED: <2021-12-08 Wed 11:30-12:30>
-* TODO Code Enforcement
+* DONE Code Enforcement
   CLOSED: [2021-12-06 Mon 20:35] SCHEDULED: <2021-12-06 Mon 16:30>
   :LOGBOOK:
   - State "DONE"       from "TODO"       [2021-12-06 Mon 20:35]

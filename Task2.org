@@ -3,6 +3,7 @@
    SCHEDULED: <2021-12-07 Tue 09:30>
 
 * TODO Code Enforcement
+8191 SW 24th Pl
 * Done
 * TODO Isaiah lunch
   SCHEDULED: <2021-12-08 Wed 11:30-12:30>

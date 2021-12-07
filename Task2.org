@@ -3,6 +3,7 @@
    SCHEDULED: <2021-12-07 Tue 09:30>
 
 * TODO 2200280 CU inspection
+  SCHEDULED: <2021-12-07 Tue>
 Call Violeta with eta tomorrow
 954-775-9819
 * DONE Code Enforcement

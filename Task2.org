@@ -3,7 +3,7 @@
    SCHEDULED: <2021-12-07 Tue 09:30>
 
 * TODO Isaiah lunch
-  SCHEDULED: <2021-12-08 Wed>
+  SCHEDULED: <2021-12-08 Wed 11:46>
 * TODO Code Enforcement
   CLOSED: [2021-12-06 Mon 20:35] SCHEDULED: <2021-12-06 Mon 16:30>
   :LOGBOOK:

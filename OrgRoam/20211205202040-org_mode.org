@@ -32,7 +32,11 @@ alt-enter add to list
 - [ ] 
 - 
 * Video #6
+org-deadline-warning-days
 make-directory
 org-agenda
 change the files in init.el under org agenda files...
 C-c C-s org schedule
+org-agenda-start-with-log-mode
+org-log-done
+org-log-into-drawer

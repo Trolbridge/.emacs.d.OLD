@@ -2,13 +2,19 @@
 ** TODO - Talk to Sarah about Munis
    SCHEDULED: <2021-12-06 Mon 09:30>
 
-* Code Enforcement
+* TODO Code Enforcement
+CLOSED: [2021-12-06 Mon 20:35] SCHEDULED: <2021-12-06 Mon 16:30>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-12-06 Mon 20:35]
+:END:
 4013 S Lake Terrace, Miramar, FL 33023
+
 * Renew IAEI membership
   DEADLINE: <2021-12-06 Mon 16:16>
-* TODO Woof                                                         :TestTag:
-  SCHEDULED: <2021-12-06 Mon 7:00-8:00>
-Testing 
+
+* TODO Test Phone Refile 
+SCHEDULED: <2021-12-06 Mon 20:38>
+
 * Backlog
 * Added from Phone
 Test Body

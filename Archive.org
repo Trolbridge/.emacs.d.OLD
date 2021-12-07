@@ -1,0 +1,68 @@
+* November 2021
+** DONE Done Finish Documentation CLOSED: [2021-11-11 Thu 14:46]
+:LOGBOOK:
+- State "DONE"       from              [2021-11-11 Thu 14:46]
+:END:
+
+** DONE Set up Contacts Properly CLOSED: [2021-11-11 Thu 13:04] 
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-11 Thu 13:04]
+:END:
+** DONE Finish Emacs from Scratch #6
+CLOSED: [2021-11-13 Sat 03:44] SCHEDULED: <2021-11-11 Thu>
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2021-11-13 Sat 03:44]
+:END:
+** DONE Set up MacAir for git
+CLOSED: [2021-11-15 Mon 13:06] SCHEDULED: <2021-11-14 Sun>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-15 Mon 13:06]
+:END:
+
+** DONE Install Emacs onto macair
+CLOSED: [2021-11-15 Mon 13:02] SCHEDULED: <2021-11-13 Sat>
+ :LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-15 Mon 13:02]
+:END:
+
+** DONE System Crafters #7
+CLOSED: [2021-11-15 Mon 13:03] SCHEDULED: <2021-11-13 Sat>
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2021-11-15 Mon 13:03]
+:END:
+
+** DONE Scott's Email 
+CLOSED: [2021-11-15 Mon 18:04] SCHEDULED: <2021-11-15 Mon>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-15 Mon 18:04]
+:END:
+** DONE Complete Insurance for work 
+CLOSED: [2021-11-15 Mon 17:11] SCHEDULED: <2021-11-15 Mon>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-15 Mon 17:11]
+:END:
+** DONE Diversity and Inclusion Training
+
+CLOSED: [2021-11-16 Tue 16:22] SCHEDULED: <2021-11-16 Mon 10:00-12:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-16 Tue 16:22]
+:END:
+* December 2021
+** DONE Woof                                                       :TestTag:
+  CLOSED: [2021-12-06 Mon 20:15] SCHEDULED: <2021-12-06 Mon 7:00-8:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-12-06 Mon 20:15]
+:END:
+Testing 
+* January 2022
+* Febuary 2022
+* March 2022
+* April 2022
+* May 2022
+* June 2022
+* July 2022
+* August 2022
+* September 2022
+* October 2022
+* November 2022
+* December 2022

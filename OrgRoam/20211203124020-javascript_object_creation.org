@@ -213,3 +213,8 @@ Object.create( prototype, properties )
 
 
 ** #4 ES2015 Classes
+Other languages use classes to define objects(java, python)
+People were battling to understand JavaScript prototypal inheritance.
+JavaScript doesn't have true classes, so in 2015, ECMAScript (ES6) indtroduced classes
+Under the hood, JavaScript is still the same - this "class" is just syntactic sugar
+

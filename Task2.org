@@ -34,6 +34,7 @@ Call Violeta with eta tomorrow
 * TODO Renew IAEI membership
   DEADLINE: <2021-12-06 Mon 16:16>
 
+* DONE 
 * DONE Test Phone Refile 
   SCHEDULED: <2021-12-06 Mon 20:38>
 <2021-12-06 Mon>

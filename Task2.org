@@ -31,7 +31,7 @@ Call Violeta with eta tomorrow
   :END:
 4013 S Lake Terrace, Miramar, FL 33023
 
-* Renew IAEI membership
+* TODO Renew IAEI membership
   DEADLINE: <2021-12-06 Mon 16:16>
 
 * DONE Test Phone Refile 

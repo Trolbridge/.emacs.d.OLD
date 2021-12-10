@@ -1,5 +1,5 @@
 * TODO Active
-** TODO - Talk to Sarah about Munis
+* TODO - Talk to Sarah about Munis
    SCHEDULED: <2021-12-07 Tue 09:30>
 
 ** TODO Renew IAEI membership

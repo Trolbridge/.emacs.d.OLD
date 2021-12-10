@@ -22,7 +22,7 @@ Call Violeta with eta tomorrow
   :END:
 8171 SW 24th Pl
 * Done
-* TODO Isaiah lunch
+* DONE Isaiah lunch
   SCHEDULED: <2021-12-08 Wed 11:30-12:30>
 * DONE Code Enforcement
   CLOSED: [2021-12-06 Mon 20:35] SCHEDULED: <2021-12-06 Mon 16:30>

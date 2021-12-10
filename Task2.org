@@ -2,43 +2,7 @@
 ** TODO - Talk to Sarah about Munis
    SCHEDULED: <2021-12-07 Tue 09:30>
 
-* TODO 2200280 CU inspection
-  SCHEDULED: <2021-12-08 Wed 8:00>
-Call Violeta with eta tomorrow
-954-775-9819
-* DONE Code Enforcement
-  :LOGBOOK:
-  CLOCK: [2021-12-07 Tue 16:33]--[2021-12-07 Tue 16:33] =>  0:00
-  :END:
-3813 Southwest 165th Terrace
-* DONE Code Enforcement
-  :LOGBOOK:
-  CLOCK: [2021-12-07 Tue 16:08]
-  :END:
-13410 SW 24th St
-* DONE Code Enforcement
-  :LOGBOOK:
-  CLOCK: [2021-12-07 Tue 15:40]
-  :END:
-8171 SW 24th Pl
-* Done
-* DONE Isaiah lunch
-  SCHEDULED: <2021-12-08 Wed 11:30-12:30>
-* DONE Code Enforcement
-  CLOSED: [2021-12-06 Mon 20:35] SCHEDULED: <2021-12-06 Mon 16:30>
-  :LOGBOOK:
-  - State "DONE"       from "TODO"       [2021-12-06 Mon 20:35]
-  :END:
-4013 S Lake Terrace, Miramar, FL 33023
-
-* TODO Renew IAEI membership
+** TODO Renew IAEI membership
   DEADLINE: <2021-12-06 Mon 16:16>
 
-* DONE Installed Ruby and Rails on MacPro
-  DEADLINE: <2021-12-10 Fri 14:15>
-* DONE Test Phone Refile 
-  SCHEDULED: <2021-12-06 Mon 20:38>
-<2021-12-06 Mon>
 * Backlog
-* DONE Added from Phone
-Test Body

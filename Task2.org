@@ -35,6 +35,7 @@ Call Violeta with eta tomorrow
   DEADLINE: <2021-12-06 Mon 16:16>
 
 * DONE Installed Ruby and Rails on MacPro
+  DEADLINE: <2021-12-10 Fri>
 * DONE Test Phone Refile 
   SCHEDULED: <2021-12-06 Mon 20:38>
 <2021-12-06 Mon>

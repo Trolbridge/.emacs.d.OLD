@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       119C1341-F8CA-4043-836C-CB9A31F88D89
+:END:
+#+title: Command-Line
+
+chsh -s /bin/bash
+/bin/zsh
+cd ~/.emacs.d && git push && cd ~/TODO && git push

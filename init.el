@@ -68,7 +68,8 @@
 
   ;;---------------------------------------------------------------------------------
 
-(set-face-attribute 'default nil :font "Source Code Pro" :height 140)
+(set-face-attribute 'default nil :font "Copperplate" :height 140)
+;;  (set-face-attribute 'default nil :font "Source Code Pro" :height 140)
 
 ;; Make ESC quit prompts
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
@@ -451,6 +452,7 @@
  'org-babel-load-languages
  '((emacs-lisp . t)
    (js . t)
+   (ruby . t)
    (python . t)))
 
 
@@ -466,6 +468,7 @@
 (add-to-list 'org-structure-template-alist '("py" . "src python :results output"))
 (add-to-list 'org-structure-template-alist '("js" . "src js :results output"))
 (add-to-list 'org-structure-template-alist '("ht" . "src html :results output"))
+(add-to-list 'org-structure-template-alist '("rb" . "src ruby :results output"))
 
 (setq org-confirm-babel-evaluate nil)
 

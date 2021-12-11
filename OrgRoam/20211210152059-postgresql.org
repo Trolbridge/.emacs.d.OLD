@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       DF6F3665-BB8A-418A-8F65-91CB698B8AAB
+:END:
+#+title: Postgresql
+
+* After Install Info:
+To migrate existing data from a previous major version of PostgreSQL run:
+  brew postgresql-upgrade-database
+
+This formula has created a default database cluster with:
+  initdb --locale=C -E UTF-8 /opt/homebrew/var/postgres
+For more details, read:
+  https://www.postgresql.org/docs/14/app-initdb.html
+
+To restart postgresql after an upgrade:
+  brew services restart postgresql
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/postgresql/bin/postgres -D /opt/homebrew/var/postgres
+==> Summary
+🍺  /opt/homebrew/Cellar/postgresql/14.1_1: 3,304 files, 44.5MB
+==> Running `brew cleanup postgresql`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> postgresql
+To migrate existing data from a previous major version of PostgreSQL run:
+  brew postgresql-upgrade-database
+
+This formula has created a default database cluster with:
+  initdb --locale=C -E UTF-8 /opt/homebrew/var/postgres
+For more details, read:
+  https://www.postgresql.org/docs/14/app-initdb.html
+
+To restart postgresql after an upgrade:
+  brew services restart postgresql
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/postgresql/bin/postgres -D /opt/homebrew/var/postgres
+➜  .emacs.d git:(master) ✗ brew services start postgresql

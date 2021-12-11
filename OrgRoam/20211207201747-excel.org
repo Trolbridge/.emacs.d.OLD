@@ -1,0 +1,117 @@
+:PROPERTIES:
+:ID:       45C3BABC-D751-4B4C-B4B2-40852FBB773B
+:END:
+
+#+title: Excel
+
+[[id:45C3BABC-D751-4B4C-B4B2-40852FBB773B][Excel]]
+
+
+
+* HotKeys
+
+|------------------+----------------------|
+| OPT + F11        | Visual Basic         |
+| OPT + F8         | Macros               |
+| CTRL + + CMD + R | Get Project Explorer |
+| F6               | Get Properties       |
+| Shift + CMD + I  | Step Into/Through    |
+| CRTRL + CMD + G  | Immediate Window     |
+|                  |                      |
+
+Range 1 or more cells
+
+* First Exercise
+
+
+
+#+begin_src ruby :results output
+
+    Sub Excercise1()
+  '
+  ' Excercise1 Macro
+  '
+
+  '
+  Columns("A:E").WrapText = False
+
+  Range("a1") = "ID"
+  Range("b1") = "First Name"
+  Range("c1") = "Last Name"
+
+  Dim rngCol As Range
+  With Columns("A:E")
+    
+      .AutoFit
+    
+      For Each rngCol In .Columns
+          If rngCol.ColumnWidth > 25 Then rngCol.ColumnWidth = 25
+      Next rngCol
+    
+      For Each rngCol In .Columns
+          If rngCol.ColumnWidth < 10 Then rngCol.ColumnWidth = 10
+      Next rngCol
+    
+      Columns().WrapText = True
+      Rows(1).Font.Bold = True
+      Rows(1).HorizontalAlignment = xlCenter
+  End With
+
+  End Sub
+  
+#+end_src
+
+* Properties 
+
+debug.Print range("f2").text
+debug.Print typename(range("f2").text)
+debug.Print typename(range("f2").value)
+
+* My Format Macro
+
+#+begin_src ruby :results output
+
+      Sub Format1()
+  '
+  ' Format1 Macro
+  '
+
+  '
+  Columns("A:B").WrapText = False
+
+  Range("a1") = "ID"
+  Range("b1") = "First Name"
+  
+
+  Dim rngCol As Range
+
+  With Columns("A:B")
+    
+      .AutoFit
+    
+      For Each rngCol In .Columns
+          If rngCol.ColumnWidth > 25 Then rngCol.ColumnWidth = 25
+      Next rngCol
+    
+      For Each rngCol In .Columns
+          If rngCol.ColumnWidth < 10 Then rngCol.ColumnWidth = 10
+      Next rngCol
+    
+      Columns().WrapText = True
+      Rows(1).Font.Bold = True
+      Rows(1).HorizontalAlignment = xlCenter
+      
+      Range("A2") = "1"
+      Range("A3") = "2"
+      Range("A4") = "3"
+      Range("B2") = "Name1"
+      Range("B3") = "Name2"
+      Range("B4") = "Name3"
+
+      Range("C1").select
+
+  End With
+
+  End Sub
+
+#+end_src

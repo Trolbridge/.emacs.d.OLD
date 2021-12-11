@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       F45DE6D8-D4A7-47AA-AF1C-B10894652205
+:END:
+#+title: Ruby
+
+
+#+begin_src ruby :results output
+  puts "hello world"
+#+end_src
+
+#+RESULTS:
+: hello world

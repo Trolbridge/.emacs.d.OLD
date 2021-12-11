@@ -66,6 +66,8 @@ Range 1 or more cells
 debug.Print range("f2").text
 debug.Print typename(range("f2").text)
 debug.Print typename(range("f2").value)
+bold, italic, underline
+.Font.Underline = true
 
 * My Format Macro
 
@@ -115,3 +117,42 @@ debug.Print typename(range("f2").value)
   End Sub
 
 #+end_src
+
+* Section 2 Q 2
+
+#+begin_src ruby :results output
+
+Sub Exercise02A()
+  Range("a1") = "ID"
+  Range("b1") = "Name"
+  Range("c1") = "Sales"
+
+  Range("a2") = "1"
+  Range("b2") = "Name1"
+
+  Range("a3") = "2"
+  Range("b3") = "Name2"
+
+  Range("a4") = "3"
+  Range("b4") = "Name3"
+
+  'Add Lines
+  Range("c2") = 10
+  Range("c3") = 13
+  Range("c4") = 21
+  Range("c5") = "=SUM(c2:c4)"
+  Range("c2:c5").NumberFormat = "0.00"
+  ' Create line
+  Worksheets("Sheet1").Range("C5").Borders(xlEdgeTop).LineStyle = xlContinuous
+  
+  ' headers bold
+  Range("a1:c1").Font.Bold = True
+  Range("c1").Select
+  
+End Sub
+
+#+end_src
+
+* Color 
+
+* Font Collection

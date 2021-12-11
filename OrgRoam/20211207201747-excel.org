@@ -61,7 +61,8 @@ Range 1 or more cells
   
 #+end_src
 
-* Properties 
+* Section 2 Range Properties
+** Properties 
 
 debug.Print range("f2").text
 debug.Print typename(range("f2").text)
@@ -69,7 +70,7 @@ debug.Print typename(range("f2").value)
 bold, italic, underline
 .Font.Underline = true
 
-* My Format Macro
+** My Format Macro
 
 #+begin_src ruby :results output
 
@@ -118,7 +119,7 @@ bold, italic, underline
 
 #+end_src
 
-* Section 2 Q 2
+** Section 2 Q 2
 
 #+begin_src ruby :results output
 
@@ -153,6 +154,20 @@ End Sub
 
 #+end_src
 
-* Color 
+** Color 
+4 ways
 
-* Font Collection
+
+Range("a1").Font.Color = VBA.ColorConstants.
+Range("a1").Font.Color = excel.rgb
+Range("a1").Font.Color = rgb(0, 150, 255)
+** For background
+Range("a1").inter0.1)
+
+** Test a color value
+? excel.rgbAntiqueWhite
+
+
+** Font Collection
+* Section 3 Cells() Object 
+Can be used to effect all cells on a sheet

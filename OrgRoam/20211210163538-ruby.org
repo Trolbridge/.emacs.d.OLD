@@ -3,10 +3,14 @@
 :END:
 #+title: Ruby
 
-
 #+begin_src ruby :results output
   puts "hello world"
 #+end_src
 
 #+RESULTS:
 : hello world
+
+* Interpeders
+MRI
+YARV
+JRuby

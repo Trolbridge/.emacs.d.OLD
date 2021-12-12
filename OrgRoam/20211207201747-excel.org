@@ -171,3 +171,17 @@ Range("a1").inter0.1)
 ** Font Collection
 * Section 3 Cells() Object 
 Can be used to effect all cells on a sheet
+Cells(Row/Column)
+Cells(1, 2) = 50
+Cells(1, "b") = 50
+=column()
+Range("a2:b10").Cells(16) = 20
+Selection.Cells(4) = "hello"
+Selection.Cells(4) = "dan"
+
+sub allCells()
+Cells.select
+** Combine Range + Cell
+range (   cells(1,2), cells(4,3)    ) = 50
+* Section 4 Variables
+

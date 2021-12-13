@@ -184,4 +184,16 @@ Cells.select
 ** Combine Range + Cell
 range (   cells(1,2), cells(4,3)    ) = 50
 * Section 4 Variables
+** Variable Types
+
+*** Variant type
+*** Boolean
+*** Integer
+*** Long
+*** Double
+*** Date
+*** String
+** To Dim or Not to Dim
+Dim is just declaring
+
 

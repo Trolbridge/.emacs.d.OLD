@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       0C4F1CB7-0D7D-4B1D-B41F-EB4FB652620C
+:END:
+#+title: NEC 250
+
+
+*250.142 Use of Grounded Circuit Conductor for Grounding Equipment.*
+
+(A) Supply-Side Equipment. A grounded circuit conductor shall be permitted to ground non–current-carrying metal parts of equipment, raceways, and other enclosures at any of the following locations: (1) On the supply side or within the enclosure of the ac service-disconnecting means
+(2) On the supply side or within the enclosure of the main disconnecting means for separate buildings as provided in 250.32(B)
+(3) On the supply side or within the enclosure of the main disconnecting means or overcurrent devices of a sepa‐ rately derived system where permitted by 250.30(A)(1)
+
+ (B) Load-Side Equipment. Except as permitted in 250.30(A)(1) and 250.32(B) Exception, a grounded circuit conductor shall not be used for grounding non–currentcarrying metal parts of equipment on the load side of the serv‐ ice disconnecting means or on the load side of a separately derived system disconnecting means or the overcurrent devices for a separately derived system not having a main disconnect‐ ing means.
+
+Exception No. 1: The frames of ranges, wall-mounted ovens, countermounted cooking units, and clothes dryers under the conditions permit‐ ted for existing installations by 250.140 shall be permitted to be connected to the grounded circuit conductor.
+
+Exception No. 2: It shall be permissible to ground meter enclosures by connection to the grounded circuit conductor on the load side of the service disconnect where all of the following conditions apply:
+
+(1) No service ground-fault protection is installed.
+(2) All meter enclosures are located immediately adjacent to the serv‐ ice disconnecting means.
+(3) The size of the grounded circuit conductor is not smaller than the size specified in Table 250.122 for equipment grounding conduc‐ tors.
+
+Exception No. 3: Direct-current systems shall be permitted to be groun‐ ded on the load side of the disconnecting means or overcurrent device in accordance with 250.164. Exception No. 4: Electrode-type boilers operating at over 1000 volts shall be grounded as required in 490.72(E)(1) and 490.74.

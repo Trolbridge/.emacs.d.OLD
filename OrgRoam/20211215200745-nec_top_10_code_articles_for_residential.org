@@ -1,0 +1,63 @@
+:PROPERTIES:
+:ID:       ACAC14B9-A2E8-4EAC-B2AF-5DB13F92D59A
+:END:
+#+title: NEC Top 10 Code Articles for Residential
+
+
+* Article 100 Definitions
+
+* Article 110.3b Installation and Use.
+(B) Installation and Use. Listed or labeled equipment shall be installed and used in accordance with any instructions included in the listing or labeling.
+
+* Article 210.8 Ground-Fault Circuit-Interrupter Protection for Personnel.
+Ground-fault circuit-interrupter protection for personnel shall be provided as required in 210.8(A) through (E). The ground-fault circuit interrupter shall be installed in a readily accessible location.
+
+(A) Dwelling Units.
+
+(A) Dwelling Units. ampere receptacles installed in the locations specified in 210.8(A)(1) through (10) shall have ground-fault circuitinterrupter protection for personnel.
+(1) Bathrooms
+
+(2) Garages, and also accessory buildings that have a floor located at or below grade level not intended as habitable rooms and limited to storage areas, work areas, and areas of similar use
+
+(3) Outdoors
+Exception to (3): Receptacles that are not readily accessible and are supplied by a branch circuit dedicated to electric snow-melting, deicing, or pipeline and vessel heating equipment shall be permitted to be instal‐ led in accordance with 426.28 or 427.22, as applicable.
+
+(4) Crawl spaces — at or below grade level
+
+(5) Unfinished portions or areas of the basement not inten‐ ded as habitable rooms
+Exception to (5): A receptacle supplying only a permanently installed fire alarm or burglar alarm system shall not be required to have groundfault circuit-interrupter protection.
+
+Informational Note: See 760.41(B) and 760.121(B) for power supply requirements for fire alarm systems.  Receptacles installed under the exception to 210.8(A)(5) shall not be considered as meeting the requirements of 210.52(G).
+
+(6) Kitchens — where the receptacles are installed to serve the countertop surfaces
+
+(7) Sinks — where receptacles are installed within 1.8 m (6 ft) from the top inside edge of the bowl of the sink
+
+(8) Boathouses
+
+(9) Bathtubs or shower stalls — where receptacles are instal‐ led within 1.8 m (6 ft) of the outside edge of the bathtub or shower stall
+
+(10) Laundry areas
+
+(B) Other Than Dwelling Units.
+All single-phase receptacles rated 150 volts to ground or less, 50 amperes or less and threephase receptacles rated 150 volts to ground or less, 100 amperes or less installed in the following locations shall have ground-fault circuit-interrupter protection for personnel.
+
+(1) Bathrooms
+(2) Kitchens
+(3) Rooftops
+Exception: Receptacles on rooftops shall not be required to be readily accessible other than from the rooftop.
+(4) Outdoors
+
+Exception No. 1 to (3) and (4): Receptacles that are not readily accessi‐ ble and are supplied by a branch circuit dedicated to electric snowmelting, deicing, or pipeline and vessel heating equipment shall be permitted to be installed in accordance with 426.28 or 427.22, as applicable.
+Exception No. 2 to (4): In industrial establishments only, where the conditions of maintenance and supervision ensure that only qualified personnel are involved, an assured equipment grounding conductor program as specified in 590.6(B)(3) shall be permitted for only those receptacle outlets used to supply equipment that would create a greater hazard if power is interrupted or having a design that is not compatible with GFCI protection.
+
+(5) Sinks — where receptacles are installed within 1.8 m (6 ft) from the top inside edge of the bowl of the sink  Exception No. 1 to (5): In industrial laboratories, receptacles used to supply equipment where removal of power would introduce a greater hazard shall be permitted to be installed without GFCI protection. Exception No. 2 to (5): For receptacles located in patient bed locations of general care (Category 2) or critical care (Category 1) spaces of health care facilities other than those covered under 210.8(B)(1), GFCI protec‐ tion shall not be required.
+
+(6) Indoor wet locations
+(7) Locker rooms with associated showering facilities (8) Garages, service bays, and similar areas other than vehi‐ cle exhibition halls and showrooms
+(9) Crawl spaces — at or below grade level
+(10) Unfinished portions or areas of the basement not intended as habitable rooms
+
+(C) Boat Hoists. GFCI protection shall be provided for outlets not exceeding 240 volts that supply boat hoists installed in dwelling unit locations.
+(D) Kitchen Dishwasher Branch Circuit. GFCI protection shall be provided for outlets that supply dishwashers installed in dwelling unit locations.
+N (E) Crawl Space Lighting Outlets. GFCI protection shall be provided for lighting outlets not exceeding 120 volts installed in crawl spaces.

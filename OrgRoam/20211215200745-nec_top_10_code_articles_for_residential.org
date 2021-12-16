@@ -5,7 +5,6 @@
 
 
 * Article 100 Definitions
-
 * Article 110.3b Installation and Use.
 (B) Installation and Use. Listed or labeled equipment shall be installed and used in accordance with any instructions included in the listing or labeling.
 
@@ -129,3 +128,105 @@ The total rating of utilization equipment fastened in place, other than lumin‐
 (C) 40- and 50-Ampere Branch Circuits. A 40- or 50-ampere branch circuit shall be permitted to supply cooking appliances that are fastened in place in any occupancy. In other than dwelling units, such circuits shall be permitted to supply fixed lighting units with heavy-duty lampholders, infrared heating units, or other utilization equipment.
 
 (D) Branch Circuits Larger Than 50 Amperes. Branch circuits larger than 50 amperes shall supply only nonlighting outlet loads.
+
+* Article 210.52 Dwelling Unit Receptacle Outlets.
+
+210.52 Dwelling Unit Receptacle Outlets. This section provides requirements for 125-volt, 15- and 20-ampere recepta‐ cle outlets. The receptacles required by this section shall be in addition to any receptacle that is:
+
+(1) Part of a luminaire or appliance, or
+(2) Controlled by a wall switch in accordance with  210.70(A)(1), Exception No. 1, or
+(3) Located within cabinets or cupboards, or
+(4) Located more than 1.7 m (51∕2 ft) above the floor Permanently installed electric baseboard heaters equipped with factory-installed receptacle outlets or outlets provided as a separate assembly by the manufacturer shall be permitted as the required outlet or outlets for the wall space utilized by such permanently installed heaters. Such receptacle outlets shall not be connected to the heater circuits.
+
+Informational Note: Listed baseboard heaters include instruc‐ tions that may not permit their installation below receptacle outlets.
+
+(A) General Provisions. In every kitchen, family room, dining room, living room, parlor, library, den, sunroom, bedroom, recreation room, or similar room or area of dwelling units, receptacle outlets shall be installed in accordance with the general provisions specified in 210.52(A)(1) through (A)(4).
+
+(1) Spacing. Receptacles shall be installed such that no point measured horizontally along the floor line of any wall space is more than 1.8 m (6 ft) from a receptacle outlet.
+(2) Wall Space. As used in this section, a wall space shall include the following:
+(1) Any space 600 mm (2 ft) or more in width (including space measured around corners) and unbroken along the floor line by doorways and similar openings, fireplaces, and fixed
+cabinets that do not have countertops or simi‐ lar work surfaces
+(2) The space occupied by fixed panels in walls, excluding sliding panels
+(3) The space afforded by fixed room dividers, such as free‐ standing bar-type counters or railings
+
+(3) Floor Receptacles. Receptacle outlets in or on floors shall not be counted as part of the required number of receptacle outlets unless located within 450 mm (18 in.) of the wall.
+
+(4) Countertop and Similar Work Surface Receptacle Outlets.
+
+Receptacles installed for countertop and similar work surfaces as specified in 210.52(C) shall not be considered as the recep‐ tacle outlets required by 210.52(A).
+
+(B) Small Appliances.
+
+(1) Receptacle Outlets Served. In the kitchen, pantry, break‐ fast room, dining room, or similar area of a dwelling unit, the two or more 20-ampere small-appliance branch circuits required by 210.11(C)(1) shall serve all wall and floor recepta‐ cle outlets covered by 210.52(A), all countertop outlets covered by 210.52(C), and receptacle outlets for refrigeration equip‐ ment.
+
+Exception No. 1: In addition to the required receptacles specified by 210.52, switched receptacles supplied from a general-purpose branch circuit as defined in 210.70(A)(1), Exception No. 1, shall be permitted.
+
+Exception No. 2: In addition to the required receptacles specified by 210.52, a receptacle outlet to serve a specific appliance shall be permit‐ ted to be supplied from an individual branch circuit rated 15 amperes or greater.
+
+(2) No Other Outlets. The two or more small-appliance branch circuits specified in 210.52(B)(1) shall have no other outlets.
+
+Exception No. 1: A receptacle installed solely for the electrical supply to and support of an electric clock in any of the rooms specified in 210.52(B)(1).
+
+Exception No. 2: Receptacles installed to provide power for supplemen‐ tal equipment and lighting on gas-fired ranges, ovens, or countermounted cooking units.
+
+(3) Kitchen Receptacle Requirements. Receptacles installed in a kitchen to serve countertop surfaces shall be supplied by not fewer than two small-appliance branch circuits, either or both of which shall also be permitted to supply receptacle outlets in the same kitchen and in other rooms specified in 210.52(B)(1). Additional small-appliance branch circuits shall be permitted to supply receptacle outlets in the kitchen and other rooms specified in 210.52(B)(1). No small-appliance branch circuit shall serve more than one kitchen.
+
+(C) Countertops and Work Surfaces. In kitchens, pantries, breakfast rooms, dining rooms, and similar areas of dwelling units, receptacle outlets for countertop and work surfaces shall be installed in accordance with 210.52(C)(1) through (C)(5).
+
+(1) Wall Countertop and Work Surface. A receptacle outlet shall be installed at each wall countertop and work surface that is 300 mm (12 in.) or wider. Receptacle outlets shall be instal‐ led so that no point along the wall line is more than 600 mm (24 in.) measured horizontally from a receptacle outlet in that space.
+
+Exception: Receptacle outlets shall not be required on a wall directly behind a range, counter-mounted cooking unit, or sink in the installa‐ tion described in Figure 210.52(C)(1).
+
+(2) Island Countertop Spaces. At least one receptacle shall be installed at each island countertop space with a long dimension of 600 mm (24 in.) or greater and a short dimension of 300 mm (12 in.) or greater.
+
+(3) Peninsular Countertop Spaces. At least one receptacle outlet shall be installed at each peninsular countertop long dimension space with a long dimension of 600 mm (24 in.) or greater and a short dimension of 300 mm (12 in.) or greater. A peninsular countertop is measured from the connected perpendicular wall.
+
+(4) Separate Spaces. Countertop spaces separated by range‐ tops, refrigerators, or sinks shall be considered as separate countertop spaces in applying the requirements of 210.52(C)(1). If a range, counter-mounted cooking unit, or sink is installed in an island or peninsular countertop and the depth of the countertop behind the range, counter-mounted cooking unit, or sink is less than 300 mm (12 in.), the range, counter-mounted cooking unit, or sink shall be considered to divide the countertop space into two separate countertop spaces. Each separate countertop space shall comply with the applicable requirements in 210.52(C).
+
+(5) Receptacle Outlet Location. Receptacle outlets shall be located on or above, but not more than 500 mm (20 in.) above, the countertop or work surface. Receptacle outlet assemblies listed for use in countertops or work surfaces shall be permit‐ ted to be installed in countertops or work surfaces. Receptacle outlets rendered not readily accessible by appliances fastened in place, appliance garages, sinks, or rangetops as covered in 210.52(C)(1), Exception, or appliances occupying dedicated space shall not be considered as these required outlets. Outlet within Space exempt from wallOutlet within 600 mm (24 in.)line if X < 300 mm (12 in.) 600 mm (24 in.)
+X
+
+Range, counter-mounted cooking unit extending from face of counter
+Space exempt from wall line Outlet within 600 mm (24 in.) if X < 450 mm (18 in.)
+X
+
+Outlet within 600 mm (24 in.) Range, counter-mounted cooking unit mounted in corner FIGURE 210.52(C)(1) Determination of Area Behind a Range, Counter-Mounted Cooking Unit, or Sink.
+
+Informational Note: See 406.5(E) and 406.5(G) for require‐ ments for installation of receptacles in countertops and 406.5(F) and 406.5(G) for requirements for installation of receptacles in work surfaces.
+
+Exception to (5): To comply with the following conditions (1) and (2), receptacle outlets shall be permitted to be mounted not more than 300 mm (12 in.) below the countertop or work surface. Receptacles mounted below a countertop or work surface in accordance with this exception shall not be located where the countertop or work surface extends more than 150 mm (6 in.) beyond its support base.
+
+(1) Construction for the physically impaired
+(2) On island and peninsular countertops or work surface where the surface is flat across its entire surface (no backsplashes, dividers, etc.) and there are no means to mount a receptacle within 500 mm (20 in.) above the countertop or work surface, such as an overhead cabinet
+
+(D) Bathrooms. At least one receptacle outlet shall be instal‐ led in bathrooms within 900 mm (3 ft) of the outside edge of each basin. The receptacle outlet shall be located on a wall or partition that is adjacent to the basin or basin countertop, loca‐ ted on the countertop, or installed on the side or face of the basin cabinet. In no case shall the receptacle be located more than 300 mm (12 in.) below the top of the basin or basin coun‐ tertop. Receptacle outlet assemblies listed for use in counter‐ tops shall be permitted to be installed in the countertop. Informational Note: See 406.5(E) and 406.5(G) for require‐ ments for installation of receptacles in countertops.
+
+(E) Outdoor Outlets. Outdoor receptacle outlets shall be installed in accordance with 210.52(E)(1) through (E)(3).
+
+Informational Note: See 210.8(A)(3).
+
+(1) One-Family and Two-Family Dwellings. For a one-family dwelling and each unit of a two-family dwelling that is at grade level, at least one receptacle outlet readily accessible from grade and not more than 2.0 m (6 12 ft) above grade level shall be installed at the front and back of the dwelling.
+
+(2) Multifamily Dwellings. For each dwelling unit of a multi‐ family dwelling where the dwelling unit is located at grade level and provided with individual exterior entrance/egress, at least one receptacle outlet readily accessible from grade and not more than 2.0 m (61∕2 ft) above grade level shall be installed.
+
+(3) Balconies, Decks, and Porches. Balconies, decks, and porches that are attached to the dwelling unit and are accessi‐ ble from inside the dwelling unit shall have at least one recep‐ tacle outlet accessible from the balcony, deck, or porch. The receptacle outlet shall not be located more than 2.0 m (612 ft) above the balcony, deck, or porch walking surface. (F) Laundry Areas. In dwelling units, at least one receptacle outlet shall be installed in areas designated for the installation of laundry equipment.
+
+Exception No. 1: A receptacle for laundry equipment shall not be required in a dwelling unit of a multifamily building where laundry facilities are provided on the premises for use by all building occupants.
+
+Exception No. 2: A receptacle for laundry equipment shall not be required in other than one-family dwellings where laundry facilities are not to be installed or permitted.
+
+(G) Basements, Garages, and Accessory Buildings. For oneand two- family dwellings, at least one receptacle outlet shall be installed in the areas specified in 210.52(G)(1) through (3).
+
+These receptacles shall be in addition to receptacles required for specific equipment.
+
+(1) Garages. In each attached garage and in each detached garage with electric power, at least one receptacle outlet shall be installed in each vehicle bay and not more than 1.7 m (512 ft) above the floor.
+
+(2) Accessory Buildings. In each accessory building with electric power.
+
+(3) Basements. In each separate unfinished portion of a base‐ ment.
+
+(H) Hallways. In dwelling units, hallways of 3.0 m (10 ft) or more in length shall have at least one receptacle outlet.  As used in this subsection, the hallway length shall be consid‐ ered the length along the centerline of the hallway without passing through a doorway.
+
+(I) Foyers. Foyers that are not part of a hallway in accordance with 210.52(H) and that have an area that is greater than 5.6 m2 (60 ft2) shall have a receptacle(s) located in each wall space 900 mm (3 ft) or more in width. Doorways, door-side windows that extend to the floor, and similar openings shall not be considered wall space.
+
+* Article 240.6 Standard Ampere Ratings for fuses and Inver 

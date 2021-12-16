@@ -1,0 +1,17 @@
+{
+  "showClockDisplay": true,
+  "fileSettings": "[]",
+  "bookmarks": "{\"search\":[],\"task-list\":[],\"refile\":[]}",
+  "bulletStyle": "Fancy",
+  "agendaStartOnWeekday": -1,
+  "shouldStoreSettingsInSyncBackend": true,
+  "customKeybindings": "{}",
+  "shouldLiveSync": true,
+  "shouldSyncOnBecomingVisibile": true,
+  "shouldShowTitleInOrgFile": true,
+  "closeSubheadersRecursively": true,
+  "colorScheme": "Light",
+  "theme": "Solarized",
+  "captureTemplates": "[{\"headerPaths\":[\"\"],\"iconName\":\"\",\"letter\":\"\",\"isAvailableInAllOrgFiles\":true,\"orgFilesWhereAvailable\":[\"\"],\"template\":\"\",\"id\":561,\"shouldPrepend\":false,\"file\":\"\",\"description\":\"Test\"}]",
+  "agendaTimeframe": "Week"
+}

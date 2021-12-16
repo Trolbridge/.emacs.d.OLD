@@ -1,0 +1,112 @@
+* November 2021
+** DONE Done Finish Documentation CLOSED: [2021-11-11 Thu 14:46]
+:LOGBOOK:
+- State "DONE"       from              [2021-11-11 Thu 14:46]
+:END:
+
+** DONE Set up Contacts Properly CLOSED: [2021-11-11 Thu 13:04] 
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-11 Thu 13:04]
+:END:
+** DONE Finish Emacs from Scratch #6
+CLOSED: [2021-11-13 Sat 03:44] SCHEDULED: <2021-11-11 Thu>
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2021-11-13 Sat 03:44]
+:END:
+** DONE Set up MacAir for git
+CLOSED: [2021-11-15 Mon 13:06] SCHEDULED: <2021-11-14 Sun>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-15 Mon 13:06]
+:END:
+
+** DONE Install Emacs onto macair
+CLOSED: [2021-11-15 Mon 13:02] SCHEDULED: <2021-11-13 Sat>
+ :LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-15 Mon 13:02]
+:END:
+
+** DONE System Crafters #7
+CLOSED: [2021-11-15 Mon 13:03] SCHEDULED: <2021-11-13 Sat>
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2021-11-15 Mon 13:03]
+:END:
+
+** DONE Scott's Email 
+CLOSED: [2021-11-15 Mon 18:04] SCHEDULED: <2021-11-15 Mon>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-15 Mon 18:04]
+:END:
+** DONE Complete Insurance for work 
+CLOSED: [2021-11-15 Mon 17:11] SCHEDULED: <2021-11-15 Mon>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-15 Mon 17:11]
+:END:
+** DONE Diversity and Inclusion Training
+
+CLOSED: [2021-11-16 Tue 16:22] SCHEDULED: <2021-11-16 Mon 10:00-12:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-11-16 Tue 16:22]
+:END:
+* December 2021
+** DONE Woof                                                       :TestTag:
+  CLOSED: [2021-12-06 Mon 20:15] SCHEDULED: <2021-12-06 Mon 7:00-8:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-12-06 Mon 20:15]
+:END:
+Testing 
+** DONE Code Enforcement
+  :LOGBOOK:
+  CLOCK: [2021-12-07 Tue 16:33]--[2021-12-07 Tue 16:33] =>  0:00
+  :END:
+3813 Southwest 165th Terrace
+** DONE Code Enforcement
+  :LOGBOOK:
+  CLOCK: [2021-12-07 Tue 16:08]
+  :END:
+13410 SW 24th St
+** DONE Code Enforcement
+  :LOGBOOK:
+  CLOCK: [2021-12-07 Tue 15:40]
+  :END:
+8171 SW 24th Pl
+** DONE Isaiah lunch
+  SCHEDULED: <2021-12-08 Wed 11:30-12:30>
+** DONE Code Enforcement
+  CLOSED: [2021-12-06 Mon 20:35] SCHEDULED: <2021-12-06 Mon 16:30>
+  :LOGBOOK:
+  - State "DONE"       from "TODO"       [2021-12-06 Mon 20:35]
+  :END:
+4013 S Lake Terrace, Miramar, FL 33023
+
+** DONE Installed Ruby and Rails on MacPro
+  DEADLINE: <2021-12-10 Fri 14:15>
+
+** DONE Install Postgresql on MacPro
+CLOSED: [2021-12-10 Fri 14:56] SCHEDULED: <2021-12-10 Fri 14:56>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-12-10 Fri 14:56]
+:END:
+** DONE Test Phone Refile 
+  SCHEDULED: <2021-12-06 Mon 20:38>
+<2021-12-06 Mon>
+** DONE Added from Phone
+Test Body
+** DONE 2200280 CU inspection
+  CLOSED: [2021-12-10 Fri 14:57] SCHEDULED: <2021-12-08 Wed 8:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-12-10 Fri 14:57]
+:END:
+Call Violeta with eta tomorrow
+954-775-9819
+* January 2022
+* Febuary 2022
+* March 2022
+* April 2022
+* May 2022
+* June 2022
+* July 2022
+* August 2022
+* September 2022
+* October 2022
+* November 2022
+* December 2022

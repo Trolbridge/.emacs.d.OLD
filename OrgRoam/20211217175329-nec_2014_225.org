@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4199B39F-55FC-4DA2-8203-A287E4A49BDC
+:END:
+#+title: Nec 2014 225 Outside branch Circuits and Feeders
+
+
+
+* Nec 2014 225 Outside branch Circuits and Feeders
+** 225.6(B)	Festoon lighting support requirements
+** 225.30	Only one circuit (or 1 multi**wire) is allowed at a building or structure (shed). If more than 1 a panel is required.
+** 225.31	Outside Branch circuits feeding (or pass thru) a building or structure require a disconnect at the second building, outside or inside.
+** 225.35	Supply disconnecting means accessible to occupants

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       46051FA7-5A16-48DB-BC4B-5E90C5A1E1DA
+:END:
+#+title: Nec 2014 215 Feeders
+
+
+
+* Nec 2014 215 Feeders
+** 215.10 GFCI protection on 480/277 volt systems 1000 amps and over

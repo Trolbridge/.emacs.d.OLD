@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       DDA301EA-C807-4375-B248-9275DDA20B8B
+:END:
+#+title: Nec 2014 220 Branch-Circuit, Feeder, and Service-Load Calculations
+
+
+* Nec 2014 220 Branch-Circuit, Feeder, and Service-Load Calculations
+** 220 FEEDER CALCULATIONS
+** 220.61(B) Reduction of neutral conductor is permitted for the unbalanced load in excess of 200 amps OR for a service feeding cooking loads.

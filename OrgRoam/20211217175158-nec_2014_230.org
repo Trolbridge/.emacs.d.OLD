@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       B8678D35-B1ED-45B3-A9FD-2D17010867E8
+:END:
+#+title: Nec 2014 230 Services 
+
+
+* Nec 2014 230 Services 
+** 230.7 Feeder and branch circuit conductors cannot share the same raceway with unfused service conductors. 
+** 230.8 Service raceway seal	
+** 230.24 Service conductor clearances
+** 230.26 Point of attachment minimum 10? above finished grade
+** 230.28(B) Service Mast as Support ? Cannot use if coupling is above the point of attachment to the building. 
+** 230.66 Equipment rated for service shall be marked and listed.
+** 230.70 Service disconnect location must be readily accessible, and cannot be in a bathroom. 
+** 230.70(B) Each service disconnect shall be permanently marked. 
+** 230.71 Six disconnects maximum
+** 230.72 Disconnects shall be grouped. Remote fire pump allowed with plaque
+** 230.79 Rating of service entrance equipment
+** 230.90 Overcurrent protection required for service
+** 230.95 Ground fault protection of equipment required for service disconnects rated 1000 amps or more.

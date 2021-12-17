@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       EE303BAA-EE5F-4371-AE03-C8D78D3C0C62
+:END:
+#+title: Nec 2014 200 Use and Identification of Grounded Conductors
+
+* Nec 2014 200 Use and Identification of Grounded Conductors
+** 200.4(B) Neutrals shall be grouped at panels	
+** 200.6(A) Neutral #6 or smaller to be white or gray.
+** 200.7(C)1 White conductors of cables shall be re-identified when used as hot supply to a switch. (Cannot be used as switch leg)
+** 200.11 Polarity of devices shall not be reversed.

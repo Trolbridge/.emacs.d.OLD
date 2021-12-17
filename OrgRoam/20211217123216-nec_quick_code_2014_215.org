@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       58360FC3-9BB0-4CF1-90A4-73D0F61F5B2C
+:END:
+#+title: Nec Quick Code 2014 215
+
+
+- 215.10	GFCI protection on 480/277 volt systems 1000 amps and over

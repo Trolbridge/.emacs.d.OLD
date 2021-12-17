@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       5DB59A80-2F27-453A-BBDF-5B5972C6FB13
+:END:
+#+title: Nec Quick Code 2014 210
+
+
+- 210.4(B) 	Circuit breaker ties for multi-wire branch circuits required.
+- 210.4(D) 	Grounded and ungrounded circuits of multi-wire branch circuits grouped together in at least one location within the panel board, unless wire markers identify the corresponding breaker.
+- 210.5(C)1 	Conductors must be identified by phase or line, and system, if two different voltage systems are present. 120/208 volt and 277/480 volt. POST AT PANEL
+- 210.5(C)2A	DC BRANCH CIRCUITS sizes #6 or smaller shall be red +/black -
+- 210.7 		Two or more circuits on same yoke or mounting strap require breaker ties.
+* GFCI
+- 210.8 		GFCI protection for personnel required. Outlet location shall be readily accessible.
+- 210.8(A)7 	Dwelling GFCI required within 6' of edge of sink.
+- 210.8(A)9	GFCI required within 6' of Bathtub and shower stall.
+- 210.8(A)10	GFCI required within laundry areas.
+- 210.8(B)2 	Other than dwelling ALL 15a & 20a 125v receptacles in *commercial kitchens* are required to be GFCI. (not just counter tops)
+- 210.8(B)5	GFCI requirements *within 6' of sink* for other than dwelling units
+- 210.8(C) 	GFCI required for dwelling *boat hoists not exceeding 240v.*
+- 210.8(D) 	GFCI protection is required for *dwelling unit dishwashers* including hard wired. NOTE: devices required to be readily accessible. 
+
+* Bathroom Circuit
+- 210.11C3 	At least 1 (120v) 20amp branch circuit shall be provided to supply a bathroom outlet and have no other outlets. This can supply multiple bathrooms as long as it?s the outlet only and not the lighting or other outlets. The circuit can supply other outlets but only in the one bathroom.
+
+* AFCI
+- 210.12 	AFCI locations required (A) Dwelling Units. All 120-volt, single-phase, 15- and 20-ampere branch circuits supplying outlets or devices installed in dwelling unit kitchens, family rooms, dining rooms, living rooms, parlors, libraries, dens, bedrooms, sunrooms, recreation rooms, closets, hallways, laundry areas, or similar rooms or areas shall be protected by any of the means described in 210.12(A)(1) through (6), and shall be readily accessible.
+
+* Ground-Fault Protection Equipment
+- 210.13 	GFPE required for each branch circuit disconnect rated 1000amps or more for 277v/480v wye systems.
+- 210.17 	Electric Vehicle outlets shall have a dedicated circuit. 
+- 210.19(A)1(B)Branch circuit conductors shall have an ampacity not less than the load served.
+
+* Dwelling Unit Receptacle Outlets
+- 210.52(A)1-4 Receptacle general spacing along walls
+- 210.52(B)1	Small appliance branch circuits; 2 ? 20amp required
+- 210.52(C)	Receptacle counter & island spacing
+- 210.52(D)	Receptacle in bathrooms 36? from sink, also no lower than 12? below top of basin.
+- 210.52(E)	Receptacles at front and rear of 1 & 2 fam dwelling, also balconies, decks and porches
+- 210.52(F)	Receptacle for laundry; at least 1 required.
+- 210.52(G)1	Receptacles for garage; at least 1 for each space.
+- 210.52(H)	Receptacles for hallways 10? or longer
+- 210.52(I)	Receptacles for foyers
+- 210.62	Receptacle for each 12' of show window, within 18' of top.
+- 210.63	Receptacle within 25' of A/C
+- 210.64	At least 1 - 125v 15a or 20a receptacle required within 50' of service equipment in other than 1 & 2 Fam Dwelling.
+- 210.70(A)2b	Required lighting outlets installed to provide illumination on the exterior side of outdoor entrances or exits with grade level access.

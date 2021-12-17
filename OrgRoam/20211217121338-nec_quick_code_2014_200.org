@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9E17885F-797B-4F11-B700-2E083CC514D3
+:END:
+#+title: Nec Quick Code 2014 200
+
+
+- 200.4(B)	Neutrals shall be grouped at panels	
+- 200.6(A) 	Neutral #6 or smaller to be white or gray.
+- 200.7(C)1 	White conductors of cables shall be re-identified when used as hot supply to a switch. (Cannot be used as switch leg)
+- 200.11 	Polarity of devices shall not be reversed.

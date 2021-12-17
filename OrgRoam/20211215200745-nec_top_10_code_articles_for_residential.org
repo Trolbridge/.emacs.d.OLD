@@ -4,7 +4,7 @@
 #+title: NEC Top 10 Code Articles for Residential
 
 
-* Article 100 Definitions
+[[id:458AE121-E555-4ACA-B5A9-09BFEE3322A6][Nec 2014 100 Definitions]]
 * Article 110.3b Installation and Use.
 (B) Installation and Use. Listed or labeled equipment shall be installed and used in accordance with any instructions included in the listing or labeling.
 

@@ -1,7 +1,0 @@
-:PROPERTIES:
-:ID:       D4B58FDC-E868-4EFE-992F-2CA6D4106A44
-:END:
-#+title: Nec Quick Code 2014 100 Labeled
-
-
-- 100 Definition	Labeled -- Equipment to which a label has been attached from an organization that is acceptable to the AHJ.

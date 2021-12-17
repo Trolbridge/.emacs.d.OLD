@@ -6,3 +6,4 @@
 chsh -s /bin/bash
 /bin/zsh
 cd ~/.emacs.d && git push && cd ~/TODO && git push
+ls -1 *-nec*.org | xargs -L1 -I{} mv {} NEC

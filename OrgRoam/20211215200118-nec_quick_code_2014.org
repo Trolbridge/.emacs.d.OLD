@@ -3,520 +3,522 @@
 :END:
 #+title: NEC Quick Code 2014
 
-
 NEC 2014
-•	90.7	Equipment to be listed (note does not say NRTL)
-•	100 Def	Labeled – Equipment to which a label has been attached from an organization that is acceptable to the AHJ.
-•	100 Def	Listed – Equipment included in a list published by an organization that is acceptable to the AHJ
-•	110.3(B)	Equipment to be installed according to its listing and labeling instructions
-•	110.7		Completed wiring shall be free from shorts or ground faults
-•	110.8 		Only recognized wiring methods allowed by the code
-•	110.9 		Deals with Amps Interrupting Capacity (AIC). The requirement is that all devices that are intended to break fault current (fuses and breakers) are rated for the amount of fault current available at their line side terminals.
-•	110.10	 Deals with Short Circuit Current Rating (SCCR) and Withstand Current Rating (WCR). Their requirement is that equipment (i.e. wire and bus bars) be able to carry fault currents until the protective device operates.
-•	110.11 No deteriorating agents, paint solvents etc. Equipment designated dry location protected from the weather during construction.
-•	110.12	 Installations to be in a neat workman like manner
-•	110.12(A)	 Unused openings shall be closed KO seals
-•	110.12(B)	 Protection of internal parts from damage, paint, cleansers, etc. Also must be in safe operating condition.
-•	110.13(A) 	Equipment to be securely mounted.
-•	110.13(B)	Ventilation required around equipment
-•	110.14(A) 	Electrical Connections, tight, no dissimilar metals, 1 wire per terminal
-•	110.14(B)	Splices, joints and taps to have equivalent insulation.
-•	110.14(C)	Termination degree rating limits conductor ampacity (75 degree)
-•	110.15 	Hi-leg orange and marked at each connection
-•	110.16 	Electrical equipment, panelboards, MCC’s, meter sockets, etc. other than dwelling units, shall be field marked to warn against arc flashes
-•	110.18	Arcing parts protected. No plywood mounting of contactors
-•	110.21 	All electrical equipment is to have the manufacturer’s name and other descriptive information.
-•	110.22(A) 	Disconnecting means shall be marked unless its purpose is evident.
-•	NEC 2014
-•	110.24(A)	Service equipment other than dwelling units shall be field marked with the 
+- 90.7	Equipment to be listed (note does not say NRTL)
+- 100 Def	Labeled -- Equipment to which a label has been attached from an organization that is acceptable to the AHJ.
+- 100 Def	Listed -- Equipment included in a list published by an organization that is acceptable to the AHJ
+- 110.3(B)	Equipment to be installed according to its listing and labeling instructions
+- 110.7		Completed wiring shall be free from shorts or ground faults
+- 110.8 		Only recognized wiring methods allowed by the code
+- 110.9 		Deals with Amps Interrupting Capacity (AIC). The requirement is that all devices that are intended to break fault current (fuses and breakers) are rated for the amount of fault current available at their line side terminals.
+- 110.10	 Deals with Short Circuit Current Rating (SCCR) and Withstand Current Rating (WCR). Their requirement is that equipment (i.e. wire and bus bars) be able to carry fault currents until the protective device operates.
+- 110.11 No deteriorating agents, paint solvents etc. Equipment designated dry location protected from the weather during construction.
+- 110.12	 Installations to be in a neat workman like manner
+- 110.12(A)	 Unused openings shall be closed KO seals
+- 110.12(B)	 Protection of internal parts from damage, paint, cleansers, etc. Also must be in safe operating condition.
+- 110.13(A) 	Equipment to be securely mounted.
+- 110.13(B)	Ventilation required around equipment
+- 110.14(A) 	Electrical Connections, tight, no dissimilar metals, 1 wire per terminal
+- 110.14(B)	Splices, joints and taps to have equivalent insulation.
+- 110.14(C)	Termination degree rating limits conductor ampacity (75 degree)
+- 110.15 	Hi-leg orange and marked at each connection
+- 110.16 	Electrical equipment, panelboards, MCC?s, meter sockets, etc. other than dwelling units, shall be field marked to warn against arc flashes
+- 110.18	Arcing parts protected. No plywood mounting of contactors
+- 110.21 	All electrical equipment is to have the manufacturer?s name and other descriptive information.
+- 110.22(A) 	Disconnecting means shall be marked unless its purpose is evident.
+- NEC 2014
+- 110.24(A)	Service equipment other than dwelling units shall be field marked with the 
 AIC rating. Marking shall be able to withstand the environment
-•	110.26A 	Working spaces about electrical equipment
-•	110.26D 	Illumination shall be provided for service equipment, switch gear, etc… and not by occupancy sensors.
-•	110.28	ENCLOSURE TABLE – Indoor/Outdoor use
-•	200.4(B)	Neutrals shall be grouped at panels	
-•	200.6(A) 	Neutral #6 or smaller to be white or gray.
-•	200.7(C)1 	White conductors of cables shall be re-identified when used as hot supply to a switch. (Cannot be used as switch leg)
-•	200.11 	Polarity of devices shall not be reversed.
-•	210.4(B) 	Circuit breaker ties for multi-wire branch circuits required.
-•	210.4(D) 	Grounded and ungrounded circuits of multi-wire branch circuits grouped together in at least one location within the panel board, unless wire markers identify the corresponding breaker.
-•	210.5(C)1 	Conductors must be identified by phase or line, and system, if two different voltage systems are present. 120/208 volt and 277/480 volt. POST AT PANEL
-•	210.5(C)2A	DC BRANCH CIRCUITS sizes #6 or smaller shall be red +/black -
-•	210.7 		Two or more circuits on same yoke or mounting strap require breaker ties.
-•	210.8 		GFCI protection for personnel required. Outlet location shall be readily accessible.
-•	210.8(A)7 	Dwelling GFCI required within 6’ of edge of sink.
-•	210.8(A)9	GFCI required within 6’ of Bathtub and shower stall.
- •	210.8(A)10	GFCI required within laundry areas.
-•	210.8(B)2 	Other than dwelling ALL 15a & 20a 125v receptacles in commercial kitchens are required to be GFCI. (not just counter tops)
-•	210.8(B)5	GFCI requirements within 6’ of sink for other than dwelling units
-•	210.8(C) 	GFCI required for dwelling boat hoists not exceeding 240v.
-•	210.8(D) 	GFCI protection is required for dwelling unit dishwashers including hard wired. NOTE: devices required to be readily accessible. 
+- 110.26A 	Working spaces about electrical equipment
+- 110.26D 	Illumination shall be provided for service equipment, switch gear, etc? and not by occupancy sensors.
+- 110.28	ENCLOSURE TABLE ? Indoor/Outdoor use
+- 200.4(B)	Neutrals shall be grouped at panels	
+- 200.6(A) 	Neutral #6 or smaller to be white or gray.
+- 200.7(C)1 	White conductors of cables shall be re-identified when used as hot supply to a switch. (Cannot be used as switch leg)
+- 200.11 	Polarity of devices shall not be reversed.
+- 210.4(B) 	Circuit breaker ties for multi-wire branch circuits required.
+- 210.4(D) 	Grounded and ungrounded circuits of multi-wire branch circuits grouped together in at least one location within the panel board, unless wire markers identify the corresponding breaker.
+- 210.5(C)1 	Conductors must be identified by phase or line, and system, if two different voltage systems are present. 120/208 volt and 277/480 volt. POST AT PANEL
+- 210.5(C)2A	DC BRANCH CIRCUITS sizes #6 or smaller shall be red +/black -
+- 210.7 		Two or more circuits on same yoke or mounting strap require breaker ties.
+- 210.8 		GFCI protection for personnel required. Outlet location shall be readily accessible.
+- 210.8(A)7 	Dwelling GFCI required within 6? of edge of sink.
+- 210.8(A)9	GFCI required within 6? of Bathtub and shower stall.
+- 210.8(A)10	GFCI required within laundry areas.
+- 210.8(B)2 	Other than dwelling ALL 15a & 20a 125v receptacles in commercial kitchens are required to be GFCI. (not just counter tops)
+- 210.8(B)5	GFCI requirements within 6? of sink for other than dwelling units
+- 210.8(C) 	GFCI required for dwelling boat hoists not exceeding 240v.
+- 210.8(D) 	GFCI protection is required for dwelling unit dishwashers including hard wired. NOTE: devices required to be readily accessible. 
 
 
-•	NEC 2014
+- NEC 2014
 
 
-•	210.11C3 	At least 1 (120v) 20amp branch circuit shall be provided to supply a bathroom outlet and have no other outlets. This can supply multiple bathrooms as long as it’s the outlet only and not the lighting or other outlets. The circuit can supply other outlets but only in the one bathroom.
-•	210.12 	AFCI locations required (A) Dwelling Units. All 120-volt, single-phase, 15- and 20-ampere branch circuits supplying outlets or devices installed in dwelling unit kitchens, family rooms, dining rooms, living rooms, parlors, libraries, dens, bedrooms, sunrooms, recreation rooms, closets, hallways, laundry areas, or similar rooms or areas shall be protected by any of the means described in 210.12(A)(1) through (6), and shall be readily accessible.
-•	210.13 	GFPE required for each branch circuit disconnect rated 1000amps or more for 277v/480v wye systems.
-•	210.17 	Electric Vehicle outlets shall have a dedicated circuit. 
-•	210.19(A)1(B)Branch circuit conductors shall have an ampacity not less than the load served.
-•	210.52(A)1-4 Receptacle general spacing along walls
-•	210.52(B)1	Small appliance branch circuits; 2 – 20amp required
-•	210.52(C)	Receptacle counter & island spacing
-•	210.52(D)	Receptacle in bathrooms 36” from sink, also no lower than 12” below top of basin.
-•	210.52(E)	Receptacles at front and rear of 1 & 2 fam dwelling, also balconies, decks and porches
-•	210.52(F)	Receptacle for laundry; at least 1 required.
-•	210.52(G)1	Receptacles for garage; at least 1 for each space.
-•	210.52(H)	Receptacles for hallways 10’ or longer
-•	210.52(I)	Receptacles for foyers
-•	210.62	Receptacle for each 12’ of show window, within 18” of top.
-•	210.63	Receptacle within 25’ of A/C
-•	210.64	At least 1 - 125v 15a or 20a receptacle required within 50’ of service equipment in other than 1 & 2 Fam Dwelling.
-•	NEC 2014
+- 210.11C3 	At least 1 (120v) 20amp branch circuit shall be provided to supply a bathroom outlet and have no other outlets. This can supply multiple bathrooms as long as it?s the outlet only and not the lighting or other outlets. The circuit can supply other outlets but only in the one bathroom.
+- 210.12 	AFCI locations required (A) Dwelling Units. All 120-volt, single-phase, 15- and 20-ampere branch circuits supplying outlets or devices installed in dwelling unit kitchens, family rooms, dining rooms, living rooms, parlors, libraries, dens, bedrooms, sunrooms, recreation rooms, closets, hallways, laundry areas, or similar rooms or areas shall be protected by any of the means described in 210.12(A)(1) through (6), and shall be readily accessible.
+- 210.13 	GFPE required for each branch circuit disconnect rated 1000amps or more for 277v/480v wye systems.
+- 210.17 	Electric Vehicle outlets shall have a dedicated circuit. 
+- 210.19(A)1(B)Branch circuit conductors shall have an ampacity not less than the load served.
+- 210.52(A)1-4 Receptacle general spacing along walls
+- 210.52(B)1	Small appliance branch circuits; 2 ? 20amp required
+- 210.52(C)	Receptacle counter & island spacing
+- 210.52(D)	Receptacle in bathrooms 36? from sink, also no lower than 12? below top of basin.
+- 210.52(E)	Receptacles at front and rear of 1 & 2 fam dwelling, also balconies, decks and porches
+- 210.52(F)	Receptacle for laundry; at least 1 required.
+- 210.52(G)1	Receptacles for garage; at least 1 for each space.
+- 210.52(H)	Receptacles for hallways 10? or longer
+- 210.52(I)	Receptacles for foyers
+- 210.62	Receptacle for each 12? of show window, within 18? of top.
+- 210.63	Receptacle within 25? of A/C
+- 210.64	At least 1 - 125v 15a or 20a receptacle required within 50? of service equipment in other than 1 & 2 Fam Dwelling.
+- NEC 2014
 
-•	210.70(A)2b	Required lighting outlets installed to provide illumination on the exterior side of outdoor entrances or exits with grade level access.
-•	215		FEEDERS
-•	215.10	GFCI protection on 480/277 volt systems 1000 amps and over
-•	220		FEEDER CALCULATIONS
-•	220.61(B)	Reduction of neutral conductor is permitted for the unbalanced load in excess of 200 amps OR for a service feeding cooking loads.
-•	225.6(B)	Festoon lighting support requirements
-•	225.30	Only one circuit (or 1 multi-wire) is allowed at a building or structure (shed). If more than 1 a panel is required.
-•	225.31	Outside Branch circuits feeding (or pass thru) a building or structure require a disconnect at the second building, outside or inside.
-•	225.35	Supply disconnecting means accessible to occupants
-•	230.7		Feeder and branch circuit conductors cannot share the same raceway with unfused service conductors. 
-•	230.8		Service raceway seal	
-•	230.24	Service conductor clearances
-•	230.26	Point of attachment minimum 10’ above finished grade
-•	230.28(B) 	Service Mast as Support – Cannot use if coupling is above the point of attachment to the building. 
-•	230.66	Equipment rated for service shall be marked and listed.
-•	230.70	Service disconnect location must be readily accessible, and cannot be in a bathroom. 
-•	230.70(B)	Each service disconnect shall be permanently marked. 
-•	230.71	Six disconnects maximum
-•	230.72	Disconnects shall be grouped. Remote fire pump allowed with plaque
-•	230.79	Rating of service entrance equipment
-•	230.90	Overcurrent protection required for service
-•	230.95	Ground fault protection of equipment required for service disconnects rated 1000 amps or more.
-•	240.4		Overcurrent protection of conductors required
-•	NEC 2014
+- 210.70(A)2b	Required lighting outlets installed to provide illumination on the exterior side of outdoor entrances or exits with grade level access.
+- 215		FEEDERS
+- 215.10	GFCI protection on 480/277 volt systems 1000 amps and over
+- 220		FEEDER CALCULATIONS
+- 220.61(B)	Reduction of neutral conductor is permitted for the unbalanced load in excess of 200 amps OR for a service feeding cooking loads.
+- 225.6(B)	Festoon lighting support requirements
+- 225.30	Only one circuit (or 1 multi-wire) is allowed at a building or structure (shed). If more than 1 a panel is required.
+- 225.31	Outside Branch circuits feeding (or pass thru) a building or structure require a disconnect at the second building, outside or inside.
+- 225.35	Supply disconnecting means accessible to occupants
+- 230.7		Feeder and branch circuit conductors cannot share the same raceway with unfused service conductors. 
+- 230.8		Service raceway seal	
+- 230.24	Service conductor clearances
+- 230.26	Point of attachment minimum 10? above finished grade
+- 230.28(B) 	Service Mast as Support ? Cannot use if coupling is above the point of attachment to the building. 
+- 230.66	Equipment rated for service shall be marked and listed.
+- 230.70	Service disconnect location must be readily accessible, and cannot be in a bathroom. 
+- 230.70(B)	Each service disconnect shall be permanently marked. 
+- 230.71	Six disconnects maximum
+- 230.72	Disconnects shall be grouped. Remote fire pump allowed with plaque
+- 230.79	Rating of service entrance equipment
+- 230.90	Overcurrent protection required for service
+- 230.95	Ground fault protection of equipment required for service disconnects rated 1000 amps or more.
+- 240.4		Overcurrent protection of conductors required
+- NEC 2014
 
-•	240.4(B)	Next highest rating not to exceed 800 amps
-•	240.4(C)	Over 800 amps, conductors must be greater than or equal to breaker
-•	240.4(D)7     Overcurrent size required for protection of conductors 
-•	240.5(B)(2)	Fixture wire taps for 20 and 30 amp circuits
-•	240.21(B)	Feeder tap rules
-•	240.24(A)	Overcurrent devices to be accessible, highest position 6’-7”
-•	240.24(B)	Overcurrent devices to be accessible to each occupant.
-•	240.24(D)	Overcurrent devices shall not be located in clothes closets or vicinity of easily ignitable material.
-•	240.24(E)	OCD other than supplemental OCP shall not be located in bathrooms.
-•	240.83(A)	Circuit breaker markings shall be visible
-•	240.86	Series rating of breakers. SELECTIVE COORDINATION BY ENGINEER
-•	250.4(A)(3)	Bonding of non-current material likely to be energized
-•	250.4(A)(4)	Conductive materials that are likely to become energized shall be bonded.
-•	250.4(A)(5)	The earth shall not be considered as an effective ground-fault path
-•	250.8(A)	Permitted methods of ground connections, (no sheet metal screws.)
-•	250.10 	Ground clamps exposed to physical damage shall be protected
-•	250.12	Ground connections on clean surfaces
-•	250.24(C)(1)	Service grounding conductor sized as per 250.66
-•	250.28	Main bonding jumper requirements
-•	250.28(B)	Main bonding jumper screw to be green
-•	250.30	Grounding separately derived A/C systems
-•	250.32(A) 	Remote buildings or structures supplied by a feeder or branch circuit shall have a grounding electrode.
-•	250.32(B) 	Remote buildings or structures supplied by a feeder or branch circuit shall have an equipment grounding conductor.  
-•	250.34	Portable and vehicle-mounted generator grounding requirements
-•	250.35	Permanently installed generator grounding requirements
-•	250.50	All grounding electrodes present shall be bonded together
-•	250.53(A)2	A supplemental electrode is required unless 25 ohms or less is achieved.
-•	250.53(G) 	Ground rods are to be flush or below grade, unless protected
-•	NEC 2014
+- 240.4(B)	Next highest rating not to exceed 800 amps
+- 240.4(C)	Over 800 amps, conductors must be greater than or equal to breaker
+- 240.4(D)7     Overcurrent size required for protection of conductors 
+- 240.5(B)(2)	Fixture wire taps for 20 and 30 amp circuits
+- 240.21(B)	Feeder tap rules
+- 240.24(A)	Overcurrent devices to be accessible, highest position 6?-7?
+- 240.24(B)	Overcurrent devices to be accessible to each occupant.
+- 240.24(D)	Overcurrent devices shall not be located in clothes closets or vicinity of easily ignitable material.
+- 240.24(E)	OCD other than supplemental OCP shall not be located in bathrooms.
+- 240.83(A)	Circuit breaker markings shall be visible
+- 240.86	Series rating of breakers. SELECTIVE COORDINATION BY ENGINEER
+- 250.4(A)(3)	Bonding of non-current material likely to be energized
+- 250.4(A)(4)	Conductive materials that are likely to become energized shall be bonded.
+- 250.4(A)(5)	The earth shall not be considered as an effective ground-fault path
+- 250.8(A)	Permitted methods of ground connections, (no sheet metal screws.)
+- 250.10 	Ground clamps exposed to physical damage shall be protected
+- 250.12	Ground connections on clean surfaces
+- 250.24(C)(1)	Service grounding conductor sized as per 250.66
+- 250.28	Main bonding jumper requirements
+- 250.28(B)	Main bonding jumper screw to be green
+- 250.30	Grounding separately derived A/C systems
+- 250.32(A) 	Remote buildings or structures supplied by a feeder or branch circuit shall have a grounding electrode.
+- 250.32(B) 	Remote buildings or structures supplied by a feeder or branch circuit shall have an equipment grounding conductor.  
+- 250.34	Portable and vehicle-mounted generator grounding requirements
+- 250.35	Permanently installed generator grounding requirements
+- 250.50	All grounding electrodes present shall be bonded together
+- 250.53(A)2	A supplemental electrode is required unless 25 ohms or less is achieved.
+- 250.53(G) 	Ground rods are to be flush or below grade, unless protected
+- NEC 2014
 
-•	250.64	Grounding electrode installation
-•	250.64(B)	GEC #4 or larger to be protected where exposed to physical damage
-•	250.64(C)	GEC to be continuous (Exothermic weld and irreversible crimp allowed).
-•	250.66	Size of GEC Table. Sized by the ungrounded conductors.
-•	250.68(A) 	GEC connections to grounding electrodes shall be accessible (excluding concrete encased)
-•	250.68(A)E	Encased or buried connections to concrete encased, driven, or buried Electrodes shall not be required to be accessible.
-•	250.68(C)3	Reinforcing rod (rebar) can extend from concrete and be used as GEC
-•	250.80	Service raceways and enclosures shall be connected to the grounded 	system conductor.
-•	250.92 (B)	Service (line side) bonding when using concentric or eccentric KO’s
-•	250.92(B)(4) Standard locknuts shall not be the only means for bonding at service. Bonding bushings, bonding locknuts required on line side of service.
-•	250.94	An Intersystem bonding termination for bonding other systems.
-•	250.97	Bonding bushings required for eccentric/concentric KO’s over 250 volts
-•	250.104(A)	Bond metal water piping
-•	250.104(B)	Bond gas piping
-•	250.119	Equipment grounding conductors #6 and smaller shall be green or bare
-•	250.120	Raceways or cables used as EGC shall have approved fittings and be made up tight
-•	250.122	Size of equipment grounding conductor (table)
-•	250.140	Frames of ranges and dryers
-•	250.142(B)	The neutral cannot be used for grounding.
-•	250.146	Equipment bonding jumper from grounded box to ground of device
-•	250.148	Ground boxes containing conductor splices; and removal of device will not interfere with the grounding continuity.
-•	300.4(A)	Protect cables 1-1/4” from stud edges with kick plates
-•	300.4(B)	NM cable through metal studs needs grommets or bushings
-•	300.4(E)	Cable, Raceway, or Box must be 1-1/2” below metal roof deck; excluding GRC and IMC.
-•	NEC 2014
+- 250.64	Grounding electrode installation
+- 250.64(B)	GEC #4 or larger to be protected where exposed to physical damage
+- 250.64(C)	GEC to be continuous (Exothermic weld and irreversible crimp allowed).
+- 250.66	Size of GEC Table. Sized by the ungrounded conductors.
+- 250.68(A) 	GEC connections to grounding electrodes shall be accessible (excluding concrete encased)
+- 250.68(A)E	Encased or buried connections to concrete encased, driven, or buried Electrodes shall not be required to be accessible.
+- 250.68(C)3	Reinforcing rod (rebar) can extend from concrete and be used as GEC
+- 250.80	Service raceways and enclosures shall be connected to the grounded 	system conductor.
+- 250.92 (B)	Service (line side) bonding when using concentric or eccentric KO?s
+- 250.92(B)(4) Standard locknuts shall not be the only means for bonding at service. Bonding bushings, bonding locknuts required on line side of service.
+- 250.94	An Intersystem bonding termination for bonding other systems.
+- 250.97	Bonding bushings required for eccentric/concentric KO?s over 250 volts
+- 250.104(A)	Bond metal water piping
+- 250.104(B)	Bond gas piping
+- 250.119	Equipment grounding conductors #6 and smaller shall be green or bare
+- 250.120	Raceways or cables used as EGC shall have approved fittings and be made up tight
+- 250.122	Size of equipment grounding conductor (table)
+- 250.140	Frames of ranges and dryers
+- 250.142(B)	The neutral cannot be used for grounding.
+- 250.146	Equipment bonding jumper from grounded box to ground of device
+- 250.148	Ground boxes containing conductor splices; and removal of device will not interfere with the grounding continuity.
+- 300.4(A)	Protect cables 1-1/4? from stud edges with kick plates
+- 300.4(B)	NM cable through metal studs needs grommets or bushings
+- 300.4(E)	Cable, Raceway, or Box must be 1-1/2? below metal roof deck; excluding GRC and IMC.
+- NEC 2014
 
-•	300.4(G)	Conduit bushing required for #4 or larger
-•	300.5(A)	Minimum cover requirements
-•	300.5(B)	Interior of underground raceways is a wet location.
-•	300.5(F)	Backfill containing large rocks…shall not be placed in an excavation.
-•	300.7(A)	Raceways exposed to temperature differences shall be sealed
-•	300.7(B)	Expansion fitting requirements for thermal expansion and contraction
-•	300.9 		Interiors of raceways in wet locations above grade are to be considered wet locations.
-•	300.10	Electrical continuity of metal raceways and enclosures shall be continuous.
-•	300.11(A) 	Ceiling grids cannot support cables, boxes, or conduit. Independent support wires required, and if used as sole support method must be secured at both ends.
-•	300.12	Nonmetallic raceways and cables shall be mechanically continuous between boxes, conduits, etc.
-•	300.13	Conductors in raceways shall be continuous, with no splices.
-•	300.13(B)	Neutrals to be spliced in multiwire branch circuits so to not interrupt the continuity if device is removed.	
-•	300.14	Free conductors at outlets 6” from conduit – 3” from box.
-•	300.21	Fire stop breaches in fire rated walls, ceilings, etc.
-•	300.38 	OVER 1000 VOLTS interiors of raceways in wet locations above grade are to be considered wet locations.
-•	300.45 	OVER 1000 VOLTS Warning signs shall be posted at points of access to conductors in all conduit and cable systems.
-•	310.10(H)(1)(2) Only 1/0 or larger allowed to parallel, and conductors must be same characteristics.
-•	310.15(B)(2) Ambient temperature correction factors sunlight exposed conduits
-•	310.15(B)(3) Ampacity adjustment factors for more than 3 current carrying conductors
-•	310.15(B)(3)(C) EXCEPTION – Type XHHW-2 insulated conductors shall not be subject to ambient correction factors
-•	310.15(B)7	1 & 2 family (100A – 400A) service conductor size can be reduced 83%. NOTE: this is identical to the old table.
-•	312.2		¼” Airspace required for mounting panels in wet locations
-•	NEC 2014
+- 300.4(G)	Conduit bushing required for #4 or larger
+- 300.5(A)	Minimum cover requirements
+- 300.5(B)	Interior of underground raceways is a wet location.
+- 300.5(F)	Backfill containing large rocks?shall not be placed in an excavation.
+- 300.7(A)	Raceways exposed to temperature differences shall be sealed
+- 300.7(B)	Expansion fitting requirements for thermal expansion and contraction
+- 300.9 		Interiors of raceways in wet locations above grade are to be considered wet locations.
+- 300.10	Electrical continuity of metal raceways and enclosures shall be continuous.
+- 300.11(A) 	Ceiling grids cannot support cables, boxes, or conduit. Independent support wires required, and if used as sole support method must be secured at both ends.
+- 300.12	Nonmetallic raceways and cables shall be mechanically continuous between boxes, conduits, etc.
+- 300.13	Conductors in raceways shall be continuous, with no splices.
+- 300.13(B)	Neutrals to be spliced in multiwire branch circuits so to not interrupt the continuity if device is removed.	
+- 300.14	Free conductors at outlets 6? from conduit ? 3? from box.
+- 300.21	Fire stop breaches in fire rated walls, ceilings, etc.
+- 300.38 	OVER 1000 VOLTS interiors of raceways in wet locations above grade are to be considered wet locations.
+- 300.45 	OVER 1000 VOLTS Warning signs shall be posted at points of access to conductors in all conduit and cable systems.
+- 310.10(H)(1)(2) Only 1/0 or larger allowed to parallel, and conductors must be same characteristics.
+- 310.15(B)(2) Ambient temperature correction factors sunlight exposed conduits
+- 310.15(B)(3) Ampacity adjustment factors for more than 3 current carrying conductors
+- 310.15(B)(3)(C) EXCEPTION ? Type XHHW-2 insulated conductors shall not be subject to ambient correction factors
+- 310.15(B)7	1 & 2 family (100A ? 400A) service conductor size can be reduced 83%. NOTE: this is identical to the old table.
+- 312.2		¬? Airspace required for mounting panels in wet locations
+- NEC 2014
 
-•	312.3 		Panels not set back more than ¼” from finish. Flush if wall is combustible
-•	312.4		No gaps more than 1/8” on sides of panels
-•	314.3 		Non-metallic boxes permitted to use only non-metallic wiring methods.
-•	314.4		Metal boxes to be grounded and bonded.
-•	314.16	Number of conductors and devices in boxes (Box Fill)
-•	314.20	Boxes shall not be set back more than ¼” noncombustible material. Boxes shall be flush in combustible material (Goof Rings)
-•	314.21	Gaps around boxes shall not exceed 1/8”
-•	314.25	All boxes shall be covered, and shall use machine screws.
-•	314.27(C) 	Ceiling fan boxes shall be listed; fan not more than 70lbs
-•	314.28(A)(1) Box size, straight pull, distance to opposite wall is 8X largest pipe
-•	314.28(A)(2) Box size, U-Pull, distance to opposite wall is 6X largest pipe plus diameter of remaining pipes on that wall.
-•	314.29	Boxes, conduit bodies, and hand holes are to be accessible.
-•	320.10/20	Type AC cable uses permitted – not permitted
-•	320.17	Protect ac cable in framing members
-•	320.30(B)	Secure AC cable within 12” of boxes, panels, etc.
-•	320.30(C)	Secure/support AC cable every 4 ½ feet
-•	330.10/12 	Type MC Cable uses permitted – not permitted. Can be used in wet locations if listed for location
-•	330.17	Protect MC cable in framing members
-•	330.30(B)	Secure MC cable within every 12” of boxes and every 6’
-•	330.30(C)	Support MC cable every 6 feet. Framing is considered supporting
-•	334.17	Protect NM cable in framing members
-•	334.23	Protect NM cable at scuttle hole (6’) (refers to 320.23)
-•	334.30	Secure NM cable within every 12” of boxes, panels, etc.
-•	334.30	Secure/support NM cable every 4 ½ feet
-•	342.30	IMC supports 3’ and 10’
-•	344.30	RMC supports 3’ and 10’
-•	348.30	FMC (Greenfield), support 12” and 4 ½’
-•	350.30	LFMC (Liquidtight), support 12” and 4 ½’
-•	NEC 2014
+- 312.3 		Panels not set back more than ¬? from finish. Flush if wall is combustible
+- 312.4		No gaps more than 1/8? on sides of panels
+- 314.3 		Non-metallic boxes permitted to use only non-metallic wiring methods.
+- 314.4		Metal boxes to be grounded and bonded.
+- 314.16	Number of conductors and devices in boxes (Box Fill)
+- 314.20	Boxes shall not be set back more than ¬? noncombustible material. Boxes shall be flush in combustible material (Goof Rings)
+- 314.21	Gaps around boxes shall not exceed 1/8?
+- 314.25	All boxes shall be covered, and shall use machine screws.
+- 314.27(C) 	Ceiling fan boxes shall be listed; fan not more than 70lbs
+- 314.28(A)(1) Box size, straight pull, distance to opposite wall is 8X largest pipe
+- 314.28(A)(2) Box size, U-Pull, distance to opposite wall is 6X largest pipe plus diameter of remaining pipes on that wall.
+- 314.29	Boxes, conduit bodies, and hand holes are to be accessible.
+- 320.10/20	Type AC cable uses permitted ? not permitted
+- 320.17	Protect ac cable in framing members
+- 320.30(B)	Secure AC cable within 12? of boxes, panels, etc.
+- 320.30(C)	Secure/support AC cable every 4 « feet
+- 330.10/12 	Type MC Cable uses permitted ? not permitted. Can be used in wet locations if listed for location
+- 330.17	Protect MC cable in framing members
+- 330.30(B)	Secure MC cable within every 12? of boxes and every 6?
+- 330.30(C)	Support MC cable every 6 feet. Framing is considered supporting
+- 334.17	Protect NM cable in framing members
+- 334.23	Protect NM cable at scuttle hole (6?) (refers to 320.23)
+- 334.30	Secure NM cable within every 12? of boxes, panels, etc.
+- 334.30	Secure/support NM cable every 4 « feet
+- 342.30	IMC supports 3? and 10?
+- 344.30	RMC supports 3? and 10?
+- 348.30	FMC (Greenfield), support 12? and 4 «?
+- 350.30	LFMC (Liquidtight), support 12? and 4 «?
+- NEC 2014
 
-•	352.30	Table of supports
-•	352.30	PVC support, 3’ from box. 
-•	352.44	PVC expansion fittings required if more than 1/4” movement
-•	358.30	Support EMT, 3’ and 10’
-•	358.42	EMT couplings and connectors to be tight
-•	362.30	ENT (Smurf), support within 3 feet of boxes and every 3 feet
-•	376.22(A)	Wireway cross sectional area not to exceed 20%
-•	376.22(B)	De-rate if number of conductors exceeds 30 in a metal wireway.	
-•	400.8(1)	Extension cords may not be used as a substitute for fixed wiring and may not be run thru holes in walls or run in suspended ceilings. 
-•	404.4		Switches shall not be installed in tub or shower area
-•	404.8(B)	Voltages between switches shall not exceed 300 volts unless a barrier
+- 352.30	Table of supports
+- 352.30	PVC support, 3? from box. 
+- 352.44	PVC expansion fittings required if more than 1/4? movement
+- 358.30	Support EMT, 3? and 10?
+- 358.42	EMT couplings and connectors to be tight
+- 362.30	ENT (Smurf), support within 3 feet of boxes and every 3 feet
+- 376.22(A)	Wireway cross sectional area not to exceed 20%
+- 376.22(B)	De-rate if number of conductors exceeds 30 in a metal wireway.	
+- 400.8(1)	Extension cords may not be used as a substitute for fixed wiring and may not be run thru holes in walls or run in suspended ceilings. 
+- 404.4		Switches shall not be installed in tub or shower area
+- 404.8(B)	Voltages between switches shall not exceed 300 volts unless a barrier
 NOTE: SECTION C405.6.1 OF ENERGY CONSERVATION CODE HAS RULES THAT 50% RECEPTACLES BE CONTROLLED
-•	406.3		Receptacles shall be listed and marked with rating and type
-•	406.3(E)	Receptacles automatically controlled by EMS shall be marked in a manner that is visible. (example may be modular furniture)
-•	406.4(D)	Receptacle replacement, GFCI, AFCI, etc., an AFCI receptacle is required if replaced in an area where AFCI is needed.
-•	406.5		Receptacles shall be securely fastened in place	
-•	406.5(A)	Receptacles mounted in boxes not flush, ears must touch finish surface.
-•	406.5(B)	Receptacle shall be rigidly secure
-•	406.5(C)	Receptacles mounted to covers shall have 2 screw minimum
-•	406.5(D)	Receptacles shall be flush
-•	406.5(E&F)	Receptacles shall not be face up unless listed or in a floor box
-•	406.5(H)	Voltages between grouped receptacles shall not exceed 300 volts
-•	406.9(B)	Receptacles	in wet locations shall be listed weather resistant and
+- 406.3		Receptacles shall be listed and marked with rating and type
+- 406.3(E)	Receptacles automatically controlled by EMS shall be marked in a manner that is visible. (example may be modular furniture)
+- 406.4(D)	Receptacle replacement, GFCI, AFCI, etc., an AFCI receptacle is required if replaced in an area where AFCI is needed.
+- 406.5		Receptacles shall be securely fastened in place	
+- 406.5(A)	Receptacles mounted in boxes not flush, ears must touch finish surface.
+- 406.5(B)	Receptacle shall be rigidly secure
+- 406.5(C)	Receptacles mounted to covers shall have 2 screw minimum
+- 406.5(D)	Receptacles shall be flush
+- 406.5(E&F)	Receptacles shall not be face up unless listed or in a floor box
+- 406.5(H)	Voltages between grouped receptacles shall not exceed 300 volts
+- 406.9(B)	Receptacles	in wet locations shall be listed weather resistant and
 have a Extra-Duty in-use type bubble cover
-•	406.9(C)	Receptacles prohibited in tub or shower area
-•	406.11	Receptacle grounding terminal to comply with 250.146
-•	406.12(C)	Tamper resistant receptacles required in child care facilities.
-•	NEC 2014
+- 406.9(C)	Receptacles prohibited in tub or shower area
+- 406.11	Receptacle grounding terminal to comply with 250.146
+- 406.12(C)	Tamper resistant receptacles required in child care facilities.
+- NEC 2014
 
-•	406.15	A receptacle supplying lighting loads shall not be connected to a dimmer unless it’s a non-standard configuration. 
-•	408.3(F)(1) 	Panels with a high leg shall be field identified. 
-•	408.4	(A)	Panel schedules required with an approved degree of detail distinguishing.
-•	408.4(B)	Panel shall be marked where power originates (other than 1 &2 Fam).
-•	408.7		Panel blanks required.
-•	408.36(D)	Back fed breakers require additional fastener.
-•	408.40	Panel board must have a terminal bar for EGC’s of branch circuits.
-•	410.6		All luminaires and lamp holders and retrofit kits shall be listed
-•	410.10(A)	Luminaires installed in damp or wet locations
-•	410.10(D)	Luminaires installed in tub or shower areas. Restricted zone  is 8’ vertical and 3’ horizontal form edge of rim or stall
-•	410.10(F)	Luminaires installed under metal roof decking shall be 1-1/2” below
-•	410.16	Luminaires in clothes closets
-•	410.22	Lighting outlets to be covered if no luminaire installed
-•	410.23	Lighting outlet goof rings
-•	410.36(B)	Luminaires supported by ceiling grid shall be attached to the grid by bolts,
+- 406.15	A receptacle supplying lighting loads shall not be connected to a dimmer unless it?s a non-standard configuration. 
+- 408.3(F)(1) 	Panels with a high leg shall be field identified. 
+- 408.4	(A)	Panel schedules required with an approved degree of detail distinguishing.
+- 408.4(B)	Panel shall be marked where power originates (other than 1 &2 Fam).
+- 408.7		Panel blanks required.
+- 408.36(D)	Back fed breakers require additional fastener.
+- 408.40	Panel board must have a terminal bar for EGC?s of branch circuits.
+- 410.6		All luminaires and lamp holders and retrofit kits shall be listed
+- 410.10(A)	Luminaires installed in damp or wet locations
+- 410.10(D)	Luminaires installed in tub or shower areas. Restricted zone  is 8? vertical and 3? horizontal form edge of rim or stall
+- 410.10(F)	Luminaires installed under metal roof decking shall be 1-1/2? below
+- 410.16	Luminaires in clothes closets
+- 410.22	Lighting outlets to be covered if no luminaire installed
+- 410.23	Lighting outlet goof rings
+- 410.36(B)	Luminaires supported by ceiling grid shall be attached to the grid by bolts,
 screws or rivets. Listed clips for use with the ceiling and fixture are allowed.
-•	410.115(C)	Recessed luminaires shall be thermally protected
-•	410.116(B)	Type IC can – direct contact with insulation: Non-IC-3” clearance
-•	410.130(G)	Double-ended lamp ballasts shall have a disconnecting means
-•	422.5 		APPLIANCE GFCI devices for fixed appliances and vending machines; readily accessible. 
-•	422.11(A)	Branch circuit OCP not to exceed appliance name plate
-•	422.11(E)	Single non-motor operated appliance (Water Heater) OCP may be sized up to 150% of rated current if over 13.3 amps
-•	422.13	Storage water heaters 120 gallons or less are continuous load. Branch circuits calculated at 125%
-•	422.16(B)(1) Disposal cord not < than 18” and > 36”. Receptacle to be accessible.
-•	422.16(B)(2) Dishwasher cord shall be 3’ to 4’ from rear edge of appliance.
-•	422.18	Ceiling fan support
-•	NEC 2014
+- 410.115(C)	Recessed luminaires shall be thermally protected
+- 410.116(B)	Type IC can ? direct contact with insulation: Non-IC-3? clearance
+- 410.130(G)	Double-ended lamp ballasts shall have a disconnecting means
+- 422.5 		APPLIANCE GFCI devices for fixed appliances and vending machines; readily accessible. 
+- 422.11(A)	Branch circuit OCP not to exceed appliance name plate
+- 422.11(E)	Single non-motor operated appliance (Water Heater) OCP may be sized up to 150% of rated current if over 13.3 amps
+- 422.13	Storage water heaters 120 gallons or less are continuous load. Branch circuits calculated at 125%
+- 422.16(B)(1) Disposal cord not < than 18? and > 36?. Receptacle to be accessible.
+- 422.16(B)(2) Dishwasher cord shall be 3? to 4? from rear edge of appliance.
+- 422.18	Ceiling fan support
+- NEC 2014
 
-•	422.23	Automotive tire/vacuum machines shall be GFCI.
-•	422.31(B)	Appliances rated greater than 300VA must have a disc (water heater).
-•	422.51	Vending machines to be GFCI protected
-•	422.52	Water fountains to be GFCI protected.
-•	424.22	Fixed Electric Space-heating equipment OCP
-•	430.6(A)1	Use tables 430.247 – 430.250 to size motor conductors.
-•	430.32	Continuous duty motors rated more than 1HP must be protected by one of the overload methods.
-•	430.102(A)	Disconnect required within sight of every motor controller.
-•	430.102(B)	Disconnect required within sight of a motor.
-•	430.248	Table – FLA single phase A-C motors
-NOTE: TABLE C405.8 OF ENERGY CONSERVATION CODE HAS NEW EFFICIENCY RESTRICTIONS
-•	430.248	Table – FLA single phase A-C motors
-•	440.6(A)	A/C nameplate used for wire size, OCP, overload protection, etc.
-•	445.18	Generator disconnect required unless has a readily shut down, is rendered incapable of restarting and can be locked in the open position
-•	450.10(A)	Dry Type XFMR enclosure a terminal bar for all grounding and bonding shall be installed.
+- 422.23	Automotive tire/vacuum machines shall be GFCI.
+- 422.31(B)	Appliances rated greater than 300VA must have a disc (water heater).
+- 422.51	Vending machines to be GFCI protected
+- 422.52	Water fountains to be GFCI protected.
+- 424.22	Fixed Electric Space-heating equipment OCP
+- 430.6(A)1	Use tables 430.247 ? 430.250 to size motor conductors.
+- 430.32	Continuous duty motors rated more than 1HP must be protected by one of the overload methods.
+- 430.102(A)	Disconnect required within sight of every motor controller.
+- 430.102(B)	Disconnect required within sight of a motor.
+- 430.248	Table ? FLA single phase A-C motors
+   NOTE: TABLE C405.8 OF ENERGY CONSERVATION CODE HAS NEW EFFICIENCY RESTRICTIONS
+- 430.248	Table ? FLA single phase A-C motors
+- 440.6(A)	A/C nameplate used for wire size, OCP, overload protection, etc.
+- 445.18	Generator disconnect required unless has a readily shut down, is rendered incapable of restarting and can be locked in the open position
+- 450.10(A)	Dry Type XFMR enclosure a terminal bar for all grounding and bonding shall be installed.
 NOTE: TABLE C405.7 OF ENERGY CONSERVATION CODE HAS NEW EFFICIENCY RESTRICTIONS
-•	450.11(B)	Transformer can now be used as a step-up transformer.
-•	450.13(B)	Dry-type transformers 1000v or less, not exceeding 50 KVA shall be permitted in hollow spaces not permanently enclosed. NOTE SEC 300.22C3 	PERMITS XFMR TO BE USED IN ENVIRONMENTAL AIR.
-•	480.3		BATTERY Storage battery terminations require anti-oxidant for dissimilar metals. 
-•	480.8(D)	Top terminal batteries installed on tiered racks shall have working space between battery rows; per manufacturer’s instructions.
-•	480.8(E)	Doors to designated battery rooms shall open out with panic hardware.
-•	501.15(A)4	Class I Div I conduits leaving location shall be on either side of boundary, and within 10’ of boundary. If underground can be at point where emerges. 
-•	NEC 2014
+- 450.11(B)	Transformer can now be used as a step-up transformer.
+- 450.13(B)	Dry-type transformers 1000v or less, not exceeding 50 KVA shall be permitted in hollow spaces not permanently enclosed. NOTE SEC 300.22C3 	PERMITS XFMR TO BE USED IN ENVIRONMENTAL AIR.
+- 480.3		BATTERY Storage battery terminations require anti-oxidant for dissimilar metals. 
+- 480.8(D)	Top terminal batteries installed on tiered racks shall have working space between battery rows; per manufacturer?s instructions.
+- 480.8(E)	Doors to designated battery rooms shall open out with panic hardware.
+- 501.15(A)4	Class I Div I conduits leaving location shall be on either side of boundary, and within 10? of boundary. If underground can be at point where emerges. 
+- NEC 2014
 
-•	511.12	All 125 volt, 15-& 20 amp receptacles in commercial garages need GFCI.
-•	517.13	Redundant grounding in patient care areas. 517.13A requires a metal raceway system listed as an EGC – 517.13B requires an insulated ground conductor.
-•	517.19(C)	Each operating room shall have a minimum of 36 receptacles connected to either the normal system OR a critical branch circuit
-•	590.3		Temporary installation time constraints (A) = during period of construction (B) = 90 days for holiday lights (C) = during period of emergencies.
-•	600.3		Signs, retro-fit kits, etc shall be listed and have install instructions.
-•	600.4(A)	Signs shall bear manufacturer’s name, trademark, voltage and current
-•	600.5(A)	Sign circuits shall be a minimum of 20 amps and have no other circuits
-•	600.5(B)	All other than neon shall not exceed 20 amps; neon 30 amps
-•	600.6(A)(1)	The disconnect shall be located at the point the feeder circuit enters the sign enclosure. (A)(2) The disconnecting means shall be within sight, if not, must be locked in the open position.
-•	600.7(A)1	Metal equipment of signs shall be grounded by the EGC.
-•	600.7(B)(1)	Exception. Metal parts not required to be bonded to an equipment grounding conductor when using Class 2 power supplies
-•	600.7(B)(7)	Bonding conductors shall be copper and not smaller than 14 AWG
-•	600.21	Ballasts, electronic power supplies, and class 2 power sources shall be of self-contained or in a listed enclosure. (A) Shall be accessible and secured. (D) Working space of 3’ wide by 3’ deep shall be provided. (E) If in attic or soffit needs 36” x 22.5” access door and passageway 3’ high x 2’ wide.
-•	620.85	ELEVATOR GFCI protection for 125V, 15-20 amp receptacles in elevator pits, car tops, hoistways, machine rooms and machinery spaces. No GFCI required for sump pump if it is a single receptacle.
-•	625.5		ELECTRIC VEHICLE CHARGERS All associated equipment shall be listed.
-•	625.42	Disconnecting means shall be provided if more than 60amps OR more than 150volts to ground, and shall be lockable in open position.
-•	625.44	Equipment can be cord connected if (A) & (B) are met.
+- 511.12	All 125 volt, 15-& 20 amp receptacles in commercial garages need GFCI.
+- 517.13	Redundant grounding in patient care areas. 517.13A requires a metal raceway system listed as an EGC ? 517.13B requires an insulated ground conductor.
+- 517.19(C)	Each operating room shall have a minimum of 36 receptacles connected to either the normal system OR a critical branch circuit
+- 590.3		Temporary installation time constraints (A) = during period of construction (B) = 90 days for holiday lights (C) = during period of emergencies.
+- 600.3		Signs, retro-fit kits, etc shall be listed and have install instructions.
+- 600.4(A)	Signs shall bear manufacturer?s name, trademark, voltage and current
+- 600.5(A)	Sign circuits shall be a minimum of 20 amps and have no other circuits
+- 600.5(B)	All other than neon shall not exceed 20 amps; neon 30 amps
+- 600.6(A)(1)	The disconnect shall be located at the point the feeder circuit enters the sign enclosure. (A)(2) The disconnecting means shall be within sight, if not, must be locked in the open position.
+- 600.7(A)1	Metal equipment of signs shall be grounded by the EGC.
+- 600.7(B)(1)	Exception. Metal parts not required to be bonded to an equipment grounding conductor when using Class 2 power supplies
+- 600.7(B)(7)	Bonding conductors shall be copper and not smaller than 14 AWG
+- 600.21	Ballasts, electronic power supplies, and class 2 power sources shall be of self-contained or in a listed enclosure. (A) Shall be accessible and secured. (D) Working space of 3? wide by 3? deep shall be provided. (E) If in attic or soffit needs 36? x 22.5? access door and passageway 3? high x 2? wide.
+- 620.85	ELEVATOR GFCI protection for 125V, 15-20 amp receptacles in elevator pits, car tops, hoistways, machine rooms and machinery spaces. No GFCI required for sump pump if it is a single receptacle.
+- 625.5		ELECTRIC VEHICLE CHARGERS All associated equipment shall be listed.
+- 625.42	Disconnecting means shall be provided if more than 60amps OR more than 150volts to ground, and shall be lockable in open position.
+- 625.44	Equipment can be cord connected if (A) & (B) are met.
 NOTE: FBC HAS NEW SECTIONS FOR POOL LIGHTING RESTRICTIONS 454.2.16.1
 
-•	NEC 2014
-•	
-•	680.6		Pool grounding
-•	680.8		TABLE Overhead conductor clearances from water levels of pools. 
-•	680.9		Pool heaters not to exceed 48 amps and 60 amp OCPD
-•	680.10	Underground wiring shall not be within 5’ of pool unless in conduit.
-•	680.11	Equipment rooms and pits must have drainage
-•	680.12	Pool equipment disconnecting means, (5’ from Pool)
-•	680.21(A)(1) Pool motor shall contain an insulated # 12 copper insulated ground
-•	680.21(C)	125V and 240V, pool pump motors shall be GFCI protected regardless of amperage. 
-•	680.22(A)(1) Dwelling pool, 15 or 20-amp receptacle required between 6’ and 20’ from 
-  the edge of the pool. Receptacle located not more than 6’-6” A.F.F.
-•	680.22(A)(3) Dwelling pool, 15 or 20 amp receptacle required between 6’ and 20’ from 
-•	  the edge of the pool. Receptacle located not more than 6’-6” A.F.F
-•	680.22(A)(4) All 125V, 15-20 amp receptacles within 20’ of pool shall be GFCI protected
-•	680.22(B)(1)	 No new light, fan outlet within 5’ horizontal 12’ vertical of outdoor pool
-•	680.22(B)(3)	 Existing lights and light outlets less than 5’ horizontal from pool shall be 
-5’ vertical minimum, securely attached and GFCI protected
-•	680.22(B)(4) Luminaires, lighting outlets and paddle fans between 5’ and 10’ 
-•	 horizontally  from pool need GFCI protection
-•	680.22(B)(6)	Low voltage lights can be installed within 5’ under certain conditions..
-•	680.22(C)	 Switching devices shall be located at least 5’ from inside walls of a pool, unless separated by permanent barrier or listed to be within 5’ of edge.
-•	680.26(A)	Equipotential bonding requirements…Bare #8 solid copper, conform to the contour of pool no more than 18” – 24” from pool edge, Buried 4” – 6” …
-•	680.26(C)	Pool water must be in contact of bonded parts at least 9” sq.
-•	680.73	Hydro massage receptacle located within 1’ of opening, facing forward
-•	682.33(A)	Natural and artificial bodies of water. Slab in front of equipment must be at least 3’ in all directions
+- NEC 2014
+- 
+- 680.6		Pool grounding
+- 680.8		TABLE Overhead conductor clearances from water levels of pools. 
+- 680.9		Pool heaters not to exceed 48 amps and 60 amp OCPD
+- 680.10	Underground wiring shall not be within 5? of pool unless in conduit.
+- 680.11	Equipment rooms and pits must have drainage
+- 680.12	Pool equipment disconnecting means, (5? from Pool)
+- 680.21(A)(1) Pool motor shall contain an insulated # 12 copper insulated ground
+- 680.21(C)	125V and 240V, pool pump motors shall be GFCI protected regardless of amperage. 
+- 680.22(A)(1) Dwelling pool, 15 or 20-amp receptacle required between 6? and 20? from 
+  the edge of the pool. Receptacle located not more than 6?-6? A.F.F.
+- 680.22(A)(3) Dwelling pool, 15 or 20 amp receptacle required between 6? and 20? from 
+-   the edge of the pool. Receptacle located not more than 6?-6? A.F.F
+- 680.22(A)(4) All 125V, 15-20 amp receptacles within 20? of pool shall be GFCI protected
+- 680.22(B)(1)	 No new light, fan outlet within 5? horizontal 12? vertical of outdoor pool
+- 680.22(B)(3)	 Existing lights and light outlets less than 5? horizontal from pool shall be 
+5? vertical minimum, securely attached and GFCI protected
+- 680.22(B)(4) Luminaires, lighting outlets and paddle fans between 5? and 10? 
+-  horizontally  from pool need GFCI protection
+- 680.22(B)(6)	Low voltage lights can be installed within 5? under certain conditions..
+- 680.22(C)	 Switching devices shall be located at least 5? from inside walls of a pool, unless separated by permanent barrier or listed to be within 5? of edge.
+- 680.26(A)	Equipotential bonding requirements?Bare #8 solid copper, conform to the contour of pool no more than 18? ? 24? from pool edge, Buried 4? ? 6? ?
+- 680.26(C)	Pool water must be in contact of bonded parts at least 9? sq.
+- 680.73	Hydro massage receptacle located within 1? of opening, facing forward
+- 682.33(A)	Natural and artificial bodies of water. Slab in front of equipment must be at least 3? in all directions
 
 
-•	NEC 2014
+- NEC 2014
 
-•	680.74 	Hydro Massage Bathtub Bonding – all metal piping & grounded metal parts in contact with the circulating water shall be bonded together to the motor with a #8 solid copper, insulated or bare.
-•	690.4(B) 	PV Equipment – equipment used in a PV system must be listed.
-•	690.5 		Grounded DC PV arrays shall be provided with Ground Fault Protection.
-•	690.5(C) 	Labels & Markings – Warning labels shall appear on the utility inverter, or near the GFI indicator.
-•	690.6(C)	Single disconnecting means allowed for all A/C modules
-•	690.12	Rapid shut-down of P.V. systems for conductors more than 10’ from array
-•	690.17	Disconnect for P.V. shall be manually operable.
-•	690.31(B)	Photovoltaic source circuits and output circuits shall not be contained in
+- 680.74 	Hydro Massage Bathtub Bonding ? all metal piping & grounded metal parts in contact with the circulating water shall be bonded together to the motor with a #8 solid copper, insulated or bare.
+- 690.4(B) 	PV Equipment ? equipment used in a PV system must be listed.
+- 690.5 		Grounded DC PV arrays shall be provided with Ground Fault Protection.
+- 690.5(C) 	Labels & Markings ? Warning labels shall appear on the utility inverter, or near the GFI indicator.
+- 690.6(C)	Single disconnecting means allowed for all A/C modules
+- 690.12	Rapid shut-down of P.V. systems for conductors more than 10? from array
+- 690.17	Disconnect for P.V. shall be manually operable.
+- 690.31(B)	Photovoltaic source circuits and output circuits shall not be contained in
 the same raceway, cable tray, cable, outlet box, j-box or similar fittings as feeders or branch circuits of other systems, unless the conductors of the different systems are separated by a partition or are connected together
-•	690.34	Junction boxes can be installed underneath modules.
-•	690.35	P.V. system can be ungrounded if Ground Fault protection is installed.
-•	690.41	PV system must be grounded
-•	690.42	System grounding connection can be made along any single point 
-•	690.43	PV module frames must be grounded and connected to an equipment grounding conductor.
-•	690.45	Equipment grounding conductors sized according to 250.122
-•	690.47(D)	Additional auxiliary electrodes for array shall be installed as close as practicable to the location of the roof mounted arrays.
-•	690.90	P.V. systems can be used to directly charge electric vehicles but must comply with article 625. 
-•	694.7		Wind Electric System shall be permitted to supply a building in addition to other sources of supply; and must be listed.
-•	700.5(C)	ATS  1000 volts and below shall be listed for emergency system use
-•	700.10(A)	All equipment shall be permanently marked as “Emergency System”
-•	700.10(B)	Wiring must be completely independent of all other systems
-•	NEC 2014
+- 690.34	Junction boxes can be installed underneath modules.
+- 690.35	P.V. system can be ungrounded if Ground Fault protection is installed.
+- 690.41	PV system must be grounded
+- 690.42	System grounding connection can be made along any single point 
+- 690.43	PV module frames must be grounded and connected to an equipment grounding conductor.
+- 690.45	Equipment grounding conductors sized according to 250.122
+- 690.47(D)	Additional auxiliary electrodes for array shall be installed as close as practicable to the location of the roof mounted arrays.
+- 690.90	P.V. systems can be used to directly charge electric vehicles but must comply with article 625. 
+- 694.7		Wind Electric System shall be permitted to supply a building in addition to other sources of supply; and must be listed.
+- 700.5(C)	ATS  1000 volts and below shall be listed for emergency system use
+- 700.10(A)	All equipment shall be permanently marked as ?Emergency System?
+- 700.10(B)	Wiring must be completely independent of all other systems
+- NEC 2014
 
-•	700.12	Emergency generator to start within 10 seconds of power failure
-•	700.12(F)2 	Emergency Lighting – the branch circuit feeding…shall be same circuit as that serving the normal lighting in area. (Exception allows 3 or more circuits and lock-on and originates from same panel board) Branch circuits supplying EM lighting must be clearly marked at the panel.
-•	700.19	Branch circuit for EM lighting and power circuits shall not be multi wire.
-•	700.16	Emergency lighting required at disconnecting means where installed indoors.  If normal lighting is HID, emergency illumination shall operate until normal illumination has been restored	
-•	705.12(A)	Supply side connection of electric power production source (PV, wind, etc) is allowed as in 230.82(6). The sum of all systems shall not exceed service rating.
-•	708.10(A)(2) COPS receptacles to be marked with a distinctive color
-•	708.10(C)(1) COPS feeders to be RMC, IMC or type MI cable
-•	725.21	Access to electrical equipment shall not be impeded by wiring blocking access panels, including ceiling tiles
-•	725.24	LV cables installed exposed shall be supported by the building structure with straps, hangers, staples, cable ties, or similar fittings, so as not to damage the cable in a neat and workman-like manner
-•	725.25	Abandoned LV cables shall be removed
-•	725.136	Separate Class 2 & 3 wiring from electric light, power, class 1 and NPLFA
-•	725.143	Class 2 & 3 cable shall not be attached to the exterior of any conduit or raceway as a means of support
-•	760.21	Access to electrical equipment shall not be impeded by F/A wiring     blocking access to panels, including ceiling grid
-•	760.24	F/A cables installed exposed shall be supported by the building structure with straps, hangers, staples, cable ties, or similar fittings, so as not to damage the cable in a neat and workman-like manner
-•	760.25 	Abandoned F/A cables shall be removed or identified for future use by tagging both ends. Tag shall be sufficient to withstand the environment
-•	800.21	Access to electrical equipment shall not be impeded by communication wiring blocking access to panels, including ceiling grid
-•	NEC 2014
+- 700.12	Emergency generator to start within 10 seconds of power failure
+- 700.12(F)2 	Emergency Lighting ? the branch circuit feeding?shall be same circuit as that serving the normal lighting in area. (Exception allows 3 or more circuits and lock-on and originates from same panel board) Branch circuits supplying EM lighting must be clearly marked at the panel.
+- 700.19	Branch circuit for EM lighting and power circuits shall not be multi wire.
+- 700.16	Emergency lighting required at disconnecting means where installed indoors.  If normal lighting is HID, emergency illumination shall operate until normal illumination has been restored	
+- 705.12(A)	Supply side connection of electric power production source (PV, wind, etc) is allowed as in 230.82(6). The sum of all systems shall not exceed service rating.
+- 708.10(A)(2) COPS receptacles to be marked with a distinctive color
+- 708.10(C)(1) COPS feeders to be RMC, IMC or type MI cable
+- 725.21	Access to electrical equipment shall not be impeded by wiring blocking access panels, including ceiling tiles
+- 725.24	LV cables installed exposed shall be supported by the building structure with straps, hangers, staples, cable ties, or similar fittings, so as not to damage the cable in a neat and workman-like manner
+- 725.25	Abandoned LV cables shall be removed
+- 725.136	Separate Class 2 & 3 wiring from electric light, power, class 1 and NPLFA
+- 725.143	Class 2 & 3 cable shall not be attached to the exterior of any conduit or raceway as a means of support
+- 760.21	Access to electrical equipment shall not be impeded by F/A wiring     blocking access to panels, including ceiling grid
+- 760.24	F/A cables installed exposed shall be supported by the building structure with straps, hangers, staples, cable ties, or similar fittings, so as not to damage the cable in a neat and workman-like manner
+- 760.25 	Abandoned F/A cables shall be removed or identified for future use by tagging both ends. Tag shall be sufficient to withstand the environment
+- 800.21	Access to electrical equipment shall not be impeded by communication wiring blocking access to panels, including ceiling grid
+- NEC 2014
 
-•	800.25 	Abandoned F/A cables shall be removed or identified for future use by tagging both ends. Tag shall be sufficient to withstand the environment
-•	820.21	Access to electrical equipment shall not be impeded by communication wiring blocking access to panels, including ceiling grid
-•	820.25 	Abandoned F/A cables shall be removed or identified for future use by tagging both ends. Tag shall be sufficient to withstand the environment
+- 800.25 	Abandoned F/A cables shall be removed or identified for future use by tagging both ends. Tag shall be sufficient to withstand the environment
+- 820.21	Access to electrical equipment shall not be impeded by communication wiring blocking access to panels, including ceiling grid
+- 820.25 	Abandoned F/A cables shall be removed or identified for future use by tagging both ends. Tag shall be sufficient to withstand the environment
 
- 
-BCAP (Broward County Administrative Provisions) Chapter 1; 6th Edition
-•	101.4.1 	References (gives permission to use) Chapter 27 of the FBC Electrical, NFPA 70, Fire Protection Provisions of this code, and FFPC. May need rewording in Main Doc
-•	104.10 Minor changes to plans (pen notations) can be made by plans examiner. 	(Also See 107.3.0.1)
-•	104.10 	The Plans Examiner shall fulfill the duties of the Chief in his absence.
-•	104.11	 Inspection failure to be in writing and have relevant code section.
-•	104.12.2.4 	An application for temporary service shall be made in writing by the electrical contractor, firm, corporation, or owner. And only approved if safe.
-•	104.12.2.5 	The Electrical Inspector is hereby empowered to inspect or re-inspect any wiring, equipment… Electrical wiring and equipment must be in good working condition.
-•	104.12.2.6 	The electrical inspector has power to disconnect cords, branch circuits…
-•	104.25.1 	The BO or representative can order concealed work exposed.
-•	104.28 	Right of entry to any at any reasonable time, any building, structure or premises for the purpose of making any inspection or investigation.
-•	105.1 		Permits required AND No working without a permit
-•	105.3 		Permit Application required.
-•	105.3.0.1	Qualification of Applicant Application for permit will be accepted from owner, qualified persons or firms, or authorized agents.
-•	105.3.0.1.1 	Qualification of persons or firms shall be qualified by Examining Boards approved by BORA, the State of Florida, Department of Professional Regulation by authority of Chapter 489.113(3).
-•	105.3.0.2 	Permit apps shall be accompanied by plans/specifications as required.
-•	105.3.1 	If the application or construction documents (plans) don’t not conform to codes, the B.O. or Fire Official shall site relevant code sections.
-•	105.3.1.4.5 	The Installation, Alteration, or Repair of any electrical wiring or equipment requires a permit. (excludes some low voltage alarms) NOTE: Maintenance does not require a permit.
-•	105.4 		Issuance of a permit does not allow errors or violations even if a plan is approved.
-•	105.6.2 	Work must match plans.
-•	105.6.4 	Allows a change of contractor.
-•	105.7 		Permit Card must be placed on the front of premises available on demand…
-•	107.2.1 	Construction documents shall be of sufficient clarity to indicate the location, nature and extent of the work proposed. 
-•	107.3 		All plans shall be reviewed by a BORA Certified Plans Examiner.
-BCAP (Broward County Administrative Provisions) Chapter 1; 6th Edition
-
-•	107.3.0.1 	Minor corrections may be corrected by notation on the prints with the approval of the designer.
-•	107.3.4.0.1 	Alterations, Repairs, Improvements, Replacements, OR Additions to Buildings and Structures (except SFR) $15,000 or more require a professional designer.
-•	107.3.4.0.3 	Alterations, Repairs, Improvements, Replacements, AND Additions to SFR $30,000 or more require a professional designer. May need rewording in Main Doc
-•	107.3.4.0.5 	It is at the discretion of the Building Official to decide if plans that are predominately Mech or Elec in nature require professional design.
-•	107.3.5(B)1-18 Minimum plan review criteria for buildings.
-•	107.3.5(G) 	Minimum plan review criteria for Residential (1 & 2 Fam). Electrical plans shall be drawn at ¼” = 1’ for buildings less than 5000sq’. 
-•	107.3.5.3 	Any specifications in which general expressions are used to the effect that “work shall be done in accordance with the Building Code” or “to the satisfaction of the Building Official” shall be deemed imperfect and incomplete, and every reference to this Code shall be by section or sub-section number applicable to the materials to be used, or to the methods of construction proposed.
-•	108.3 		Temporary Power – gives BO/Chief authority to release power before final.
-•	109.3.1 	The Building Official may require an estimate of the cost utilizing RSMeans, copies of signed contract
-•	109.4 		Any person who commences any work for which a permit is required before obtaining permission fined a penalty of 100 percent of the usual permit fee in addition to the required permit fees.
-•	110.1 		The permit holder is responsible to make work accessible and exposed. No Access for inspection.
-•	110.1.3 	Sanitary facilities are required on job for inspections.
-•	110.1.7 	Ladders, material, power, coordination for access and labor, necessary for inspection and/or test shall be supplied by the permit holder.
-•	110.3(B)1-10 Required Electrical inspections.
-•	110.5 		Contractor responsible to call in inspections
-•	110.9.1 	Work incomplete; Contractor should check work; (not ready for inspection).
-•	110.15 	40-year inspection of buildings by BORA guidelines
-•	112.1 		No person shall make connections from a utility source until released by the Building Official or Chief Electrical Inspector
-•	112.2 		Temp power for use – 
 
 BCAP (Broward County Administrative Provisions) Chapter 1; 6th Edition
+- 101.4.1 	References (gives permission to use) Chapter 27 of the FBC Electrical, NFPA 70, Fire Protection Provisions of this code, and FFPC. May need rewording in Main Doc
+- 104.10 Minor changes to plans (pen notations) can be made by plans examiner. 	(Also See 107.3.0.1)
+- 104.10 	The Plans Examiner shall fulfill the duties of the Chief in his absence.
+- 104.11	 Inspection failure to be in writing and have relevant code section.
+- 104.12.2.4 	An application for temporary service shall be made in writing by the electrical contractor, firm, corporation, or owner. And only approved if safe.
+- 104.12.2.5 	The Electrical Inspector is hereby empowered to inspect or re-inspect any wiring, equipment? Electrical wiring and equipment must be in good working condition.
+- 104.12.2.6 	The electrical inspector has power to disconnect cords, branch circuits?
+- 104.25.1 	The BO or representative can order concealed work exposed.
+- 104.28 	Right of entry to any at any reasonable time, any building, structure or premises for the purpose of making any inspection or investigation.
+- 105.1 		Permits required AND No working without a permit
+- 105.3 		Permit Application required.
+- 105.3.0.1	Qualification of Applicant Application for permit will be accepted from owner, qualified persons or firms, or authorized agents.
+- 105.3.0.1.1 	Qualification of persons or firms shall be qualified by Examining Boards approved by BORA, the State of Florida, Department of Professional Regulation by authority of Chapter 489.113(3).
+- 105.3.0.2 	Permit apps shall be accompanied by plans/specifications as required.
+- 105.3.1 	If the application or construction documents (plans) don?t not conform to codes, the B.O. or Fire Official shall site relevant code sections.
+- 105.3.1.4.5 	The Installation, Alteration, or Repair of any electrical wiring or equipment requires a permit. (excludes some low voltage alarms) NOTE: Maintenance does not require a permit.
+- 105.4 		Issuance of a permit does not allow errors or violations even if a plan is approved.
+- 105.6.2 	Work must match plans.
+- 105.6.4 	Allows a change of contractor.
+- 105.7 		Permit Card must be placed on the front of premises available on demand?
+- 107.2.1 	Construction documents shall be of sufficient clarity to indicate the location, nature and extent of the work proposed. 
+- 107.3 		All plans shall be reviewed by a BORA Certified Plans Examiner.
+BCAP (Broward County Administrative Provisions) Chapter 1; 6th Edition
 
-•	112.2.1 	Energizing Systems It shall be unlawful to energize any wiring system or portion thereof until the electrical work has been inspected.
-•	112.3 		Authority to disconnect service utilities The Building Official or Chief Electrical Inspector shall have the authority to authorize disconnection of utility service.
-•	115.1 		Stop Work Order Whenever the Building Official finds any work being performed in a dangerous or unsafe manner, the Building Official is authorized to issue a stop work order.
-•	118.1.3 	TWO-WAY RADIO COMMUNICATION ENHANCED PUBLIC SAFETY SIGNAL BOOSTER SYSTEMS (BDA) - The AHJ shall determine if a new building or existing building shall require that a two-way radio communication enhanced public safety signal booster system be installed
-•	118.1.4 	(BDA) For new buildings a CO shall not be issued until proven that is in compliance. It should be determined before Building is Designed.
-•	118.2.1(8) 	(BDA) Documentation – Plans shall show that the BDA enclosure shall be painted red with 2” high contrasting letters. Include the following information: a) Fire Department Signal Booster b) Permit Number: ________ c) Serviced by: Vendor name and telephone
+- 107.3.0.1 	Minor corrections may be corrected by notation on the prints with the approval of the designer.
+- 107.3.4.0.1 	Alterations, Repairs, Improvements, Replacements, OR Additions to Buildings and Structures (except SFR) $15,000 or more require a professional designer.
+- 107.3.4.0.3 	Alterations, Repairs, Improvements, Replacements, AND Additions to SFR $30,000 or more require a professional designer. May need rewording in Main Doc
+- 107.3.4.0.5 	It is at the discretion of the Building Official to decide if plans that are predominately Mech or Elec in nature require professional design.
+- 107.3.5(B)1-18 Minimum plan review criteria for buildings.
+- 107.3.5(G) 	Minimum plan review criteria for Residential (1 & 2 Fam). Electrical plans shall be drawn at ¬? = 1? for buildings less than 5000sq?. 
+- 107.3.5.3 	Any specifications in which general expressions are used to the effect that ?work shall be done in accordance with the Building Code? or ?to the satisfaction of the Building Official? shall be deemed imperfect and incomplete, and every reference to this Code shall be by section or sub-section number applicable to the materials to be used, or to the methods of construction proposed.
+- 108.3 		Temporary Power ? gives BO/Chief authority to release power before final.
+- 109.3.1 	The Building Official may require an estimate of the cost utilizing RSMeans, copies of signed contract
+- 109.4 		Any person who commences any work for which a permit is required before obtaining permission fined a penalty of 100 percent of the usual permit fee in addition to the required permit fees.
+- 110.1 		The permit holder is responsible to make work accessible and exposed. No Access for inspection.
+- 110.1.3 	Sanitary facilities are required on job for inspections.
+- 110.1.7 	Ladders, material, power, coordination for access and labor, necessary for inspection and/or test shall be supplied by the permit holder.
+- 110.3(B)1-10 Required Electrical inspections.
+- 110.5 		Contractor responsible to call in inspections
+- 110.9.1 	Work incomplete; Contractor should check work; (not ready for inspection).
+- 110.15 	40-year inspection of buildings by BORA guidelines
+- 112.1 		No person shall make connections from a utility source until released by the Building Official or Chief Electrical Inspector
+- 112.2 		Temp power for use ? 
 
- 
+BCAP (Broward County Administrative Provisions) Chapter 1; 6th Edition
+
+- 112.2.1 	Energizing Systems It shall be unlawful to energize any wiring system or portion thereof until the electrical work has been inspected.
+- 112.3 		Authority to disconnect service utilities The Building Official or Chief Electrical Inspector shall have the authority to authorize disconnection of utility service.
+- 115.1 		Stop Work Order Whenever the Building Official finds any work being performed in a dangerous or unsafe manner, the Building Official is authorized to issue a stop work order.
+- 118.1.3 	TWO-WAY RADIO COMMUNICATION ENHANCED PUBLIC SAFETY SIGNAL BOOSTER SYSTEMS (BDA) - The AHJ shall determine if a new building or existing building shall require that a two-way radio communication enhanced public safety signal booster system be installed
+- 118.1.4 	(BDA) For new buildings a CO shall not be issued until proven that is in compliance. It should be determined before Building is Designed.
+- 118.2.1(8) 	(BDA) Documentation ? Plans shall show that the BDA enclosure shall be painted red with 2? high contrasting letters. Include the following information: a) Fire Department Signal Booster b) Permit Number: ________ c) Serviced by: Vendor name and telephone
+
+
+
 Residential Energy Conservation Code 2017
 
-•	R402.4.5 	Recessed Lighting shall be IC rated and sealed with a gasket or caulk
-•	
+- R402.4.5 	Recessed Lighting shall be IC rated and sealed with a gasket or caulk
+- 
 
- 
+
+
 Commercial Energy Conservation Code 2017
 
-•	C402.5.8 	Recessed Lighting shall be IC rated and sealed with a gasket or caulk
-•	C405.2.1 	Occupancy Sensors shall be installed in CLASS/LECTURE/TRAINING RMS, CONFERENCE/MEETING/MULTIPURPOSE RMS COPY/PRINT RMS, LOUNGES, LUNCH/BREAK RM, PRIVATE OFFICES, RESTROOMS, STORAGE RM, JANITORIAL CLOSET, LOCKER RMS, other spaces 300 sq’ or less. The exception is if sensors would pose a hazard. 
-•	C405.2.5 	Exterior Lighting Controls – 
-o	Shall be controlled automatically to turn off with available daylight.
-o	The lighting shall have controls to reduce the lighting power by >30%
-o	All time switches shall be able to retain programming for 10hrs with power loss
-•	C405.6.1	Electrical Power Distribution Systems (receptacles) are required that 50% of all 125v 15a & 20a be automatically controlled, permanently marked (see symbol), and evenly distributed in:
-o	Private offices
-o	Conference rooms
-o	Rooms used for printing and/or copying
-o	Break rooms
-o	Class rooms
-o	Individual workstations
-o	Modular partitions
+- C402.5.8 	Recessed Lighting shall be IC rated and sealed with a gasket or caulk
+- C405.2.1 	Occupancy Sensors shall be installed in CLASS/LECTURE/TRAINING RMS, CONFERENCE/MEETING/MULTIPURPOSE RMS COPY/PRINT RMS, LOUNGES, LUNCH/BREAK RM, PRIVATE OFFICES, RESTROOMS, STORAGE RM, JANITORIAL CLOSET, LOCKER RMS, other spaces 300 sq? or less. The exception is if sensors would pose a hazard. 
+- C405.2.5 	Exterior Lighting Controls ? 
+o Shall be controlled automatically to turn off with available daylight.
+o The lighting shall have controls to reduce the lighting power by >30%
+o All time switches shall be able to retain programming for 10hrs with power loss
+- C405.6.1	Electrical Power Distribution Systems (receptacles) are required that 50% of all 125v 15a & 20a be automatically controlled, permanently marked (see symbol), and evenly distributed in:
+o Private offices
+o Conference rooms
+o Rooms used for printing and/or copying
+o Break rooms
+o Class rooms
+o Individual workstations
+o Modular partitions
 Does not apply to receptacles designated to equip for continuous operation or safety. Also plug in switching devices are not allowed. 
 Automatic Control method can be:
-1.	Time-of-Day Device:
-•	Independent schedules shall not exceed 5000sq. ft. areas
-•	Control schedules shall not control more than 1 floor
-•	Occupants must be able to override for up to 2 Hrs
-2.	Occupancy Sensor – shall turn off receptacles within 20mins of occupants leaving
-3.	Signal from another control or alarm system that will turn off within 20mins
+1. Time-of-Day Device:
+- Independent schedules shall not exceed 5000sq. ft. areas
+- Control schedules shall not control more than 1 floor
+- Occupants must be able to override for up to 2 Hrs
+2. Occupancy Sensor ? shall turn off receptacles within 20mins of occupants leaving
+3. Signal from another control or alarm system that will turn off within 20mins
  
-•	C405.6.2 	Electrical Metering – Individual dwelling units must be metered.
-•	C405.6.3 	Voltage Drop – The conductors for feeders AND branch circuits combined shall be sized for a max voltage drop of 5%.
-•	C405.8	Electric Motors shall meet minimum efficiency requirements per Table.
-•	C405.9.2 	Escalators and moving walks shall have automatic controls to reduce speed when not conveying passengers.
+- C405.6.2 	Electrical Metering ? Individual dwelling units must be metered.
+- C405.6.3 	Voltage Drop ? The conductors for feeders AND branch circuits combined shall be sized for a max voltage drop of 5%.
+- C405.8	Electric Motors shall meet minimum efficiency requirements per Table.
+- C405.9.2 	Escalators and moving walks shall have automatic controls to reduce speed when not conveying passengers.
 
- 
+
+
 FBC 2017 Building
 
-•	FBC 109.3	The Building Official may require an estimate of the cost utilizing RSMeans, copies of signed contract
-•	FBC 454.1.10.1	POOL REPAIR	Equivalent replacement of equipment is NOT considered a repair or alteration. 
-•	FBC 454.1.10.3	POOL IONIZER	Installation of a pool Ionizer shall not be considered a repair or alteration, as long as it doesn’t interfere with flow rate.
-•	FBC 454.2.16 	POOL Outlets supplying pool pump motors, other electrical equipment, and underwater luminaries 120v – 240v (15a or 20a) shall be GFCI
-•	AMENDMENT 454.2.16.1 When artificial underwater lighting is utilized in any private swimming or recreational bathing pools, all portions of the pool, including the entire bottom and any and all drains, shall be readily seen without glare. 
+- FBC 109.3	The Building Official may require an estimate of the cost utilizing RSMeans, copies of signed contract
+- FBC 454.1.10.1	POOL REPAIR	Equivalent replacement of equipment is NOT considered a repair or alteration. 
+- FBC 454.1.10.3	POOL IONIZER	Installation of a pool Ionizer shall not be considered a repair or alteration, as long as it doesn?t interfere with flow rate.
+- FBC 454.2.16 	POOL Outlets supplying pool pump motors, other electrical equipment, and underwater luminaries 120v ? 240v (15a or 20a) shall be GFCI
+- AMENDMENT 454.2.16.1 When artificial underwater lighting is utilized in any private swimming or recreational bathing pools, all portions of the pool, including the entire bottom and any and all drains, shall be readily seen without glare. 
 There has not been an amendment for the 2017 Code as of 2-6-18
-•	AMENDMENT 454.2.16.2 When underwater light fixtures are installed for swimming or bathing pools, these fixtures shall not exceed the following maximum output/ performance standards.
+- AMENDMENT 454.2.16.2 When underwater light fixtures are installed for swimming or bathing pools, these fixtures shall not exceed the following maximum output/ performance standards.
           1) 15 volts (RMS) for sinusoidal alternating current 
           2) 21.2 volts peak for nonsinusoidal alternating current 
-          3) 30 volts’ continuous direct current 
+          3) 30 volts? continuous direct current 
           4) 12.4 volts peak for direct current that is interrupted at a rate of 10 to 200 Hertz 
           5) The maximum incandescent lamp size shall be 300 Watts
 There has not been an amendment for the 2017 Code as of 2-6-18
-•	FBC 907.2.11.5 Where more than one smoke alarm is required to be installed within an individual dwelling IN GROUP “R” OR “I-1” occupancy’s, the alarms shall be interconnected. This can be hard-wired or by a listed wireless alarms.
+- FBC 907.2.11.5 Where more than one smoke alarm is required to be installed within an individual dwelling IN GROUP ?R? OR ?I-1? occupancy?s, the alarms shall be interconnected. This can be hard-wired or by a listed wireless alarms.
 
 
 FBC 2017 Building
-•	FBC 907.2.11.3 Smoke Alarms Near Cooking Appliances – 
-o	Ionization Smoke Alarms shall not be placed within 20’ of cooking appliances
-o	Ionization Smoke Alarms with a silencing switch shall not be placed within 10’ of cooking appliances
-o	Photoelectric Smoke Alarms shall not be placed within 6’ of cooking appliances
-F.Y.I. Group I-1 description in FBC 308.2 (Boarding Houses, Halfway Houses, Convalescent…)
-•	FBC 907.2.11.6 Power Source in NEW CONSTRUCTION, smoke alarms shall receive their primary power from the building wiring. WIRES SHALL BE PERMANENT.
-•	1008.1, 1008.2, 1008.3, 2702.2.11      	Means of Egress Illumination – illumination shall be provided in the MoE established by Fire Dept, at all times that occupied unless it’s an R-Group. The power for the MoE shall normally come from building power.
-•	FBC 1008.3.3 MEANS OF EGRESS ILLUMINATION in the event of a power failure an emergency system shall automatically illuminate:
-o	Electric equipment rooms
-o	Fire command centers
-o	Fire pump rooms
-o	Generator rooms
-o	Public restrooms >300 sq ft 
-•	FBC 1008.3.4 The emergency power system shall consist of batteries, unit equipment, or an onsite generator.
-•	FBC 1010.1.9.9(3)	Mag Lock (electromagntically) locked egress doors; operation of the \\dware must directly interrupt the power to the electromagnetic lock. \\
-•	FBC 1010.1.10	Electrical rooms with equipment rated >1200amps and >6’ wide shall contain panic hardware. And doors shall swing out to exit.
-•	FBC 1023.5	Penetrations into or through interior exit stairways and ramps are prohibited except for equipment and ductwork necessary for independent ventilation or pressurization, sprinkler piping, standpipes, electrical raceway for fire department communication systems and electrical race-way serving the interior exit stairway and ramp and terminating at a steel box not exceeding 16 square inches (0.010 m2). Such penetrations shall be protected in accordance with Section 714. There shall not be penetrations or communication openings, whether protected or not, between adjacent interior exit stairways and ramps.
-•	1522.2	All rooftop equipment shall be mounted to the structure no sleepers.
-•	FBC 1522.3.4 Electrical conduit shall be lifted off the roof a minimum of 8”
-•	FBC 2704.1 	Requires metal framing members to be bonded to the EGC (mostly applied to wood frame with metal boxes)
-•	FBC 107.1 Spec sheets are needed if requested.
+- FBC 907.2.11.3 Smoke Alarms Near Cooking Appliances ? 
+o Ionization Smoke Alarms shall not be placed within 20? of cooking appliances
+o Ionization Smoke Alarms with a silencing switch shall not be placed within 10? of cooking appliances
+o Photoelectric Smoke Alarms shall not be placed within 6? of cooking appliances
+F.Y.I. Group I-1 description in FBC 308.2 (Boarding Houses, Halfway Houses, Convalescent?)
+- FBC 907.2.11.6 Power Source in NEW CONSTRUCTION, smoke alarms shall receive their primary power from the building wiring. WIRES SHALL BE PERMANENT.
+- 1008.1, 1008.2, 1008.3, 2702.2.11      	Means of Egress Illumination ? illumination shall be provided in the MoE established by Fire Dept, at all times that occupied unless it?s an R-Group. The power for the MoE shall normally come from building power.
+- FBC 1008.3.3 MEANS OF EGRESS ILLUMINATION in the event of a power failure an emergency system shall automatically illuminate:
+o Electric equipment rooms
+o Fire command centers
+o Fire pump rooms
+o Generator rooms
+o Public restrooms >300 sq ft 
+- FBC 1008.3.4 The emergency power system shall consist of batteries, unit equipment, or an onsite generator.
+- FBC 1010.1.9.9(3)	Mag Lock (electromagntically) locked egress doors; operation of the \\dware must directly interrupt the power to the electromagnetic lock. \\
+- FBC 1010.1.10	Electrical rooms with equipment rated >1200amps and >6? wide shall contain panic hardware. And doors shall swing out to exit.
+- FBC 1023.5	Penetrations into or through interior exit stairways and ramps are prohibited except for equipment and ductwork necessary for independent ventilation or pressurization, sprinkler piping, standpipes, electrical raceway for fire department communication systems and electrical race-way serving the interior exit stairway and ramp and terminating at a steel box not exceeding 16 square inches (0.010 m2). Such penetrations shall be protected in accordance with Section 714. There shall not be penetrations or communication openings, whether protected or not, between adjacent interior exit stairways and ramps.
+- 1522.2	All rooftop equipment shall be mounted to the structure no sleepers.
+- FBC 1522.3.4 Electrical conduit shall be lifted off the roof a minimum of 8?
+- FBC 2704.1 	Requires metal framing members to be bonded to the EGC (mostly applied to wood frame with metal boxes)
+- FBC 107.1 Spec sheets are needed if requested.
 
 
 
@@ -525,20 +527,20 @@ o	Public restrooms >300 sq ft
 
 FBC 2014 Residential
 
-•	R314.1 Smoke detection and notification. 
+- R314.1 Smoke detection and notification. 
 All smoke alarms shall be listed and labeled in accordance with UL 217 and installed in accordance with the provisions of this code and the household fire warning equipment provisions of NFPA 72. 
-•	R314.3 Location. Smoke alarms shall be installed in the following locations:
-1.	In each sleeping room
-2.	Outside each sleeping area in the immediate vicinity of the bedroom
-3.	On each additional story of the dwelling & habitable attics.
-•	R314.3.1 Alterations, repairs and additions. 
+- R314.3 Location. Smoke alarms shall be installed in the following locations:
+1. In each sleeping room
+2. Outside each sleeping area in the immediate vicinity of the bedroom
+3. On each additional story of the dwelling & habitable attics.
+- R314.3.1 Alterations, repairs and additions. 
 When alterations, repairs or additions requiring a permit occur, or when one or more sleeping rooms are added or created in existing dwellings, the individual dwelling unit shall be equipped with smoke alarms located as required for new dwellings.  
 Exceptions: 
 
 1. Work involving the exterior surfaces of dwellings, such as the replacement of roofing or siding, or the addition or replacement of windows or doors, or the addition of a porch or deck, are exempt from the requirements of this section. 
 
 2. Installation, alteration or repairs of plumbing or mechanical systems are exempt from the requirements of this section.
-•	R314.4 Power source. 
+- R314.4 Power source. 
 Smoke alarms shall receive their primary power from the building wiring when such wiring is served from a commercial source, and when primary power is interrupted, shall receive power from a battery. Wiring shall be permanent and without a disconnecting switch other than those required for overcurrent protection. 
 
 Exceptions: 
@@ -547,16 +549,17 @@ Exceptions:
 
 2. Hard wiring of smoke alarms in existing areas shall not be required where the alterations or repairs do not result in the removal of interior wall or ceiling finishes exposing the structure, unless there is an attic, crawl space or basement available which could provide access for hard wiring without the removal of interior finishes. 
 
-3. One-family and two-family dwellings and townhomes undergoing a repair, or a Level 1 alteration as defined in the Florida Building Code, may use smoke alarms powered by 10-year nonremovable, nonreplaceable batteries in lieu of retrofitting such dwelling with smoke alarms powered by the dwelling’s electrical system.
-•	R315.1 Carbon monoxide protection. Every separate building or addition to a building that has a garage or (gas appliances)…shall have a C/O detector with-in 10’
-•	E4206.4.2.3 When underwater light fixtures are installed for swimming or bathing pools, these fixtures shall not exceed the following maximum output/ performance standards:
-1. 15 volts (RMS) for sinusoidal alternating current
-2. 21.2 volts peak for nonsinusoidal alternating current
-3. 30 volts’ continuous direct current
-4. 12.4 volts peak for direct current that is interrupted at a rate of 10 to 200 Hertz
-5. The maximum incandescent lamp size shall be 300 watts
+3. One-family and two-family dwellings and townhomes undergoing a repair, or a Level 1 alteration as defined in the Florida Building Code, may use smoke alarms powered by 10-year nonremovable, nonreplaceable batteries in lieu of retrofitting such dwelling with smoke alarms powered by the dwelling?s electrical system.
+- R315.1 Carbon monoxide protection. Every separate building or addition to a building that has a garage or (gas appliances)?shall have a C/O detector with-in 10?
+- E4206.4.2.3 When underwater light fixtures are installed for swimming or bathing pools, these fixtures shall not exceed the following maximum output/ performance standards:
+     1. 15 volts (RMS) for sinusoidal alternating current
+     2. 21.2 volts peak for nonsinusoidal alternating current
+     3. 30 volts? continuous direct current
+     4. 12.4 volts peak for direct current that is interrupted at a rate of 10 to 200 Hertz
+     5. The maximum incandescent lamp size shall be 300 watts
+     
 
- 
+
 NFPA 
 
 HOOD SYSTEM
@@ -570,18 +573,23 @@ the same ventilation equipment shall also be shut off.
 
 NFPA 101
 4.6.10 Construction, Repair, and Improvement Operations.
-4.6.10.1* Buildings, or portions of buildings, shall be permitted to be occupied during construction, repair, alterations, or additions only where required means of egress and required fire protection features are in place and continuously maintained for the portion occupied or where alternative life safety measures acceptable to the authority having jurisdiction are in place.
+4.6.10.1- Buildings, or portions of buildings, shall be permitted to be occupied during construction, repair, alterations, or additions only where required means of egress and required fire protection features are in place and continuously maintained for the portion occupied or where alternative life safety measures acceptable to the authority having jurisdiction are in place.
 
-4.6.10.2* In buildings under construction, adequate escape facilities shall be maintained at all times for the use of construction workers. Escape facilities shall consist of doors, walk-ways, stairs, ramps, fire escapes, ladders, or other approved means or devices arranged in accordance with the general principles of the Code insofar as they can reasonably be applied to buildings under construction.
+4.6.10.2- In buildings under construction, adequate escape facilities shall be maintained at all times for the use of construction workers. Escape facilities shall consist of doors, walk-ways, stairs, ramps, fire escapes, ladders, or other approved means or devices arranged in accordance with the general principles of the Code insofar as they can reasonably be applied to buildings under construction.
 
- 
+
+
 1989 Schirmer Tenant Handbook
 
-1.	Plans must be sealed – all plans submitted for the Mall must bear the seal of a Registered Professional Engineer holding a current valid registration in the State of Florida, in the applicable field of engineering. 
+1. Plans must be sealed ? all plans submitted for the Mall must bear the seal of a Registered Professional Engineer holding a current valid registration in the State of Florida, in the applicable field of engineering. 
 
 
- 
+
+
 Florida Statutes
 
-F.S. 489.113(3). A contractor shall subcontract all electrical, mechanical, plumbing, roofing, sheet metal, swimming pool, and air-conditioning work, unless such contractor holds a state certificate or registration in the respective trade category, however:
+F.S. 489.113(3).?A contractor shall subcontract all electrical, mechanical, plumbing, roofing, sheet metal, swimming pool, and air-conditioning work, unless such contractor holds a state certificate or registration in the respective trade category, however:
 F.S. 553.79(1)(A) requirement to state code section for rejected plan.
+Page | 21
+
+

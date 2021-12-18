@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       3FD02ED7-316C-4C6C-9174-A9656524FEE9
+:END:
+#+title: Nec 2014 300 General Requirements for Wiring Methods and Materials
+
+
+** 300.4(A)	Protect cables 1**1/4? from stud edges with kick plates
+** 300.4(B)	NM cable through metal studs needs grommets or bushings
+** 300.4(E)	Cable, Raceway, or Box must be 1**1/2? below metal roof deck; excluding GRC and IMC.
+** NEC 2014
+
+** 300.4(G)	Conduit bushing required for #4 or larger
+** 300.5(A)	Minimum cover requirements
+** 300.5(B)	Interior of underground raceways is a wet location.
+** 300.5(F)	Backfill containing large rocks?shall not be placed in an excavation.
+** 300.7(A)	Raceways exposed to temperature differences shall be sealed
+** 300.7(B)	Expansion fitting requirements for thermal expansion and contraction
+** 300.9 		Interiors of raceways in wet locations above grade are to be considered wet locations.
+** 300.10	Electrical continuity of metal raceways and enclosures shall be continuous.
+** 300.11(A) 	Ceiling grids cannot support cables, boxes, or conduit. Independent support wires required, and if used as sole support method must be secured at both ends.
+** 300.12	Nonmetallic raceways and cables shall be mechanically continuous between boxes, conduits, etc.
+** 300.13	Conductors in raceways shall be continuous, with no splices.
+** 300.13(B)	Neutrals to be spliced in multiwire branch circuits so to not interrupt the continuity if device is removed.	
+** 300.14	Free conductors at outlets 6? from conduit ? 3? from box.
+** 300.21	Fire stop breaches in fire rated walls, ceilings, etc.
+** 300.38 	OVER 1000 VOLTS interiors of raceways in wet locations above grade are to be considered wet locations.
+** 300.45 	OVER 1000 VOLTS Warning signs shall be posted at points of access to conductors in all conduit and cable systems.

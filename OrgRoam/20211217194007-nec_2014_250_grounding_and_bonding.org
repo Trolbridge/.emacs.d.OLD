@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       97E40B43-23D3-46A5-A095-095B2CE01E29
+:END:
+#+title: Nec 2014 250 Grounding and Bonding
+
+* Nec 2014 250 Grounding and Bonding
+** 250.4(A)(3) Bonding of non**current material likely to be energized
+** 250.4(A)(4) Conductive materials that are likely to become energized shall be bonded.
+** 250.4(A)(5) The earth shall not be considered as an effective ground**fault path
+** 250.8(A)    Permitted methods of ground connections, (no sheet metal screws.)
+** 250.10      Ground clamps exposed to physical damage shall be protected
+** 250.12      Ground connections on clean surfaces
+** 250.24(C)(1) Service grounding conductor sized as per 250.66
+** 250.28      Main bonding jumper requirements
+** 250.28(B)   Main bonding jumper screw to be green
+** 250.30      Grounding separately derived A/C systems
+** 250.32(A)   Remote buildings or structures supplied by a feeder or branch circuit shall have a grounding electrode.
+** 250.32(B)   Remote buildings or structures supplied by a feeder or branch circuit shall have an equipment grounding conductor.  
+** 250.34      Portable and vehicle**mounted generator grounding requirements
+** 250.35      Permanently installed generator grounding requirements
+** 250.50      All grounding electrodes present shall be bonded together
+** 250.53(A)2  A supplemental electrode is required unless 25 ohms or less is achieved.
+** 250.53(G)   Ground rods are to be flush or below grade, unless protected
+** 250.64	Grounding electrode installation
+** 250.64(B)	GEC #4 or larger to be protected where exposed to physical damage
+** 250.64(C)	GEC to be continuous (Exothermic weld and irreversible crimp allowed).
+** 250.66	Size of GEC Table. Sized by the ungrounded conductors.
+** 250.68(A) 	GEC connections to grounding electrodes shall be accessible (excluding concrete encased)
+** 250.68(A)E	Encased or buried connections to concrete encased, driven, or buried Electrodes shall not be required to be accessible.
+** 250.68(C)3	Reinforcing rod (rebar) can extend from concrete and be used as GEC
+** 250.80	Service raceways and enclosures shall be connected to the grounded 	system conductor.
+** 250.92 (B)	Service (line side) bonding when using concentric or eccentric KO?s
+** 250.92(B)(4) Standard locknuts shall not be the only means for bonding at service. Bonding bushings, bonding locknuts required on line side of service.
+** 250.94	An Intersystem bonding termination for bonding other systems.
+** 250.97	Bonding bushings required for eccentric/concentric KO?s over 250 volts
+** 250.104(A)	Bond metal water piping
+** 250.104(B)	Bond gas piping
+** 250.119	Equipment grounding conductors #6 and smaller shall be green or bare
+** 250.120	Raceways or cables used as EGC shall have approved fittings and be made up tight
+** 250.122	Size of equipment grounding conductor (table)
+** 250.140	Frames of ranges and dryers
+** 250.142(B)	The neutral cannot be used for grounding.
+** 250.146	Equipment bonding jumper from grounded box to ground of device
+** 250.148	Ground boxes containing conductor splices; and removal of device will not interfere with the grounding continuity.
+

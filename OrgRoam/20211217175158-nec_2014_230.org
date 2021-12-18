@@ -18,3 +18,18 @@
 ** 230.79 Rating of service entrance equipment
 ** 230.90 Overcurrent protection required for service
 ** 230.95 Ground fault protection of equipment required for service disconnects rated 1000 amps or more.
+*230.95 Ground-Fault Protection of Equipment.*
+
+Ground-fault protection of equipment shall be provided for solidly grounded wye electric services of more than 150 volts to ground but not exceeding 1000 volts phase-to-phase for each service disconnect rated *1000 amperes* or more. The grounded conductor for the solidly grounded wye system shall be connected directly to ground through a grounding electrode system, as specified in 250.50, without inserting any resistor or impedance device. The rating of the service disconnect shall be considered to be the rating of the largest fuse that can be installed or the highest continuous current trip setting for which the actual overcurrent device installed in a circuit breaker is rated or can be adjusted.
+
+Exception: The ground-fault protection provisions of this section shall not apply to a service disconnect for a continuous industrial process where a nonorderly shutdown will introduce additional or increased hazards.
+
+(A) Setting. The ground-fault protection system shall operate to cause the service disconnect to open all ungrounded conductors of the faulted circuit. The maximum setting of the ground-fault protection shall be 1200 amperes, and the maximum time delay shall be one second for ground-fault currents equal to or greater than 3000 amperes.
+
+(B) Fuses. If a switch and fuse combination is used, the fuses employed shall be capable of interrupting any current higher than the interrupting capacity of the switch during a time that the ground-fault protective system will not cause the switch to open.
+
+(C) Performance Testing. The ground-fault protection system shall be performance tested when first installed on site. This testing shall be conducted by a qualified person(s) using a test process of primary current injection, in accordance with instructions that shall be provided with the equipment. A writ‐ ten record of this testing shall be made and shall be available to the authority having jurisdiction.
+
+Informational Note No. 1: Ground-fault protection that functions to open the service disconnect affords no protection from faults on the line side of the protective element. It serves only to limit damage to conductors and equipment on the load side in the event of an arcing ground fault on the load side of the protective element.
+Informational Note No. 2: This added protective equipment at the service equipment may make it necessary to review the over‐ all wiring system for proper selective overcurrent protection coordination. Additional installations of ground-fault protective equipment may be needed on feeders and branch circuits where maximum continuity of electric service is necessary. Informational Note No. 3: Where ground-fault protection is provided for the service disconnect and interconnection is made with another supply system by a transfer device, means or devi‐ ces may be needed to ensure proper ground-fault sensing by the ground-fault protection equipment.
+Informational Note No. 4: See 517.17(A) for information on where an additional step of ground-fault protection is required for hospitals and other buildings with critical areas or life support equipment.

@@ -6,8 +6,11 @@
 * Emacs Plus
 https://github.com/d12frosted/homebrew-emacs-plus
 * Commands
-C-M-j Ivy-immediate-done
-C-c C-l add link to file
-C-c C-x C-v org-toggle-inline-images
+** C-M-j Ivy-immediate-done
+** C-c C-l add link to file
+** C-c C-x C-v org-toggle-inline-images
+** M-x replace-string RET
+** helm-grep-do-git-grep
+** cousel-rg
+** counsel-org-goto-all
 
-M-x replace-string RET

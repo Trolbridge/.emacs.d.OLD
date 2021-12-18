@@ -10,7 +10,7 @@
 ** 240.4(D)7   Overcurrent size required for protection of conductors 
 ** 240.5(B)(2) Fixture wire taps for 20 and 30 amp circuits
 ** 240.21(B)   Feeder tap rules
-** 240.24(A)   Overcurrent devices to be accessible, highest position 6?**7?
+** 240.24(A)   Overcurrent devices to be accessible, highest position 6'7"
 ** 240.24(B)   Overcurrent devices to be accessible to each occupant.
 ** 240.24(D)   Overcurrent devices shall not be located in clothes closets or vicinity of easily ignitable material.
 ** 240.24(E)   OCD other than supplemental OCP shall not be located in bathrooms.

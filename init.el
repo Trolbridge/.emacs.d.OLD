@@ -476,6 +476,7 @@
 (add-to-list 'org-structure-template-alist '("js" . "src js :results output"))
 (add-to-list 'org-structure-template-alist '("ht" . "src html :results output"))
 (add-to-list 'org-structure-template-alist '("rb" . "src ruby :results output"))
+(add-to-list 'org-structure-template-alist '("go" . "src go :results output"))
 
 (setq org-confirm-babel-evaluate nil)
 

@@ -518,11 +518,13 @@ org-babel-tangle C-c C-v t
 #+begin_src emacs-lisp :results echo
 
   (require 'ob-js)
+;  (require 'ob-go)
   (org-babel-do-load-languages
    'org-babel-load-languages
    '((emacs-lisp . t)
      (js . t)
      (ruby . t)
+;     (go . t)
      (python . t)))
 
 

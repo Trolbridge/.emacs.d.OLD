@@ -455,30 +455,32 @@
   :hook (org-mode . trol/org-mode-visual-fill))
 
 (require 'ob-js)
-(org-babel-do-load-languages
- 'org-babel-load-languages
- '((emacs-lisp . t)
-   (js . t)
-   (ruby . t)
-   (python . t)))
+;  (require 'ob-go)
+  (org-babel-do-load-languages
+   'org-babel-load-languages
+   '((emacs-lisp . t)
+     (js . t)
+     (ruby . t)
+;     (go . t)
+     (python . t)))
 
 
-(push '("conf-unix" . conf-unix) org-src-lang-modes)
+  (push '("conf-unix" . conf-unix) org-src-lang-modes)
 
 
 
-;; This is needed as of Org 9.2
-(require 'org-tempo)
-(org-babel-do-load-languages 'org-babel-load-languages org-babel-load-languages)
-(add-to-list 'org-structure-template-alist '("sh" . "src shell"))
-(add-to-list 'org-structure-template-alist '("el" . "src emacs-lisp :results echo"))
-(add-to-list 'org-structure-template-alist '("py" . "src python :results output"))
-(add-to-list 'org-structure-template-alist '("js" . "src js :results output"))
-(add-to-list 'org-structure-template-alist '("ht" . "src html :results output"))
-(add-to-list 'org-structure-template-alist '("rb" . "src ruby :results output"))
-(add-to-list 'org-structure-template-alist '("go" . "src go :results output"))
+  ;; This is needed as of Org 9.2
+  (require 'org-tempo)
+  (org-babel-do-load-languages 'org-babel-load-languages org-babel-load-languages)
+  (add-to-list 'org-structure-template-alist '("sh" . "src shell"))
+  (add-to-list 'org-structure-template-alist '("el" . "src emacs-lisp :results echo"))
+  (add-to-list 'org-structure-template-alist '("py" . "src python :results output"))
+  (add-to-list 'org-structure-template-alist '("js" . "src js :results output"))
+  (add-to-list 'org-structure-template-alist '("ht" . "src html :results output"))
+  (add-to-list 'org-structure-template-alist '("rb" . "src ruby :results output"))
+  (add-to-list 'org-structure-template-alist '("go" . "src go :results output"))
 
-(setq org-confirm-babel-evaluate nil)
+  (setq org-confirm-babel-evaluate nil)
 
 ;; Automatically tangle our Emacs.org config file when we save it
 (defun trol/org-babel-tangle-config ()

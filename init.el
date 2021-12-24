@@ -291,6 +291,8 @@
 
   (setq org-refile-targets
         '(("Archive.org" :maxlevel . 1)
+        ("~/OrgRoam/Archives/Archive.org" :maxlevel . 1)
+        ("~/OrgRoam/Tasks.org" :maxlevel . 1)
           ("Tasks.org" :maxlevel . 1)))
 
   ;; Save Org buffers after refiling! 

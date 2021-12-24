@@ -2,20 +2,27 @@ package main
 
 import "log"
 
+type User struct {
+	FirstName string
+	LastName  string
+}
+
 func main() {
+	// Maps are very very fast
+	// Maps are unsorted
+	// Will access the same Map from any location, do not need to use pointers to access them
 
-	myMap := make(map[string]string)
-	myMap["dog"] = "Samson"
-	myMap["other-dog"] = "Cassie"
 
-	log.Println(myMap)
-	log.Println(myMap["dog"])
+	// Store Anything in maps, even user types:
+	myMap := make(map[string]User)
 
-	myMap2 := make(map[string]int)
-	myMap2["First"] = 1
-	myMap2["Second"] = 2
-	
-	log.Println(myMap["other-dog"])
-	log.Println(myMap2["First"],myMap2["Second"])
+	me := User{
+		FirstName: "Dennis",
+		LastName:  "Mitchell",
+	}
+
+	myMap["me"] = me
+
+	log.Println(myMap["me"].FirstName, myMap["me"].LastName)
 
 }

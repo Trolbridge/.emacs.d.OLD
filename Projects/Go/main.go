@@ -63,7 +63,6 @@ func check3() {
 
 func check4(myDir *string) string {
 	cmd := exec.Command("git", "status")
-	fmt.Printf("\n" + *myDir + " - ")
 	cmd.Dir = *myDir
 	out, err := cmd.Output()
 	if err != nil {
@@ -73,12 +72,15 @@ func check4(myDir *string) string {
 	myTest := "On branch master\nYour branch is up to date with 'origin/master'.\n\nnothing to commit, working tree clean\n"
 	output := string(out[:])
 
-	var myResult string
+	var myResult string = ""
 	if myTest == output {
 		// fmt.Println("Clean")
-		myResult = "Clean"
+		// myResult = "Clean"
+		// fmt.Printf("\n" + *myDir + " - ")
+		myResult = ""
 	} else if myTest != output {
 		// fmt.Println("Updated...")
+		fmt.Printf("\n" + *myDir + " - ")
 		myResult = "Updated"
 		// fmt.Println(output)
 	}
@@ -95,7 +97,8 @@ func execute() {
 	fmt.Printf(check4(&myDir))
 	// check4(&myDir)
 	myDir = "/Users/trolbridge/OrgRoam"
-	fmt.Printf(check4(&myDir))
+	fmt.Printf(check4(&myDir) + "\n")
+
 }
 
 func main() {

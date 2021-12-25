@@ -63,17 +63,28 @@ func check3() {
 
 func check4(myDir *string) string {
 	cmd := exec.Command("git", "status")
-	fmt.Printf("\n" + *myDir + "\n\n")
+	fmt.Printf("\n" + *myDir + " - ")
 	cmd.Dir = *myDir
 	out, err := cmd.Output()
 	if err != nil {
 		fmt.Printf("%s", err)
 	}
 	// var output = string(out[:])
+	myTest := "On branch master\nYour branch is up to date with 'origin/master'.\n\nnothing to commit, working tree clean\n"
 	output := string(out[:])
-	fmt.Println(output)
-	imDone := "Im done\n"
-	return imDone
+
+	var myResult string
+	if myTest == output {
+		// fmt.Println("Clean")
+		myResult = "Clean"
+	} else if myTest != output {
+		// fmt.Println("Updated...")
+		myResult = "Updated"
+		// fmt.Println(output)
+	}
+	// imDone := "Im done\n"
+	// return imDone
+	return myResult
 }
 
 func execute() {

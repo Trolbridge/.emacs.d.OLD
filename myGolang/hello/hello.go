@@ -3,11 +3,11 @@ package main
 import (
     "fmt"
 
-    "example.com/greetings"
+    "github.com/trolbridge/.emacs.d/myGolang/greetings"
 )
 
 func main() {
     // Get a greeting message and print it.
-    message := greetings.Hello("Gladys")
+    message := greetings.Hello("Dennis")
     fmt.Println(message)
 }

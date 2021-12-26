@@ -122,8 +122,8 @@ m ()
       cd -P -- "$1"
 }
 #export  PATH=$PATH:/usr/local/go/bin:$HOME/go_projects/bin
-#export GOPATH="$HOME/go_projects"
-#export GOBIN="$GOPATH/bin"
+export GOPATH="/Users/trolbridge/.emacs.d/go"
+export GOBIN="$GOPATH/bin"
 export EDITOR=/usr/bin/vim
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

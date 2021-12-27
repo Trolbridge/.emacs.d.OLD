@@ -1,35 +1,20 @@
-;; Initialize package sources
+;; I added this
+  ;; Initialize package sources
+  (require 'package)
+  (setq package-archives '(("melpa" . "https://melpa.org/packages/")
+			   ("melpa-stable" . "https://stable.melpa.org/packages/")
+			   ("elpa" . "https://elpa.gnu.org/packages/")))
 
-    ;; (require 'package)
-    ;; (add-to-list 'package-archives
-    ;;              '("melpa" . "https://melpa.org/packages/") t)
-;;  (require 'package)
-;;  (add-to-list 'package-archives
-               ;; '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+  (package-initialize)
+  (unless package-archive-contents
+    (package-refresh-contents))
 
+  ;; Initialize use-package on non-linux platforms
+  (unless (package-installed-p 'use-package)
+    (package-install 'use-package))
 
-    ;; (setq package-archives '(("melpa" . "https://melpa.org/packages/")
-    ;;                          ("melpa-stable" . "https://stable.melpa.org/packages/")
-    ;;                          ("elpa" . "https://elpa.gnu.org/packages/")))
-
-
- ;; (package-initialize)
- ;;    (unless package-archive-contents
- ;;      (package-refresh-contents))
-
- ;;    ;; Initialize use-package on non-linux platforms
- ;;    (unless (package-installed-p 'use-package)
- ;;      (package-install 'use-package))
-
- ;;    (require 'use-package)
- ;;    (setq use-package-always-ensure t)
-
-(require 'package)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-;; Comment/uncomment this line to enable MELPA Stable if desired.  See `package-archive-priorities`
-;; and `package-pinned-packages`. Most users will not need or want to do this.
-;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
-(package-initialize)
+   (require 'use-package)
+   (setq use-package-always-ensure t)
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
   (setq inhibit-startup-message t)

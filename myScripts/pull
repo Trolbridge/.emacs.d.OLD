@@ -1,0 +1,2 @@
+#!/bin/bash
+cd ~/OrgRoam && git pull && cd - && cd ~/.emacs.d && git pull && cd -

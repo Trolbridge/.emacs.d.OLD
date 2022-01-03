@@ -8,7 +8,6 @@ import (
 const portNumber = ":8080"
 
 // main is the main function
-// Test
 func main() {
 	http.HandleFunc("/", Home)
 	http.HandleFunc("/about", About)

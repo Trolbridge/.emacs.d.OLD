@@ -5,22 +5,31 @@ import (
 	"fmt"
 	"html/template"
 	"log"
+	"myapp/pkg/config"
 	"net/http"
 	"path/filepath"
 )
 
 var functions = template.FuncMap{}
 
+// NewTemplates sets the config for the template package
+func NewTemplates(a *config.AppConfig) {
+	app = a
+}
+
 // RenderTemplate renders templates using html/template
 func RenderTemplate(w http.ResponseWriter, tmpl string) {
-	tc, err := CreateTemplateCache()
-	if err != nil {
-		log.Fatal(err)
-	}
+
+	tc := app.TemplateCache
+
+	//	tc, err := CreateTemplateCache()
+	//	if err != nil {
+	//		log.Fatal(err)
+	//	}
 
 	t, ok := tc[tmpl]
 	if !ok {
-		log.Fatal(err)
+		log.Fatal("Could not get template from template cache")
 	}
 
 	buf := new(bytes.Buffer)

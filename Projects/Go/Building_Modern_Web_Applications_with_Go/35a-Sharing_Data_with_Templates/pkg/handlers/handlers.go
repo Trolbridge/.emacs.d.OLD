@@ -50,5 +50,8 @@ func (m *Repository) About(w http.ResponseWriter, r *http.Request) {
 	stringMap["test"] = "Hello, again."
 
 	// send the data to the template
-	render.RenderTemplate(w, "about.page.tmpl", &TemplateData{})
+	render.RenderTemplate(w, "about.page.tmpl", &TemplateData{
+		StringMap: stringMap,
+	})
+
 }

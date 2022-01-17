@@ -127,3 +127,6 @@ export EDITOR=/usr/bin/vim
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export  PATH=$PATH:/Users/trolbridge/.emacs.d/myGolang:/Users/trolbridge/.emacs.d/myScripts
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

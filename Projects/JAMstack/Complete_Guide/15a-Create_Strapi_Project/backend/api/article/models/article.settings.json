@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 50,
+      "minLength": 5
+    },
+    "content": {
+      "type": "text",
+      "unique": true,
+      "required": true,
+      "minLength": 100
+    },
+    "rating": {
+      "type": "integer",
+      "max": 10,
+      "min": 1
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "articles"
+    }
+  }
+}

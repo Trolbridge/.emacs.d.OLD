@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[406],{9403:function(e,t,r){r.r(t);var l=r(7294),a=r(5444);t.default=function(){return l.createElement("div",null,l.createElement("h2",null,"this is the history of our company"),l.createElement(a.rU,{to:"/"},"home page"))}}}]);
+//# sourceMappingURL=component---src-pages-company-history-js-d9d2214de9fd14278915.js.map

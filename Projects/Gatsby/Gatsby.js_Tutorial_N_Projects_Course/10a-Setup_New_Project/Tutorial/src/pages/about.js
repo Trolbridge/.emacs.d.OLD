@@ -1,12 +1,11 @@
 import React from "react"
-import Navbar from "../components/Navbar"
+import Layout from "../components/Layout"
 
 const about = () => {
   return (
-    <div>
-      <Navbar />
-      <h2>Hello from about page</h2>
-    </div>
+    <Layout>
+      <h2>About Page</h2>
+    </Layout>
   )
 }
 

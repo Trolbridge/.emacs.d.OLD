@@ -1,5 +1,9 @@
 .page {
-  color: cadetblue;
+  color: red;
+}
+
+.page h1 {
+  color: yellowgreen;
 }
 
 .text {

@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 const error = () => {
   return (
     <Layout>
-      <div>Error Page</div>
+      <h1>Error Page</h1>
     </Layout>
   )
 }

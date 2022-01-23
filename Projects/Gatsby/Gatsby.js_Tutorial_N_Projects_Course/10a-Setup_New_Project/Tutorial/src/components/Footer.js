@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="page-footer">
       <p>
         &copy; {new Date().getFullYear()}
-        <span>SimplyRecipes</span>
+        <span>SimplyRecipes</span>.
       </p>
     </footer>
   )

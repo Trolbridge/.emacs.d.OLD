@@ -444,6 +444,7 @@ form > *:last-child {
   background: var(--black);
   color: var(--white);
 }
+
 .page-footer h5 {
   margin-bottom: 0;
 }

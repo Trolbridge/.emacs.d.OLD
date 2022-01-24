@@ -15,7 +15,7 @@ const Navbar = () => {
             <FiAlignJustify />
           </button>
         </div>
-          <div className="nav-links showlinks">
+        <div className="nav-links show-links">
           <Link to="/" className="nav-link" activeClassName="active-link">
             home
           </Link>

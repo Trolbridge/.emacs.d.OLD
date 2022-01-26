@@ -11,8 +11,8 @@ module.exports = {
   /* Your site config here */
   plugins: [
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`, // Needed for dynamic images
+    `gatsby-plugin-image`, // gatsby-plugin-image
+    `gatsby-plugin-sharp`, // gatsby-plugin-image
+    `gatsby-transformer-sharp`, // gatsby-plugin-image - Needed for dynamic images
   ],
 }

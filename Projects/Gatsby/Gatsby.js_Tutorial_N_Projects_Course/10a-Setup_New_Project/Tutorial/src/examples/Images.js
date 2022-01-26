@@ -9,7 +9,11 @@ const Images = () => {
     <Wrapper>
       <h2>Image Test</h2>
       {/* <img src={sunset} alt="sunset" /> */}
-      <StaticImage src="../assets/images/sunset.jpeg"></StaticImage>
+      <StaticImage src="../assets/images/sunset.jpeg" alt="sunset" />
+      <StaticImage
+        src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1613666858/course%20slides/event-loop_gohdkk.png"
+        alt="code"
+      />
     </Wrapper>
   )
 }

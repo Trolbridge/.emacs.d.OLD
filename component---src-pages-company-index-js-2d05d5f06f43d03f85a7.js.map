@@ -1,1 +1,0 @@
-{"version":3,"file":"component---src-pages-company-index-js-2d05d5f06f43d03f85a7.js","mappings":"kKAMA,UAJc,WACZ,OAAO","sources":["webpack://gatsby-starter-hello-world/./src/pages/company/index.js"],"sourcesContent":["import React from \"react\"\n\nconst index = () => {\n  return <div>company index TODO</div>\n}\n\nexport default index\n"],"names":[],"sourceRoot":""}

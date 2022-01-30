@@ -5,10 +5,18 @@
  */
 
 module.exports = {
-  // pathPrefix: "/.emacs.d",
-  // pathPrefix:
-  //   "/.emacs.d/Projects/Gatsby/Gatsby.js_Tutorial_N_Projects_Course/10a-Setup_New_Project/tutorial",
   /* Your site config here */
+  siteMetadata: {
+    title: "Simply Recipes",
+    description: "Nice and clean recipes site",
+    author: "@dennismitchell",
+    person: { name: "dennis", age: 53 }, // Object
+    simpleData: ["item 1", "item 2"],     // Array
+    complexData: [                        // Array of Objects
+      { name: "dennis", age: 53 },
+      { name: "susan", age: 52 },
+    ],
+  },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`, // gatsby-plugin-image

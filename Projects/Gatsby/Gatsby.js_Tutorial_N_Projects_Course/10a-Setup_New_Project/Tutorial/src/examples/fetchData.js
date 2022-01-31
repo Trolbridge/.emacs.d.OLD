@@ -1,40 +1,32 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-const ComponentName = () => {
-  const data = useStaticQuery(graphql`
-    {
-      site {
-        siteMetadata {
-          author
-          description
-          title
-          complexData {
-            name
-            age
-          }
-          person {
-            name
-            age
-          }
+const getData = graphql`
+  {
+    site {
+      siteMetadata {
+        author
+        description
+        title
+        complexData {
+          name
+          age
+        }
+        person {
+          name
+          age
         }
       }
     }
-  `)
+  }
+`
+
+const fetchData = () => {
   return (
     <div>
-      <h2>{data.site.siteMetadata.person.name}</h2>
-      <div>
-        {data.site.siteMetadata.complexData.map((item, index) => {
-          return (
-            <p key={index}>
-              {item.name}:{item.age}
-            </p>
-          )
-        })}
-      </div>
+      <h1>hello from fetch data</h1>
     </div>
   )
 }
 
-export default ComponentName
+export default fetchData

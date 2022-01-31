@@ -21,12 +21,19 @@ const getData = graphql`
   }
 `
 
-const fetchData = () => {
+const FetchData = () => {
+  //   const data = useStaticQuery(getData)
+  const {
+    site: {
+      siteMetadata: { title },
+    },
+  } = useStaticQuery(getData)
   return (
     <div>
-      <h1>hello from fetch data</h1>
+      {/* <h2>Name : {data.site.siteMetadata.person.name}</h2> */}
+      <h2>site title is : {title}</h2>
     </div>
   )
 }
 
-export default fetchData
+export default FetchData

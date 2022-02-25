@@ -1,6 +1,7 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby" // named imports
 
+// Added Alias
 const getData = graphql`
   {
     site {

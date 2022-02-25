@@ -1,10 +1,9 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby" // named imports
 
-// Added Alias
-const getData = graphql`
 // Lesson 53
 // Query Names must be unique 
+const getData = graphql`
   query {
     site {
       info: siteMetadata {

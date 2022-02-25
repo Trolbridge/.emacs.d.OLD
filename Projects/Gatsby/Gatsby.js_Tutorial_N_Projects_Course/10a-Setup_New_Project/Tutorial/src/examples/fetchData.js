@@ -3,7 +3,9 @@ import { useStaticQuery, graphql } from "gatsby" // named imports
 
 // Added Alias
 const getData = graphql`
-  {
+// Lesson 53
+// Query Names must be unique 
+  query {
     site {
       info: siteMetadata {
         author

@@ -18,7 +18,6 @@ const query = graphql`
     }
   }
 `
-
 const Gallery = () => {
   const data = useStaticQuery(query)
   console.log(data)

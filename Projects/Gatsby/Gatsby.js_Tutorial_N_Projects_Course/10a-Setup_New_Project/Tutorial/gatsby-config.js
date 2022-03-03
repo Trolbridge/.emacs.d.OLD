@@ -8,8 +8,7 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
-/* hi */
-// require("events").EventEmitter.defaultMaxListeners = 15
+require("events").EventEmitter.defaultMaxListeners = 15
 
 module.exports = {
   /* Your site config here */

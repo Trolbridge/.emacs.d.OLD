@@ -4,3 +4,12 @@
 [submodule "Projects/JavaScript/The_JavaScript_Bible_-_Bootcamp_2022/JavaScript-Bible-Basics"]
 	path = Projects/JavaScript/The_JavaScript_Bible_-_Bootcamp_2022/JavaScript-Bible-Basics
 	url = https://github.com/bstashchuk/JavaScript-Bible-Basics.git
+[submodule "Projects/JavaScript/The_JavaScript_Bible_-_Bootcamp_2022/JavaScript-Bible-ES6"]
+	path = Projects/JavaScript/The_JavaScript_Bible_-_Bootcamp_2022/JavaScript-Bible-ES6
+	url = https://github.com/bstashchuk/JavaScript-Bible-ES6.git
+[submodule "Projects/JavaScript/The_JavaScript_Bible_-_Bootcamp_2022/JavaScript-and-ES6-Challenges"]
+	path = Projects/JavaScript/The_JavaScript_Bible_-_Bootcamp_2022/JavaScript-and-ES6-Challenges
+	url = https://github.com/bstashchuk/JavaScript-and-ES6-Challenges.git
+[submodule "Projects/JavaScript/The_JavaScript_Bible_-_Bootcamp_2022/MongoDB-Aggregation-Tutorial"]
+	path = Projects/JavaScript/The_JavaScript_Bible_-_Bootcamp_2022/MongoDB-Aggregation-Tutorial
+	url = https://github.com/bstashchuk/MongoDB-Aggregation-Tutorial.git

@@ -1,1 +1,0 @@
-{"version":3,"file":"component---src-pages-contact-js-dfc9036f836ad73bddb9.js","mappings":"iKAEA,qBACE,OAAO","sources":["webpack://gatsby-starter-hello-world/./src/pages/contact.js"],"sourcesContent":["import React from \"react\"\n\nexport default () => {\n  return <div>test</div>\n}\n"],"names":[],"sourceRoot":""}

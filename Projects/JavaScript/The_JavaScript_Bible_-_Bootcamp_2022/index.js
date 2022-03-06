@@ -1,11 +1,1 @@
-const a = 10;
-
-const b = true;
-
-console.log(b);
-
-function test() {
-  console.log(a);
-  console.log(b);
-}
-test()
+document.write("<h2>Hello from external</h2>");

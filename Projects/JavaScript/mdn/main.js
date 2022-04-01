@@ -40,6 +40,8 @@ console.log(factorial(3))
 //   return result;
 // }
 
+// In the following code, the function receives a function defined by a function expression and executes it for every element of the array received as a second argument:
+
 function map(f, a) {
   let result = []; // Create a new Array
   let i; // Declare variable
@@ -54,4 +56,12 @@ let numbers = [0, 1, 2, 5, 10];
 let cube = map(f,numbers);
 console.log(cube);
 
+// In JavaScript, a function can be defined vased on a condition. For example, the following function definition defines myFun only if num equals 0:
+
+var myFunc;
+if (num === 0) {
+  myFunc = function(theObject) {
+    theObject.make = 'Toyota';
+  }
+}
 

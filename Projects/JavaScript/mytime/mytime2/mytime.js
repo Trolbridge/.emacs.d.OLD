@@ -39,50 +39,58 @@ if (!isNaN(Number(myArgs[0]))) {
   process.exitCode = 1;
 }
 
-// if (minutes >= 60) {
-//   overSixty = Math.floor(minutes / 60);
-//   minutes = minutes - overSixty * 60;
-//   hours += overSixty;
-//   console.log(hours);
-// }
-
 while (minutes > 59) {
-  if (minutes == 60) {
-    hours++;
-    minutes = 0;
-    break;
-  } else {
-    minutes -= 60;
-    hours++;
-  }
-}
-
-while (hours > 23) {
-  if (hours == 24) {
-    hours = 0;
-    day++;
-    break;
-  } else {
+  minutes -= 60;
+  hours++;
+  if (hours > 23) {
     hours -= 24;
     day++;
   }
+  if (day > daysOfTheMonth[whichMonth]) {
+    day = 1;
+    month++;
+  }
+  if (month > 12) {
+    month = 1;
+    year++;
+  }
 }
 
+// while (minutes > 59) {
+//   if (minutes == 60) {
+//     hours++;
+//     minutes = 0;
+//     break;
+//   } else {
+//     minutes -= 60;
+//     hours++;
+//   }
+// }
 
+// while (hours > 23) {
+//   if (hours == 24) {
+//     hours = 0;
+//     day++;
+//     break;
+//   } else {
+//     hours -= 24;
+//     day++;
+//   }
+// }
 
-console.log(whichMonth)
-console.log(daysOfTheMonth[whichMonth])
+// console.log(whichMonth);
+// console.log(daysOfTheMonth[whichMonth]);
 
-if (day > daysOfTheMonth[whichMonth]) {
-  console.log("day should change to the 1st");
-  day = 1;
-  month++;
-}
+// if (day > daysOfTheMonth[whichMonth]) {
+//   console.log("day should change to the 1st");
+//   day = 1;
+//   month++;
+// }
 
-if (month > 12) {
-  month = 1;
-  year++;
-}
+// if (month > 12) {
+//   month = 1;
+//   year++;
+// }
 
 updateT = `${hours}:${minutes}`; //Format the string correctly
 updateD = `${month}-${day}-${year}`; //Format the string correctly

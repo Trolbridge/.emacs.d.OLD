@@ -13,31 +13,32 @@ let day = dateTime.getDate();
 let year = dateTime.getFullYear();
 let hours = dateTime.getHours();
 let minutes = dateTime.getMinutes();
-
-daysOfTheMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-
 let updateD = `${month}-${day}-${year}`; //Format the string correctly
 let updateT = `${hours}:${minutes}`; //Format the string correctly
+let daysOfTheMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
-if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
-  // console.log(`${year} is a Leap Year`);
-  daysOfTheMonth[1] = 29;
-  // console.log(daysOfTheMonth[1]);
-} else {
-  // console.log(`${year} is NOT a Leap Year`);
-  // console.log(daysOfTheMonth[1]);
-}
-// console.log("there are", daysOfTheMonth[whichMonth], "days this month");
+const checkNumber = function () {
+  if (!isNaN(Number(myArgs[0]))) {
+    minutes += Number(myArgs[0]);
+  } else {
+    console.log("Please input some minutes to add");
+    process.exit(1);
+  }
+};
+checkNumber();
 
-console.log(updateT);
-console.log(updateD);
+const checkLeap = function () {
+  if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+    daysOfTheMonth[1] = 29;
+  }
+};
+checkLeap();
 
-if (!isNaN(Number(myArgs[0]))) {
-  minutes += Number(myArgs[0]);
-} else {
-  console.log("Please input some minutes to add");
-  process.exitCode = 1;
-}
+const outputTime = function () {
+  console.log(updateT);
+  console.log(updateD);
+};
+outputTime();
 
 const addTime = function () {
   while (minutes > 59) {
@@ -57,14 +58,12 @@ const addTime = function () {
     }
   }
 };
-
 addTime();
 
 updateT = `${hours}:${minutes}`; //Format the string correctly
 updateD = `${month}-${day}-${year}`; //Format the string correctly
 
-console.log(updateT);
-console.log(updateD);
+outputTime();
 
 //Add a callback function (this can be somewhere else)
 function execCallback(error, stdout, stderr) {

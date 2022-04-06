@@ -1,1 +1,6 @@
-document.write("<h2>Hello from external</h2>");
+document.write("<h2>Hello from Master Branch .js file</h2>");
+/**
+ * Example 1 - Variable Declarations
+ */
+
+var a;

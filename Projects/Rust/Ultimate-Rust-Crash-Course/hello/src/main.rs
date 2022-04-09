@@ -8,8 +8,16 @@ fn main() {
     
     let number = 2;
     let (bunnies, carrots) = (8, 10);
-
+    // number = 16;  ■ cannot assign twice to immutable variable `number`  cannot assign twice to immutable variable 
+    
     println!("{}", number);
     println!("{} {}", bunnies, carrots);
+    
+    let mut my_changing_variable = 16;
+    println!("my_changing_variable = {}", my_changing_variable);
+    
+    my_changing_variable =20;
+    println!("my_changing_variable = {}", my_changing_variable);
+
 
 }

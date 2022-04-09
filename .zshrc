@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 #alias em="nohup /Applications/Emacs.app/Contents/MacOS/Emacs &"
 alias em="nohup /Applications/MacPorts/EmacsMac.app/Contents/MacOS/Emacs &"
+alias v="nvim"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh

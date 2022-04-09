@@ -1,20 +1,33 @@
+syntax enable
+filetype plugin indent on
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.emacs.d/.vim/bundle/Vundle.vim
-call vundle#begin('~/.emacs.d/.vim/bundle/Vundle.vim')
+set rtp+=~/.config/nvim/Plugins
+set rtp+=~/.config/nvim/Plugins/Vundle.vim
+
+call vundle#begin('~/.config/nvim/plugins')
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'rust-lang/rust.vim'
+Plugin 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plugin 'neovim/nvim-lspconfig'
+Plugin 'simrat39/rust-tools.nvim'
+
+" Debugging
+Plugin 'nvim-lua/plenary.nvim'
+Plugin 'mfussenegger/nvim-dap'
+
 "Plugin 'ycm-core/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
-filetype plugin indent on    " required
+"filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
@@ -37,7 +50,6 @@ filetype plugin indent on    " required
 
 "call plug#end()
 "command! -nargs=0 Prettier :CocCommand prettier.formatFile
-
 
 "===================================
 "       Indention Options

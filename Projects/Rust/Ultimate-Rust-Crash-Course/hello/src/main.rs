@@ -19,5 +19,13 @@ fn main() {
     my_changing_variable =20;
     println!("my_changing_variable = {}", my_changing_variable);
 
+    // Constants
+    // const
+
+    const WARP_FACTOR: f64 = 9.9;
+
+        println!("Aye Aye Captain, {}", WARP_FACTOR);
+
+
 
 }

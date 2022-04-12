@@ -1,6 +1,8 @@
 .DS_store
 *.log
 *.*~
+target/
+*.lock
 /elpa/
 /auto-save-list/
 /projectile-bookmarks.eld

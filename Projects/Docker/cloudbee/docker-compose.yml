@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  one:
+    image: alpine
+    tty: true
+  two:
+    image: alpine
+    tty: true
+  three:
+    image: alpine
+    tty: true

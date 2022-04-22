@@ -1,18 +1,50 @@
 version: "3"
 services:
-  csharp:
-    container_name: csharp
-    image: dennismitchellx/csharp:1.0.0
-    build: ./c#  
-  golang:
+  # csharp: #docker run -it -v ${PWD}:/work -w /work -p 5001:5000 dennismitchellx/csharp:1.0.0 /bin/sh
+  #   container_name: csharp
+  #   image: dennismitchellx/csharp:1.0.0
+  #   build: ./c#
+  #   working_dir: /work
+  #   entrypoint: /bin/sh
+  #   stdin_open: true
+  #   tty: true
+  #   volumes:
+  #   - ./c#/src/:/work
+  #   ports:
+  #     - 5001:5000
+  golang: #docker run -it -v ${PWD}:/work -w /work -p 5002:5000 dennismitchellx/golang:1.0.0 /bin/sh
     container_name: golang
-    image: dennismitchellx/golang:1.0.0
+    image: dennismitchellx/golang:1.0.3
     build: ./golang
-  nodejs:
+    working_dir: /work
+    entrypoint: /bin/sh
+    stdin_open: true
+    tty: true
+    volumes:
+    - ./golang/src/:/work
+    ports:
+      - 5002:5000
+  nodejs: #docker run -it -v ${PWD}:/work -w /work -p 5003:5000 dennismitchellx/nodejs:1.0.0 /bin/sh
     container_name: nodejs
     image: dennismitchellx/nodejs:1.0.0
     build: ./nodejs
-  python:
-    container_name: python
-    image: dennismitchellx/python:1.0.0
-    build: ./python
+    working_dir: /work
+    entrypoint: /bin/sh
+    stdin_open: true
+    tty: true
+    volumes:
+    - ./nodejs/src/:/work
+    ports:
+      - 5003:5000
+  # python: #docker run -it -v ${PWD}:/work -w /work -p 5004:5000 dennismitchellx/python:1.0.0 /bin/sh
+  #   container_name: python
+  #   image: dennismitchellx/python:1.0.0
+  #   build: ./python
+  #   working_dir: /work
+  #   entrypoint: /bin/sh
+  #   stdin_open: true
+  #   tty: true
+  #   volumes:
+  #   - ./python/src/:/work
+  #   ports:
+  #     - 5004:5000

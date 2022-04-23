@@ -1,0 +1,3 @@
+FROM php:fpm-alpine3.15
+RUN apk update && apk add tzdata
+ENV TZ=America/Detroit

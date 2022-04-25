@@ -75,3 +75,17 @@ services:
         - ./app:/app
         ports:
           - 5006:80
+  mysql: # docker run -it -v ${PWD}:/work -w /work -p 5007:5000 dennismitchellx/nginx:1.0.0 /bin/sh
+        image: dennismitchellx/mysql:1.0.0
+        build: ./mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: 'secret'
+            MYSQL_USER: 'tutorial'
+            MYSQL_PASSWORD: 'secret'
+            MYSQL_DATABASE: 'tutorial'
+        volumes:
+        - mysqldata:/var/lib/mysql
+        ports:
+          - 3306:3306
+volumes:
+  mysqldata: {}

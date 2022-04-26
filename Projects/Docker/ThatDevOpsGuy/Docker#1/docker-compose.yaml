@@ -49,8 +49,8 @@ services:
   #   ports:
   #     - 5004:5000
   php: #docker run -it -v ${PWD}:/work -w /work -p 5005:5000 dennismitchellx/php:1.0.0 /bin/sh
-    container_name: php
-    image: dennismitchellx/python:1.0.0
+    #    container_name: php
+    image: dennismitchellx/php:1.0.0
     build: ./php
     # working_dir: /work
     # entrypoint: /bin/sh

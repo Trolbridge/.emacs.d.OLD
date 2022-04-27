@@ -11,22 +11,32 @@ services:
     ports:
       - 81:80
     volumes:
-      - ./src:/var/www/php
+      - ./src/backend:/var/www/backend
       - ./.docker/nginx/conf.d:/etc/nginx/conf.d
       - phpmyadmindata:/var/www/phpmyadmin
     depends_on:
-      - php
+      - backend
       - phpmyadmin
 
-  # PHP Service
-  php:
-    build: ./.docker/php
-    working_dir: /var/www/php
+  # Backend Service
+  backend:
+    build: ./src/backend
+    working_dir: /var/www/backend
     volumes:
-      - ./src:/var/www/php
+      - ./src/backend:/var/www/backend
     depends_on:
       mysql:
         condition: service_healthy
+
+#  # PHP Service
+#  php:
+#    build: ./.docker/php
+#    working_dir: /var/www/php
+#    volumes:
+#      - ./src:/var/www/php
+#    depends_on:
+#      mysql:
+#        condition: service_healthy
 
   # MySQL Service
   mysql:

@@ -6,6 +6,19 @@ services:
   # Java Service
   java:
     image: openjdk
+
+  # Maven Service
+  maven:
+    image: maven
+
+  # Node Service
+  node:
+    image: node
+
+  # Gradle Service
+  gradle:
+    image: gradle
+
     # ports:
     #   - 80:80
     # volumes:

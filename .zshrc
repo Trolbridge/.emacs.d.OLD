@@ -77,6 +77,14 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+if [ "$(ls -A $ZSH)" ]; then
+     echo "Wow, $ZSH is not Empty"
+else
+    echo "$ZSH is Empty"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -105,7 +113,7 @@ alias em="nohup /Applications/MacPorts/EmacsMac.app/Contents/MacOS/Emacs &"
 alias v="nvim"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 ###source ~/base/bin/activate
 ###export VIMINIT='source $MYVIMRC'
 export EDITOR=/usr/bin/vim

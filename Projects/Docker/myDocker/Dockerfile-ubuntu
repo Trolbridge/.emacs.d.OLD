@@ -1,0 +1,7 @@
+FROM ubuntu
+# FROM node:18-alpine3.14
+# RUN apk update && apk add tzdata
+# ENV TZ=America/Detroit
+ARG DEBIAN_FRONTEND=noninteractive 
+ENV TZ=America/Detroit 
+RUN apt-get update && apt-get install -y tzdata

@@ -13,11 +13,21 @@ services:
 
   # Node Service
   node:
-    image: node
+    # image: node
+    build:
+      context: .
+      dockerfile: Dockerfile-node
 
   # Gradle Service
   gradle:
     image: gradle
+
+  # Ubuntu Service
+  ubuntu:
+    # image: ubuntu
+    build:
+      context: .
+      dockerfile: Dockerfile-ubuntu
 
     # ports:
     #   - 80:80

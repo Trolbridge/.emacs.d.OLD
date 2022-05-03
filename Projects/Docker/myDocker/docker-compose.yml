@@ -104,8 +104,8 @@ services:
   #       condition: service_healthy
 
 # Volumes
-volumes:
+# volumes:
 
-  mysqldata:
+#   mysqldata:
 
-  phpmyadmindata:
+#   phpmyadmindata:

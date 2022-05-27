@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/src/build",
+  "command": "/usr/bin/x86_64-w64-mingw32-g++  -DBOOST_ALL_NO_LIB @CMakeFiles/a.out.dir/includes_CXX.rsp  -Wall -Wbuiltin-macro-redefined -pedantic -Werror   -std=c++1z -o CMakeFiles/a.out.dir/main.cpp.obj -c /src/main.cpp",
+  "file": "/src/main.cpp"
+}
+]

@@ -18,7 +18,11 @@
 Boost_DIR:PATH=/usr/local/lib/cmake/Boost-1.77.0
 
 //Path to a program.
+<<<<<<< HEAD
 CMAKE_AR:FILEPATH=/usr/bin/ar
+=======
+CMAKE_AR:FILEPATH=/usr/bin/x86_64-w64-mingw32-ar
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
@@ -27,6 +31,7 @@ CMAKE_BUILD_TYPE:STRING=
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
+<<<<<<< HEAD
 //CXX compiler
 CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
 
@@ -37,6 +42,15 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-7
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-7
+=======
+//A wrapper around 'ar' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/x86_64-w64-mingw32-gcc-ar
+
+//A wrapper around 'ranlib' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/x86_64-w64-mingw32-gcc-ranlib
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 
 //Flags used by the compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -54,6 +68,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the compiler during release builds with debug info.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
+<<<<<<< HEAD
 //C compiler
 CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 
@@ -64,6 +79,18 @@ CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-7
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-7
+=======
+//Libraries linked by default with all C++ applications.
+CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+
+//A wrapper around 'ar' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/x86_64-w64-mingw32-gcc-ar
+
+//A wrapper around 'ranlib' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/x86_64-w64-mingw32-gcc-ranlib
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 
 //Flags used by the compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -81,6 +108,12 @@ CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the compiler during release builds with debug info.
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
+<<<<<<< HEAD
+=======
+//Libraries linked by default with all C applications.
+CMAKE_C_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 //Flags used by the linker.
 CMAKE_EXE_LINKER_FLAGS:STRING=
 
@@ -99,11 +132,21 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Enable/Disable output of compile commands during generation.
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
 
+<<<<<<< HEAD
+=======
+//Convert GNU import libraries to MS format (requires Visual Studio)
+CMAKE_GNUtoMS:BOOL=OFF
+
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //Path to a program.
+<<<<<<< HEAD
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
+=======
+CMAKE_LINKER:FILEPATH=/usr/bin/x86_64-w64-mingw32-ld
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 
 //Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
@@ -124,6 +167,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
+<<<<<<< HEAD
 CMAKE_NM:FILEPATH=/usr/bin/nm
 
 //Path to a program.
@@ -131,12 +175,42 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
+=======
+CMAKE_NM:FILEPATH=/usr/bin/x86_64-w64-mingw32-nm
+
+//Path to a program.
+CMAKE_OBJCOPY:FILEPATH=/usr/bin/x86_64-w64-mingw32-objcopy
+
+//Path to a program.
+CMAKE_OBJDUMP:FILEPATH=/usr/bin/x86_64-w64-mingw32-objdump
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=a.out
 
 //Path to a program.
+<<<<<<< HEAD
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
+=======
+CMAKE_RANLIB:FILEPATH=/usr/bin/x86_64-w64-mingw32-ranlib
+
+//Flags for Windows Resource Compiler.
+CMAKE_RC_FLAGS:STRING=
+
+//Flags for Windows Resource Compiler during debug builds.
+CMAKE_RC_FLAGS_DEBUG:STRING=
+
+//Flags for Windows Resource Compiler during release builds for
+// minimum size.
+CMAKE_RC_FLAGS_MINSIZEREL:STRING=
+
+//Flags for Windows Resource Compiler during release builds.
+CMAKE_RC_FLAGS_RELEASE:STRING=
+
+//Flags for Windows Resource Compiler during release builds with
+// debug info.
+CMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=
@@ -176,7 +250,14 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
+<<<<<<< HEAD
 CMAKE_STRIP:FILEPATH=/usr/bin/strip
+=======
+CMAKE_STRIP:FILEPATH=/usr/bin/x86_64-w64-mingw32-strip
+
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=../mingw-w64-x86_64.cmake
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -224,8 +305,11 @@ CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
+<<<<<<< HEAD
 //ADVANCED property for variable: CMAKE_CXX_COMPILER
 CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
+=======
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 //ADVANCED property for variable: CMAKE_CXX_COMPILER_AR
 CMAKE_CXX_COMPILER_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_COMPILER_RANLIB
@@ -240,8 +324,13 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+<<<<<<< HEAD
 //ADVANCED property for variable: CMAKE_C_COMPILER
 CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
+=======
+//ADVANCED property for variable: CMAKE_CXX_STANDARD_LIBRARIES
+CMAKE_CXX_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 //ADVANCED property for variable: CMAKE_C_COMPILER_AR
 CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB
@@ -256,8 +345,15 @@ CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+<<<<<<< HEAD
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
+=======
+//ADVANCED property for variable: CMAKE_C_STANDARD_LIBRARIES
+CMAKE_C_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
+//Executable file format
+CMAKE_EXECUTABLE_FORMAT:INTERNAL=Unknown
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
 CMAKE_EXE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_DEBUG
@@ -281,8 +377,11 @@ CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/src
+<<<<<<< HEAD
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
+=======
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MAKE_PROGRAM
@@ -309,6 +408,20 @@ CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RANLIB
 CMAKE_RANLIB-ADVANCED:INTERNAL=1
+<<<<<<< HEAD
+=======
+CMAKE_RC_COMPILER_WORKS:INTERNAL=1
+//ADVANCED property for variable: CMAKE_RC_FLAGS
+CMAKE_RC_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_RC_FLAGS_DEBUG
+CMAKE_RC_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_RC_FLAGS_MINSIZEREL
+CMAKE_RC_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_RC_FLAGS_RELEASE
+CMAKE_RC_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_RC_FLAGS_RELWITHDEBINFO
+CMAKE_RC_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 //Path to CMake installation.
 CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.10
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS

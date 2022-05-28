@@ -19,12 +19,16 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 include_directories(${CMAKE_SOURCE_DIR})
 file(GLOB SOURCES "${CMAKE_SOURCE_DIR}/*.cpp")
 
+<<<<<<< HEAD
 add_executable(
 	${PROJECT_NAME}
 	MACOSX_BUNDLE
 	${SOURCES}
 	)
 #add_executable(${PROJECT_NAME} {SOURCES})
+=======
+add_executable(${PROJECT_NAME} ${SOURCES})
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 
 set(Boost_USE_STATIC_LIBS        ON) # only find static libs
 set(Boost_USE_MULTITHREADED      ON)

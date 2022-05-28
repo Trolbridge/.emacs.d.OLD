@@ -10,9 +10,17 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
+<<<<<<< HEAD
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
+=======
+  "CMakeFiles/3.10.2/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.10.2/CMakeSystem.cmake"
+  "CMakeFiles/feature_tests.c"
+  "CMakeFiles/feature_tests.cxx"
+  "../mingw-w64-x86_64.cmake"
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
   "/usr/local/lib/cmake/Boost-1.77.0/BoostConfig.cmake"
   "/usr/local/lib/cmake/Boost-1.77.0/BoostConfigVersion.cmake"
   "/usr/local/lib/cmake/BoostDetectToolset-1.77.0.cmake"
@@ -40,18 +48,28 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeDetermineCompilerId.cmake"
+<<<<<<< HEAD
   "/usr/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake"
+=======
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
   "/usr/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake"
+<<<<<<< HEAD
   "/usr/share/cmake-3.10/Modules/CMakeSystem.cmake.in"
+=======
+  "/usr/share/cmake-3.10/Modules/CMakeRCInformation.cmake"
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
   "/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake"
+<<<<<<< HEAD
   "/usr/share/cmake-3.10/Modules/CMakeUnixFindMake.cmake"
+=======
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
   "/usr/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
@@ -102,12 +120,24 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/FindBoost.cmake"
   "/usr/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake"
+<<<<<<< HEAD
   "/usr/share/cmake-3.10/Modules/Platform/Linux-Determine-CXX.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/UnixPaths.cmake"
+=======
+  "/usr/share/cmake-3.10/Modules/Platform/Windows-Determine-CXX.cmake"
+  "/usr/share/cmake-3.10/Modules/Platform/Windows-GNU-C-ABI.cmake"
+  "/usr/share/cmake-3.10/Modules/Platform/Windows-GNU-C.cmake"
+  "/usr/share/cmake-3.10/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+  "/usr/share/cmake-3.10/Modules/Platform/Windows-GNU-CXX.cmake"
+  "/usr/share/cmake-3.10/Modules/Platform/Windows-GNU.cmake"
+  "/usr/share/cmake-3.10/Modules/Platform/Windows-windres.cmake"
+  "/usr/share/cmake-3.10/Modules/Platform/Windows.cmake"
+  "/usr/share/cmake-3.10/Modules/Platform/WindowsPaths.cmake"
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
   )
 
 # The corresponding makefile is:
@@ -118,7 +148,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+<<<<<<< HEAD
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
+=======
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"

@@ -7,7 +7,11 @@ SHELL ["/bin/bash", "-c"]
 
 RUN apt-get update && apt-get -y --no-install-recommends install \
     build-essential \
+<<<<<<< HEAD
     clang \
+=======
+    mingw-w64 \
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
     cmake \
     gdb \
     wget

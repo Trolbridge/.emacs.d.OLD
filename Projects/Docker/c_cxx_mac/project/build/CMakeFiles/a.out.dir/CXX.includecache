@@ -7,6 +7,7 @@
 #IncludeRegexTransform: 
 
 /src/main.cpp
+<<<<<<< HEAD
 boost/filesystem/operations.hpp
 -
 iostream
@@ -5032,3 +5033,8 @@ boost/winapi/detail/header.hpp
 boost/winapi/detail/footer.hpp
 -
 
+=======
+iostream
+-
+
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8

@@ -123,6 +123,7 @@ a.out/fast:
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
 .PHONY : a.out/fast
 
+<<<<<<< HEAD
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -131,6 +132,16 @@ main.o: main.cpp.o
 main.cpp.o:
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/main.cpp.o
 .PHONY : main.cpp.o
+=======
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 
 main.i: main.cpp.i
 
@@ -159,7 +170,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... a.out"
 	@echo "... edit_cache"
+<<<<<<< HEAD
 	@echo "... main.o"
+=======
+	@echo "... main.obj"
+>>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 	@echo "... main.i"
 	@echo "... main.s"
 .PHONY : help

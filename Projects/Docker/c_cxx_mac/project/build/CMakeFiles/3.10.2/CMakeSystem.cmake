@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 set(CMAKE_HOST_SYSTEM "Linux-5.10.104-linuxkit")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "5.10.104-linuxkit")
@@ -12,20 +11,5 @@ set(CMAKE_SYSTEM_VERSION "5.10.104-linuxkit")
 set(CMAKE_SYSTEM_PROCESSOR "x86_64")
 
 set(CMAKE_CROSSCOMPILING "FALSE")
-=======
-set(CMAKE_HOST_SYSTEM "Linux-5.10.16.3-microsoft-standard-WSL2")
-set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "5.10.16.3-microsoft-standard-WSL2")
-set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
-
-include("/src/mingw-w64-x86_64.cmake")
-
-set(CMAKE_SYSTEM "Windows")
-set(CMAKE_SYSTEM_NAME "Windows")
-set(CMAKE_SYSTEM_VERSION "")
-set(CMAKE_SYSTEM_PROCESSOR "")
-
-set(CMAKE_CROSSCOMPILING "TRUE")
->>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8
 
 set(CMAKE_SYSTEM_LOADED 1)

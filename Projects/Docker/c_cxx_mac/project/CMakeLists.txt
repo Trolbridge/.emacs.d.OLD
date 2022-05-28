@@ -1,38 +1,24 @@
-cmake_minimum_required(VERSION 3.10.2)
+# Sample toolchain file for building for Windows from an Ubuntu Linux system.
+#
+# Typical usage:
+#    *) install cross compiler: `sudo apt-get install mingw-w64`
+#    *) cd build
+#    *) cmake -DCMAKE_TOOLCHAIN_FILE=~/mingw-w64-x86_64.cmake ..
 
-project(a.out)
+set(CMAKE_SYSTEM_NAME Windows)
+set(TOOLCHAIN_PREFIX x86_64-w64-mingw32)
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+# cross compilers to use for C, C++ and Fortran
+set(CMAKE_C_COMPILER ${TOOLCHAIN_PREFIX}-gcc)
+set(CMAKE_CXX_COMPILER ${TOOLCHAIN_PREFIX}-g++)
+set(CMAKE_Fortran_COMPILER ${TOOLCHAIN_PREFIX}-gfortran)
+set(CMAKE_RC_COMPILER ${TOOLCHAIN_PREFIX}-windres)
 
-# Remove for compiler-specific features
-set(CMAKE_CXX_EXTENSIONS OFF)
+# target environment on the build host system
+set(CMAKE_FIND_ROOT_PATH /usr/${TOOLCHAIN_PREFIX})
 
-string(APPEND CMAKE_CXX_FLAGS " -Wall")
-string(APPEND CMAKE_CXX_FLAGS " -Wbuiltin-macro-redefined")
-string(APPEND CMAKE_CXX_FLAGS " -pedantic")
-string(APPEND CMAKE_CXX_FLAGS " -Werror")
+# modify default behavior of FIND_XXX() commands
+set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
 
-# clangd completion
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
-include_directories(${CMAKE_SOURCE_DIR})
-file(GLOB SOURCES "${CMAKE_SOURCE_DIR}/*.cpp")
-
-add_executable(
-	${PROJECT_NAME}
-	MACOSX_BUNDLE
-	${SOURCES}
-	)
-
-add_executable(${PROJECT_NAME} ${SOURCES})
-
-set(Boost_USE_STATIC_LIBS        ON) # only find static libs
-set(Boost_USE_MULTITHREADED      ON)
-set(Boost_USE_STATIC_RUNTIME    OFF) # do not look for boost libraries linked against static C++ std lib
-
-find_package(Boost REQUIRED COMPONENTS filesystem)
-
-target_link_libraries(${PROJECT_NAME}
-    Boost::filesystem
-)

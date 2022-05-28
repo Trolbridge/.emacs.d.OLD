@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-/usr/bin/c++   -Wall -Wbuiltin-macro-redefined -pedantic -Werror   CMakeFiles/a.out.dir/main.cpp.o  -o a.out /usr/local/lib/libboost_filesystem.a /usr/local/lib/libboost_atomic.a 
-=======
-/usr/bin/cmake -E remove -f CMakeFiles/a.out.dir/objects.a
-/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/a.out.dir/objects.a @CMakeFiles/a.out.dir/objects1.rsp
-/usr/bin/x86_64-w64-mingw32-g++  -Wall -Wbuiltin-macro-redefined -pedantic -Werror   -Wl,--whole-archive CMakeFiles/a.out.dir/objects.a -Wl,--no-whole-archive  -o a.out.exe -Wl,--out-implib,liba.out.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/a.out.dir/linklibs.rsp
->>>>>>> fbd2a9a788c560f71c016c8dea0ecc92e615e7e8

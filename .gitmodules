@@ -13,3 +13,6 @@
 [submodule "Projects/JavaScript/The_JavaScript_Bible_-_Bootcamp_2022/MongoDB-Aggregation-Tutorial"]
 	path = Projects/JavaScript/The_JavaScript_Bible_-_Bootcamp_2022/MongoDB-Aggregation-Tutorial
 	url = https://github.com/bstashchuk/MongoDB-Aggregation-Tutorial.git
+[submodule "Projects/cmake/UdemyCmake_Template"]
+	path = Projects/cmake/UdemyCmake_Template
+	url = https://github.com/franneck94/UdemyCmake_Template

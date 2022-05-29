@@ -8,10 +8,8 @@ cmake_minimum_required(VERSION 3.16) # always required
 
 project(CppProjectTemplate VERSION 1.0.0 LANGUAGES C CXX)
 
-add_library(Library STATIC my_lib.cc)
+add_subdirectory(src)
+add_subdirectory(app)
 
-add_executable(Executable main.cc)
 
-# Link all the objects
-target_link_libraries(Executable PUBLIC Library)
 

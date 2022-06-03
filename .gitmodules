@@ -14,5 +14,5 @@
 	path = Projects/JavaScript/The_JavaScript_Bible_-_Bootcamp_2022/MongoDB-Aggregation-Tutorial
 	url = https://github.com/bstashchuk/MongoDB-Aggregation-Tutorial.git
 [submodule "Projects/cmake/my_cmake_lessons/7_ExternalGit/external/json"]
-	path = Projects/cmake/my_cmake_lessons/7_ExternalGit/external/json
+	path = Projects/cmake/UdemyCmake_Template
 	url = https://github.com/nlohmann/json.git

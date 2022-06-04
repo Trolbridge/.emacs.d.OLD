@@ -1,3 +1,0 @@
-/Users/trolbridge/.emacs.d/Projects/c/c_by_example/11/build/CMakeFiles/Executable.dir
-/Users/trolbridge/.emacs.d/Projects/c/c_by_example/11/build/CMakeFiles/edit_cache.dir
-/Users/trolbridge/.emacs.d/Projects/c/c_by_example/11/build/CMakeFiles/rebuild_cache.dir

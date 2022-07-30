@@ -1,4 +1,4 @@
- <h1>Create a standalone Projects:</h1>
+# Create a standalone Projects:
 
 npm init
 m src

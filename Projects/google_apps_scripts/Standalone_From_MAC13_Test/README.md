@@ -1,12 +1,14 @@
 # Create a standalone Projects:
 
-npm init
-m src
-clasp create --type standalone
-touch helloJesus.js
+npm init<br>
+m src<br>
+clasp create --type standalone<br>
+touch helloJesus.js<br>
 
+<p>
 function sayHello() {
   Logger.log("Father thank you!!!");
 }
+</p>
 
-clasp -P src/.clasp.json push
+clasp -P src/.clasp.json push<br>

@@ -1,8 +1,11 @@
 package toolkit
 
-import "crypto/rand"
+import (
+	"crypto/rand"
+	"fmt"
+)
 
-const randomStringSource = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_+"
+const randomStringSource = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
 // Tools is the type used to instantiage this module. Any variable of this type will have access
 // to all the methods with the receiver *Tools
@@ -20,3 +23,4 @@ func (t *Tools) RandomString(n int) string {
 	return string(s)
 
 }
+

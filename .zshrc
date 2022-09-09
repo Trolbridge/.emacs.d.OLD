@@ -130,8 +130,8 @@ m ()
     mkdir -p -- "$1" &&
       cd -P -- "$1"
 }
-export GOPATH="/Users/trolbridge/.go"
-export GOBIN="$GOPATH/bin"
+# export GOPATH="/Users/trolbridge/.go"
+# export GOBIN="$GOPATH/bin"
 export EDITOR=/usr/bin/vim
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

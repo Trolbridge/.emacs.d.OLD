@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"myapp/doctor"
+	"doctor"
 )
 func main() {
 	whatToSay := doctor.Intro()

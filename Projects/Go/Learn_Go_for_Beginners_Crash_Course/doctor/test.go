@@ -1,5 +1,5 @@
 package doctor
 
-var Hello string = "Fart"
+var Fart string = "Fart"
 
-var B = []string{"eggs", "butter", "tomates", "onions", "macadamia nuts", "ham","mushrooms","cheese"}
+var B = []string{"eggs", "butter", "tomates", "onions", "macadamia nuts", "ham","mushrooms","cheese", "olive oil","lemons","yogurt","popcorn"}

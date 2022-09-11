@@ -11,7 +11,7 @@ func main() {
 
 
 	whatToSay := doctor.Intro()
-	hi := doctor.Hello
+	hi := doctor.Fart
 	b := doctor.B
 	
 

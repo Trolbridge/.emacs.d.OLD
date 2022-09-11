@@ -2,15 +2,15 @@ package main
 
 import (
 	"fmt"
+	"myapp/doctor"
 )
-
 func main() {
-	sayHelloWorld("Hello, world again for function")
+	whatToSay := doctor.Intro()
+	hi := doctor.Hello
 
-	
-	
-}
+	// whatToSay = doctor.Intro()
 
-func sayHelloWorld(whatToSay string) {
 	fmt.Println(whatToSay)
+	fmt.Println(hi)
+	
 }

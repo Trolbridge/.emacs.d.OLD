@@ -1,29 +1,31 @@
 package main
 
 import (
-	// "bufio"
+	"bufio"
 	"doctor"
 	"fmt"
-	// "os"
+	"os"
 )
 func main() {
-	// reader := bufio.NewReader(os.Stdin)
+	reader := bufio.NewReader(os.Stdin)
 
 
 	whatToSay := doctor.Intro()
-	hi := doctor.Fart
-	b := doctor.B
-	
-
+	// groceryList := doctor.GroceryList
 	// whatToSay = doctor.Intro()
 
 	fmt.Println(whatToSay)
-	fmt.Println(hi)
-	fmt.Println("Grocery List:", b)
+	// fmt.Println("Grocery List:", groceryList)
 
-	// userInput, _ := reader.ReadString('\n')
-
-	// fmt.Println(userInput)
-
+	for {
+		fmt.Print("-> ")
+		userInput, _ := reader.ReadString('\n')
+		if userInput == "quit\n" || userInput == "Quit\n" {
+			break
+		}
+		
+		response := doctor.Response(userInput)
+		fmt.Println(response)
+	}
 	
 }

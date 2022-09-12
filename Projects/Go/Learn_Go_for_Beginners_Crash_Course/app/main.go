@@ -5,6 +5,7 @@ import (
 	"doctor"
 	"fmt"
 	"os"
+	"strings"
 )
 func main() {
 	reader := bufio.NewReader(os.Stdin)
@@ -20,12 +21,18 @@ func main() {
 	for {
 		fmt.Print("-> ")
 		userInput, _ := reader.ReadString('\n')
-		if userInput == "quit\n" || userInput == "Quit\n" {
+
+		// For windows machines:
+		userInput = strings.Replace(userInput, "\r\n", "", -1) 
+		// For Mac, linux or FreeBSD:
+		userInput = strings.Replace(userInput, "\n", "", -1)
+
+		if userInput == "quit" || userInput == "Quit" {
 			break
+		} else {
+			fmt.Println(doctor.Response(userInput))
 		}
 		
-		response := doctor.Response(userInput)
-		fmt.Println(response)
 	}
 	
 }

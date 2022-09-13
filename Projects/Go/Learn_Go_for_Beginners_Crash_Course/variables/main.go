@@ -4,19 +4,10 @@ import "fmt"
 
 func main() {
 	// one way - declare, then assign (two steps)
-	var firstNumber int
-	firstNumber = 2
-
-	// another way, declare name and assign (one step)
+	var firstNumber  = 2
 	var secondNumber = 5
-
-	// one step variable: declare name, assign value
-	subtraction := 7
-
-	var s string // relies on default value #2
-	var s = "" // rarely used except multiple variables #3
-	s := "" // most compact - only in functions #1
-	var s string = "" // redundant variable declaration #4
+	var subtraction = 7
+	var answer
 
 	// display a welcome/instructions
 	fmt.Println("Guess the Number Game")

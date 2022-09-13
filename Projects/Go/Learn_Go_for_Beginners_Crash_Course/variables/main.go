@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
 
 
 func main() {
@@ -10,10 +14,15 @@ func main() {
 	var subtraction = 7
 	var answer
 
+	reader := bufio.NewReader(os.Stdin)
+
 	// display a welcome/instructions
 	fmt.Println("Guess the Number Game")
 	fmt.Println("---------------------")
 	fmt.Println("")
+
+	fmt.Println("Think of a number between 1 and 10, press ENTER when ready")
+	reader.ReadString('\n')
 
 
 	// take them through the games

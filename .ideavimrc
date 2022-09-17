@@ -1,0 +1,6 @@
+inoremap ;; <Esc>
+
+set relativenumber
+set number
+
+set tabstop=3 shiftwidth=3 expandtab

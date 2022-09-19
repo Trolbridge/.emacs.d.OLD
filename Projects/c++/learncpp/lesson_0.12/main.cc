@@ -1,10 +1,28 @@
+#include <array>
 #include <iostream>
-#include <limits>
+#include <string_view>
+#include <tuple>
+#include <type_traits>
 
-int main() {
-    std::cout << "Hello BB!" << std::endl;
-    std::cin.clear(); // reset any error flags
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // ignore any characters in the input buffer until we find a new line
-    std::cin.get();
+namespace a::b::c
+{
+    inline constexpr std::string_view str{ "hello" };
+}
+
+template <class... T>
+std::tuple<std::size_t, std::common_type_t<T...>> sum(T... args)
+{
+    return { sizeof...(T), (args + ...) };
+}
+
+int main()
+{
+    auto [iNumbers, iSum]{ sum(1, 2, 3) };
+    std::cout << a::b::c::str << ' ' << iNumbers << ' ' << iSum << '\n';
+
+    std::array arr{ 1, 2, 3 };
+
+    std::cout << std::size(arr) << '\n';
+
     return 0;
 }

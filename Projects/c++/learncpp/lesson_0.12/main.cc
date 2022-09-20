@@ -20,9 +20,11 @@ int main()
     auto [iNumbers, iSum]{ sum(1, 2, 3) };
     std::cout << a::b::c::str << ' ' << iNumbers << ' ' << iSum << '\n';
 
-    std::array arr{ 1, 2, 3 };
+    STD::ARRAY ARR{ 1, 2, 3 };
+
 
     std::cout << std::size(arr) << '\n';
+
 
     return 0;
 }

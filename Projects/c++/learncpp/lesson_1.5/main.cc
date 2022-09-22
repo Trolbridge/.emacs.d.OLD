@@ -6,6 +6,7 @@ int main(int argc, char **argv) {
     std::string bb {"Hello World !"};
 
     int five {5};
+    std::cout << "hi";
 
     std::cout << bb << '\n';
     std::cout << five << '\n';

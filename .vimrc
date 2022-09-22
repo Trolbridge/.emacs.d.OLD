@@ -1,8 +1,14 @@
+syntax on
+filetype plugin indent on
+
 inoremap ;; <Esc>
 
 set relativenumber
 set number
 
-set tabstop=3
-set shiftwidth=3
-set  expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
+set autoindent
+  

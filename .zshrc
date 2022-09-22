@@ -140,4 +140,4 @@ export  PATH=$PATH:/Users/trolbridge/.emacs.d/myGolang:/Users/trolbridge/.emacs.
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-###export XDG_CONFIG_HOME=$HOME/.emacs.d
+export XDG_CONFIG_HOME=$HOME/.emacs.d/.config

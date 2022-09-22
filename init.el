@@ -206,8 +206,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(helm-minibuffer-history-key "M-p")
  '(package-selected-packages
-   '(htmlize visual-fill-column visual-fill-mode magit counsel-projectile projectile prjectile hydra evil-collection evil general all-the-icons-dired helpful counsel-world-clock counsel ivy-rich which-key rainbow-delimiters doom-modeline use-package-hydra ivy command-log-mode use-package)))
+   '(helm org-roam company-box company typescript-mode impatient-mode skewer-mode js2-mode simple-httpd emmet-mode web-mode lsp-mode evil-nerd-commenter htmlize visual-fill-column visual-fill-mode magit counsel-projectile projectile prjectile hydra evil-collection evil general all-the-icons-dired helpful counsel-world-clock counsel ivy-rich which-key rainbow-delimiters doom-modeline use-package-hydra ivy command-log-mode use-package)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

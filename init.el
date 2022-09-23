@@ -40,6 +40,10 @@
 (package-install 'flycheck)
 
 (global-flycheck-mode)
+
+;;; #################################
+
+;; ##############################################
 ;; added here stop
 
 (use-package doom-themes

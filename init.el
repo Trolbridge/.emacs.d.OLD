@@ -1,3 +1,5 @@
+;;; package --- summary
+;;; commentary:
 ;; I added this
   ;; Initialize package sources
   (require 'package)
@@ -16,6 +18,7 @@
    (require 'use-package)
    (setq use-package-always-ensure t)
 
+;;; code:
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
   (setq inhibit-startup-message t)
   (setq visible-bell t)
@@ -26,6 +29,18 @@
   (set-fringe-mode 10)	; Give some breathing room
 
   (menu-bar-mode -1)	; Disable the menu bar
+
+;; added here start
+(require 'package)
+(add-to-list 'package-archives
+             '("MELPA Stable" . "http://stable.melpa.org/packages/") t)
+(package-initialize)
+(package-refresh-contents)
+
+(package-install 'flycheck)
+
+(global-flycheck-mode)
+;; added here stop
 
 (use-package doom-themes
   :ensure t
@@ -40,7 +55,8 @@
   ;; Enable custom neotree theme (all-the-icons must be installed!)
   (doom-themes-neotree-config)
   ;; or for treemacs users
-  (setq doom-themes-treemacs-theme "doom-atom") ; use "doom-colors" for less minimal icon theme
+;;  (setq doom-themes-treemacs-theme "doom-atom") ; use "doom-colors" for less minimal icon theme
+  (defvar doom-themes-treemacs-theme "doom-atom") ; use "doom-colors" for less minimal icon theme
   (doom-themes-treemacs-config)
   ;; Corrects (and improves) org-mode's native fontification.
   (doom-themes-org-config))
@@ -128,7 +144,7 @@
   :diminish
   :bind (("C-s" . swiper)
          :map ivy-minibuffer-map
-         ("TAB" . ivy-alt-done)	
+         ("TAB" . ivy-alt-done)
          ("C-l" . ivy-alt-done)
          ("C-j" . ivy-next-line)
          ("C-k" . ivy-previous-line)
@@ -208,7 +224,7 @@
  ;; If there is more than one, they won't work right.
  '(helm-minibuffer-history-key "M-p")
  '(package-selected-packages
-   '(helm org-roam company-box company typescript-mode impatient-mode skewer-mode js2-mode simple-httpd emmet-mode web-mode lsp-mode evil-nerd-commenter htmlize visual-fill-column visual-fill-mode magit counsel-projectile projectile prjectile hydra evil-collection evil general all-the-icons-dired helpful counsel-world-clock counsel ivy-rich which-key rainbow-delimiters doom-modeline use-package-hydra ivy command-log-mode use-package)))
+   '(flycheck helm org-roam company-box company typescript-mode impatient-mode skewer-mode js2-mode simple-httpd emmet-mode web-mode lsp-mode evil-nerd-commenter htmlize visual-fill-column visual-fill-mode magit counsel-projectile projectile prjectile hydra evil-collection evil general all-the-icons-dired helpful counsel-world-clock counsel ivy-rich which-key rainbow-delimiters doom-modeline use-package-hydra ivy command-log-mode use-package)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -267,7 +283,8 @@
 
   (setq org-ellipsis "▾")
 
-  (setq org-agenda-start-with-log-mode t)
+;;  (setq org-agenda-start-with-log-mode t)
+  (defvar org-agenda-start-with-log-mode t)
   (setq org-log-done 'time)
   (setq org-log-into-drawer t)
 
@@ -275,7 +292,7 @@
     '((sequence "TODO(t)" "NEXT(n)" "|" "DONE(d!)")
       (sequence "BACKLOG(b)" "PLAN(p)" "READY(r)" "ACTIVE(a)" "REVIEW(v)" "WAIT(w@/!)" "HOLD(h)" "|" "COMPLETED(c)" "CANC(k@)"))) 
 
-  (setq org-refile-targets
+  (defvar org-refile-targets
         '(("Archive.org" :maxlevel . 1)
         ("~/OrgRoam/Archives/Archive.org" :maxlevel . 1)
         ("~/OrgRoam/Tasks.org" :maxlevel . 1)
@@ -305,7 +322,7 @@
 
 ;;---------------------------------------------------------------------------------
 ;; Configure custom agenda views
-(setq org-agenda-custom-commands
+(defvar org-agenda-custom-commands
   '(("d" "Dashboard"
      ((agenda "" ((org-deadline-warning-days 7)))
       (todo "NEXT"
@@ -367,7 +384,7 @@
         ;; "~/.emacs.d/OrgFiles/Habits.org"
           ;; "~/.emacs.d/OrgFiles/Tasks.org"))
 
-(setq org-capture-templates
+(defvar org-capture-templates
   `(("t" "Tasks / Projects")
     ("tt" "Task" entry (file+olp "~/Projects/Emacs/OrgFiles/Tasks.org" "Inbox")
          "* TODO %?\n  %U\n  %a\n  %i" :empty-lines 1)
@@ -449,6 +466,7 @@
    '((emacs-lisp . t)
      (js . t)
      (ruby . t)
+     (C . t)
 ;     (go . t)
      (python . t)))
 
@@ -466,6 +484,7 @@
   (add-to-list 'org-structure-template-alist '("js" . "src js :results output"))
   (add-to-list 'org-structure-template-alist '("ht" . "src html :results output"))
   (add-to-list 'org-structure-template-alist '("rb" . "src ruby :results output"))
+  (add-to-list 'org-structure-template-alist '("C" . "src C :results output"))
   (add-to-list 'org-structure-template-alist '("go" . "src go :results output"))
 
   (setq org-confirm-babel-evaluate nil)
@@ -651,7 +670,7 @@
 (use-package org-roam
      :ensure t
      :init
-     (setq org-roam-v2-ack t)
+     (defvar org-roam-v2-ack t)
      :custom
      ;; (org-roam-directory "~/.emacs.d/OrgRoam")
      (org-roam-directory "~/OrgRoam")
@@ -662,7 +681,7 @@
      :map org-mode-map
      ("C-M-i" . completion-at-point))
      :config
-     (org-roam-setup))
+     (org-roam-db-autosync-enable))
 
 ;; via http://www.emacswiki.org/emacs/ThesauriAndSynonyms
 ;; The file names are absolute, not relative, locations
@@ -684,3 +703,4 @@
 (use-package helm
 :ensure t
 :config)
+;;; init.el ends here

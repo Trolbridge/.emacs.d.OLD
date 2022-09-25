@@ -1,9 +1,0 @@
-FROM ubuntu
-# FROM node:18-alpine3.14
-# RUN apk update && apk add tzdata
-# ENV TZ=America/Detroit
-ARG DEBIAN_FRONTEND=noninteractive 
-ENV TZ=America/Detroit 
-RUN apt update && apt install -y tzdata \
-	less \
-	neovim

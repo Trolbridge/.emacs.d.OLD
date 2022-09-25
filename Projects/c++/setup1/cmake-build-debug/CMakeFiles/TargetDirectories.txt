@@ -1,3 +1,0 @@
-/Users/trolbridge/.emacs.d/Projects/c++/setup1/cmake-build-debug/CMakeFiles/setup1.dir
-/Users/trolbridge/.emacs.d/Projects/c++/setup1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/trolbridge/.emacs.d/Projects/c++/setup1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
